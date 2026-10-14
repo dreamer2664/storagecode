@@ -1,0 +1,8 @@
+2026-10-14T18:37:47.1484154Z FAIL  tests/test_captcha_studio.py  (exit 1, 7.01s)
+2026-10-14T18:37:47.1484493Z       FAIL: test_health_and_static (__main__.HTTPTests.test_health_and_static)
+2026-10-14T18:37:47.1490903Z           self.assertTrue(info['ok']);self.assertEqual(info['build']['fonts'],8)
+2026-10-14T18:37:47.1491366Z       AssertionError: 16 != 8
+2026-10-14T18:37:47.1491918Z       Ran 24 tests in 6.755s
+2026-10-14T18:37:47.1492167Z       FAILED (failures=1)
+2026-10-14T18:38:13.5630453Z PASS  bundled-fonts fallback: 8 faces + generation works with no system fonts
+2026-10-14T18:38:13.5630760Z PASS  fonts/ committed: 8 ttf faces + license

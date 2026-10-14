@@ -1,0 +1,4 @@
+warn  board/tasks/t-20261012-ef72.json: status done without an owner
+warn  board/tasks/t-20261014-e581.json: status done without an owner
+
+2250 messages · 196 tasks · 12 agents · 0 errors · 459 warnings
