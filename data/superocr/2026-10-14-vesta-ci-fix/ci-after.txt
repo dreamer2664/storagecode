@@ -1,0 +1,10 @@
+superocr ci — the fix commit 9ab638a1 — SUCCESS
+  run 38623126121 · job "tests" · started 19:22:31Z, done 19:40:45Z (~18 min;
+  runners were slow tonight — earlier full runs took 9-17 min)
+  the suite ran end to end; tests/test_captcha_studio.py passes
+  (24/24 verified locally too); 170 PASS lines, and the only "FAIL" in the
+  log is the launcher's deliberate self-test-failure simulation.
+
+For contrast, the runs that failed:
+  d364f233 (#73 merge) — ci FAILURE, the run that exposed the regression
+  a97c9fc2 — ci FAILURE (expected: pushed before the fix, still 16 != 8)
