@@ -1,0 +1,94 @@
+{
+  "seed": 2,
+  "runs_compared": 3,
+  "all_runs_identical": true,
+  "runs": {
+    "r1": {
+      "replay_receipt": "20261014T211846Z-easy-hard-r1of3.json",
+      "committed_receipt": "20261014T001432Z-easy-hard-r1of3.json",
+      "suites": {
+        "easy": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 75,
+          "committed_correct": 75,
+          "counts_identical": true,
+          "identical": true
+        },
+        "hard": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 29,
+          "committed_correct": 29,
+          "counts_identical": true,
+          "identical": true
+        }
+      },
+      "identical": true
+    },
+    "r2": {
+      "replay_receipt": "20261014T213227Z-easy-hard-r2of3.json",
+      "committed_receipt": "20261014T003034Z-easy-hard-r2of3.json",
+      "suites": {
+        "easy": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 75,
+          "committed_correct": 75,
+          "counts_identical": true,
+          "identical": true
+        },
+        "hard": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 29,
+          "committed_correct": 29,
+          "counts_identical": true,
+          "identical": true
+        }
+      },
+      "identical": true
+    },
+    "r3": {
+      "replay_receipt": "20261014T214614Z-easy-hard-r3of3.json",
+      "committed_receipt": "20261014T004613Z-easy-hard-r3of3.json",
+      "suites": {
+        "easy": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 75,
+          "committed_correct": 75,
+          "counts_identical": true,
+          "identical": true
+        },
+        "hard": {
+          "items_compared": 100,
+          "got_mismatches": 0,
+          "mismatch_ids": [],
+          "id_only_in_replay": [],
+          "id_only_in_committed": [],
+          "replay_correct": 29,
+          "committed_correct": 29,
+          "counts_identical": true,
+          "identical": true
+        }
+      },
+      "identical": true
+    }
+  }
+}
