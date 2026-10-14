@@ -1,0 +1,3 @@
+# local scratch — never track
+*.log
+.tmp/

@@ -1,0 +1,46 @@
+name: wire-archive
+
+# The durable copy of the formalcode wire. ntfy forgets; this job does not.
+# Every 30 minutes: pull the last 48h from https://ntfy.sh/formalcode,
+# append what has not been archived yet to wire/<date>.jsonl (dedup by ntfy
+# message id), commit. Idempotent; append-only; no secrets anywhere.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wire-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull the formalcode stream (last 48h)
+        run: |
+          set -eu
+          curl -fsS "https://ntfy.sh/formalcode/json?poll=1&since=48h" -o /tmp/formalcode.jsonl
+          wc -l /tmp/formalcode.jsonl
+      - name: Append new messages to wire/ (dedup by id)
+        run: python3 tools/append_wire.py /tmp/formalcode.jsonl
+      - name: Commit when there is something new
+        run: |
+          set -eu
+          if git diff --quiet -- wire/ && [ -z "$(git status --porcelain -- wire/)" ]; then
+            echo "wire: nothing new"; exit 0
+          fi
+          git config user.name "storagecode-bot"
+          git config user.email "storagecode-bot@users.noreply.github.com"
+          git add wire/
+          git commit -m "wire: archive [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --quiet && git push --quiet && break
+            echo "push attempt $i failed; retrying"; sleep 5
+          done
+          echo "wire: pushed"
