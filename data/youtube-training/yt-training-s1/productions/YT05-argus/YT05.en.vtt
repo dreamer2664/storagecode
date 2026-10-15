@@ -1,0 +1,242 @@
+WEBVTT
+
+00:00:00.600 --> 00:00:06.822
+Every day, millions of people prove they are
+human by reading a word no one can quite explain.
+
+00:00:06.822 --> 00:00:13.410
+The picture is twisted, the letters bleed into each
+other, and still, you read it in about three seconds.
+
+00:00:13.410 --> 00:00:23.207
+This is the story of how a machine learns to do the same
+thing, and why the hardest part is not seeing the letters.
+
+00:00:23.207 --> 00:00:23.207
+It is trusting what you see.
+
+00:00:23.207 --> 00:00:33.616
+Behind the scenes, a real team is racing to build exactly
+this: a reader for thousands of hard, distorted captchas.
+
+00:00:33.616 --> 00:00:34.929
+Their scoreboard is honest to the decimal.
+
+00:00:34.929 --> 00:00:41.227
+On the easy suite, the reader gets seventy-five
+out of a hundred words exactly right.
+
+00:00:41.227 --> 00:00:44.629
+On the hard suite, twenty-five.
+
+00:00:44.629 --> 00:00:47.338
+The target written on the wall is
+ninety-eight, and ninety-five.
+
+00:00:47.338 --> 00:00:49.834
+That gap is our story.
+
+00:00:49.834 --> 00:00:52.186
+Here is a captcha from their test set.
+
+00:00:52.186 --> 00:00:56.381
+Six characters, in families the team named
+themselves.
+
+00:00:56.381 --> 00:00:59.730
+The snow family, letters buried under
+speckle.
+
+00:01:00.480 --> 00:01:04.388
+The split family, with seams that slice
+through a glyph.
+
+00:01:04.388 --> 00:01:10.335
+And the strippy family, striped shadows
+dragging across the text.
+
+00:01:10.335 --> 00:01:11.704
+The machine sees pixels.
+
+00:01:11.704 --> 00:01:12.938
+Step one: find the ink.
+
+00:01:12.938 --> 00:01:20.530
+The image turns gray, contrast is stretched, and a
+threshold decides which pixels count as foreground.
+
+00:01:20.530 --> 00:01:26.986
+This is binarization, and every later
+decision is chained to it.
+
+00:01:26.986 --> 00:01:32.330
+Get it wrong, and the machine is reading a
+different picture than you are.
+
+00:01:32.330 --> 00:01:40.079
+On the dark-on-dark wall, the team's own reader
+shattered the word VIOLET into fragments.
+
+00:01:40.079 --> 00:01:42.170
+Step two: cut the ink into pieces, ideally
+one letter each.
+
+00:01:42.170 --> 00:01:50.876
+The simplest approach is connected
+components: every blob of ink is a candidate.
+
+00:01:50.876 --> 00:01:50.876
+But distortion breaks that rule.
+
+00:01:50.876 --> 00:02:00.710
+A capital M can over-split into three separate stems, and
+the team recorded exactly that: an M arriving as L, V, L.
+
+00:02:00.710 --> 00:02:05.670
+Seventy-seven hard words fail; sixty-three
+right here.
+
+00:02:06.420 --> 00:02:07.659
+Step three: name each piece.
+
+00:02:07.659 --> 00:02:17.567
+A classic method keeps a library of rendered prototypes, and
+slides every candidate over each template, scoring pixel agreement.
+
+00:02:17.567 --> 00:02:19.499
+The highest score wins.
+
+00:02:19.499 --> 00:02:24.740
+It scored a lowercase L at zero point nine
+nine four six.
+
+00:02:24.740 --> 00:02:35.387
+Then come the rules layered on top: a lexicon that prefers real words,
+case heuristics, and a small neural network voting on ambiguous pieces.
+
+00:02:35.387 --> 00:02:42.146
+Sensible additions, except the evidence pack the team
+published shows these rules breaking correct reads.
+
+00:02:42.146 --> 00:02:50.751
+A near-perfect lowercase L, at zero point nine nine four six,
+gets raised to a capital L because the word looks all-caps.
+
+00:02:50.751 --> 00:02:56.438
+A correct digit seven loses to a letter G
+on a margin of zero point zero four four.
+
+00:02:56.438 --> 00:02:59.914
+A correct G gets overruled by the neural
+vote.
+
+00:02:59.914 --> 00:03:03.170
+Three rules, three own goals.
+
+00:03:03.170 --> 00:03:07.090
+This is not a bug in one system; it is the
+nature of the problem.
+
+00:03:07.840 --> 00:03:19.128
+A nineteen ninety-six survey by Casey and Lecolinet put it plainly:
+segmentation errors, not shape distortion, dominate reading failure.
+
+00:03:19.128 --> 00:03:21.086
+The team's census agrees.
+
+00:03:21.086 --> 00:03:26.388
+The word carBon came back as C, A, F, M: a
+split seam cut the B's spine.
+
+00:03:26.388 --> 00:03:31.714
+The scores do not drift randomly; they
+come in walls.
+
+00:03:31.714 --> 00:03:33.332
+Easy, seventy-five exact.
+
+00:03:33.332 --> 00:03:34.138
+Hard, twenty-five.
+
+00:03:34.138 --> 00:03:37.879
+Dark-on-dark fails at the mask.
+
+00:03:37.879 --> 00:03:40.352
+Strippy shreds glyphs into slivers.
+
+00:03:40.352 --> 00:03:45.479
+Here is what the team insists on: every
+failure is itemized.
+
+00:03:45.479 --> 00:03:50.746
+When a clever rule turns out to be wishful
+thinking, it gets deleted.
+
+00:03:50.746 --> 00:03:54.369
+Nothing is fudged to reach the wall.
+
+00:03:54.369 --> 00:04:02.534
+Progress looks like seventy-three, then seventy-four,
+then seventy-five: one honest item at a time.
+
+00:04:02.534 --> 00:04:07.461
+And speed matters: a captcha rarely waits
+fifteen seconds.
+
+00:04:07.461 --> 00:04:12.755
+End to end, the team's demo medians five
+hundred ninety-one milliseconds.
+
+00:04:12.755 --> 00:04:15.930
+Every probe stayed inside the ten-second
+bar.
+
+00:04:16.680 --> 00:04:21.565
+Even the slowest family: one point three
+six seconds.
+
+00:04:21.565 --> 00:04:24.104
+So what does building a reader teach?
+
+00:04:24.104 --> 00:04:27.262
+First: the picture is the argument.
+
+00:04:27.262 --> 00:04:31.049
+Every claim is bound to an image you can
+regenerate from a seed.
+
+00:04:31.049 --> 00:04:34.043
+Second: measure the wall, not your hope.
+
+00:04:34.043 --> 00:04:39.337
+Families and floors replaced every vague
+it-looks-better.
+
+00:04:39.337 --> 00:04:45.908
+And third: the rules you add to fix one error
+can quietly break the ones you already had.
+
+00:04:45.908 --> 00:04:49.771
+Zero point nine nine four six. Overruled.
+
+00:04:49.771 --> 00:04:51.682
+The wall still stands.
+
+00:04:51.682 --> 00:04:57.023
+But every failure has a name, a family,
+and a next experiment.
+
+00:04:57.023 --> 00:05:07.065
+When the next improvement lands, it will have to reproduce from a seed,
+survive three runs, and beat the whole suite without going backwards.
+
+00:05:07.065 --> 00:05:14.003
+That is how you read the unreadable: one
+honest, reproducible item at a time.
+
+00:05:14.003 --> 00:05:19.298
+All data and scores come from the team's
+released, rerunnable evidence.
+
+00:05:19.298 --> 00:05:20.280
+Thanks for watching.

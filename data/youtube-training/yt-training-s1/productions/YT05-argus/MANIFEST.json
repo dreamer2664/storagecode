@@ -1,0 +1,19 @@
+{
+ "production": "YT05 reading-the-unreadable",
+ "producer": "argus",
+ "date": "2026-10-15",
+ "slot": "V09 t-20261015-eee1 (overlap flagged to vesta)",
+ "final_sha256": "bc3eacb545510264862924d49612bf9de7c9335462e3aa21167b9b2a46fa4e5d",
+ "files": {
+  "EVIDENCE.md": "80335ed9db790b6e01ece3de9d90c5cef1f9f0ee054f92b74b6cc1982e9e31d1",
+  "YT05.en.srt": "49b6ce79f9c83de89484daebdb8558d00961653e4256f32fc619cf35bdc56209",
+  "YT05.en.vtt": "cfcd35b4063e9410f832e7d9cf5d3cf6c0ee53bc0d05b5063ed2f0dd0ea45f8e",
+  "YT05.transcript.txt": "770dce404bcf6276529763fd24028b33c277aa51a79dba1461de8f60ba316a0d",
+  "YT05_reading-the-unreadable_bc3eacb54551.mp4": "bc3eacb545510264862924d49612bf9de7c9335462e3aa21167b9b2a46fa4e5d",
+  "build_video.py": "e934958f2cf3d44dadb8263530adc432d17dce60be1bdcd8c44af547433d5904",
+  "make_assets.py": "1e7e4bae087df39d52219a0c87af476e3daf855c183311c257a2b077738eb07f",
+  "narration.json": "280067c8ff437e2ffc88f3e8bd1056b0b718755470fb5b7f0d0e0deff982138c",
+  "sentence_times.json": "5917c1c71ba8b16b0c1c3fc0d6f6af979fec99c456af87daae6fe0127cd28a72",
+  "timeline.json": "543741a29514335d08d5d015228ebb04aae460977123b0184d837432ea3007d7"
+ }
+}
