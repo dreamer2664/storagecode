@@ -1,0 +1,242 @@
+{
+  "packet": "five-agent-commissioning-public-evidence",
+  "private_material_included": false,
+  "file_count": 47,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3689,
+      "sha256": "08e0851f831dccea4ee285136977e9f8acaf5a5e54030c896497585d5d57ecab"
+    },
+    {
+      "path": "START_FIVE_AGENTS.md",
+      "bytes": 3090,
+      "sha256": "8eac9c2c6eaa03de99b970fe54b1e6ce71238759c904e8a5e06f1bee902b0633"
+    },
+    {
+      "path": "agents/benchmate/HANDOFF.md",
+      "bytes": 1518,
+      "sha256": "26405a5f226b2664d207b4c06457521cfc3bb33287a48042144cb634631733c7"
+    },
+    {
+      "path": "agents/benchmate/events.jsonl",
+      "bytes": 575,
+      "sha256": "026080b0a13aadd1bd749155dbea51d3aa3f984a307ab1db68ea70d569d37130"
+    },
+    {
+      "path": "agents/benchmate/status.json",
+      "bytes": 685,
+      "sha256": "8bca56058aef882d4d38aa46417a571648fb106b3915c18507d02fe7a8ff3280"
+    },
+    {
+      "path": "agents/gravitas/HANDOFF.md",
+      "bytes": 1511,
+      "sha256": "241dbfa4f8eec9068a23870627a386601c327ac324e1b545b0e7997f25e6d9b2"
+    },
+    {
+      "path": "agents/gravitas/events.jsonl",
+      "bytes": 572,
+      "sha256": "94f04fa6a9a74a925a878e1a16b42f00f240bcedada1dc203811ee9c15361b65"
+    },
+    {
+      "path": "agents/gravitas/status.json",
+      "bytes": 682,
+      "sha256": "c7080788e9f5a1b39b3903ecae705d3ba5585629f71dda8a32a96133ceb6d5f7"
+    },
+    {
+      "path": "agents/lookout/HANDOFF.md",
+      "bytes": 1506,
+      "sha256": "d2c7b938c8d5799f06d23362816eb3e0b4b33f11ec4fdb50f3394aa8f97c1e26"
+    },
+    {
+      "path": "agents/lookout/events.jsonl",
+      "bytes": 571,
+      "sha256": "d8bb111c4be5216f1f1129bb80cadfc7fc82cda7941eb4433e19ffab0ad63449"
+    },
+    {
+      "path": "agents/lookout/status.json",
+      "bytes": 679,
+      "sha256": "fd560c69cbd1ef1fe6d66a891508ec8b5201b93f70a63de3b4fe6a0c1b94b326"
+    },
+    {
+      "path": "agents/neuroforge/HANDOFF.md",
+      "bytes": 1524,
+      "sha256": "850fea2ae371a076d37d840b4da41f5a345a2e489f0a0be0e9911ee4f04f9a82"
+    },
+    {
+      "path": "agents/neuroforge/events.jsonl",
+      "bytes": 577,
+      "sha256": "7c15f98ae7dc27e5c9a1d9e1b6c8b4f2ba40e3061cd5f5cbff0512146fed03bc"
+    },
+    {
+      "path": "agents/neuroforge/status.json",
+      "bytes": 688,
+      "sha256": "544334c9d80ac615640922c74aa0b82dbedf7ed139509c584e61cd524c314a6e"
+    },
+    {
+      "path": "agents/zugzwang/HANDOFF.md",
+      "bytes": 1509,
+      "sha256": "29e8832c8368d736829606a7ddef43832420b023d772465bb40e579f965be7cb"
+    },
+    {
+      "path": "agents/zugzwang/events.jsonl",
+      "bytes": 570,
+      "sha256": "fd1a86afcfc105611b97aab7a6cd0341dec26da42fbeb66a5f71ee610034ec53"
+    },
+    {
+      "path": "agents/zugzwang/status.json",
+      "bytes": 682,
+      "sha256": "bb482557b1ae84b72f007c08dfa0f5f62950985be7fae19834e55cecd17d03de"
+    },
+    {
+      "path": "evidence/formalcode-verification.json",
+      "bytes": 1490,
+      "sha256": "4f4b73e50d8dd999d06214331bb84babe3646048613bcdad3e6d618b29dc4217"
+    },
+    {
+      "path": "evidence/goal-card-ids.json",
+      "bytes": 460,
+      "sha256": "23b0ed9e8197a9819878a534bb1e260ce31040100dd38e87b3961cc8937446b3"
+    },
+    {
+      "path": "evidence/ntfy-setup.json",
+      "bytes": 243,
+      "sha256": "7307abf873dfd21e7d6efbb60404794a43f644749451a06bd80226e44cccbc3e"
+    },
+    {
+      "path": "evidence/private-bootstrap-verification.json",
+      "bytes": 910,
+      "sha256": "3f863a4bb7ee2e79c31f6b32fe4058661d64fa8ce992f7a3a1aa8dabba743800"
+    },
+    {
+      "path": "evidence/setup-verification.json",
+      "bytes": 1986,
+      "sha256": "396f15e52d115aac0529e2ae6ef5a9f0cffa81b16fd43c7d8a4bef30f8cedf05"
+    },
+    {
+      "path": "evidence/source-verification.json",
+      "bytes": 3723,
+      "sha256": "74da849ec043566febee39bff975f710ab878adc6a5b33402aa6f24693e1bf89"
+    },
+    {
+      "path": "projects/agent-atlas/NOT_A_MAP_YET.html",
+      "bytes": 1799,
+      "sha256": "3a56ff5777cafe218931f9d0b5cb02b65575f987bda234db20cf43b5c5a64bfa"
+    },
+    {
+      "path": "projects/agent-atlas/PROJECT_SCOPE.json",
+      "bytes": 331,
+      "sha256": "902794a0b525b1ae8a6cefaca89a965259663d96255f9b05527e1ac1e4bfa1c9"
+    },
+    {
+      "path": "projects/agent-atlas/README.md",
+      "bytes": 1322,
+      "sha256": "5844f83d769c21a2dd9bcc8d01fd69f2129124733f207390c33dc45137758b9d"
+    },
+    {
+      "path": "projects/agent-atlas/SETUP_VERIFICATION.json",
+      "bytes": 834,
+      "sha256": "a42d3aa2b798cfa002965594aa2bcc41b1d360b6fd775db3eda7b8e9b6fc370b"
+    },
+    {
+      "path": "projects/agent-atlas/commission-tests.txt",
+      "bytes": 834,
+      "sha256": "2bac47dbd16cec4b721db1ca822d09ea4572e9ef2ac701302c429fb73149714f"
+    },
+    {
+      "path": "projects/neuralbrain/PROJECT_SCOPE.json",
+      "bytes": 331,
+      "sha256": "902794a0b525b1ae8a6cefaca89a965259663d96255f9b05527e1ac1e4bfa1c9"
+    },
+    {
+      "path": "projects/neuralbrain/PROJECT_SCOPE.md",
+      "bytes": 2373,
+      "sha256": "80c988fe5ec6bd6b143b182e25443fd0996f1bfc67d4f7dfa20c7a5124820bbf"
+    },
+    {
+      "path": "projects/neuralbrain/README.md",
+      "bytes": 1970,
+      "sha256": "00d06756898b5df731c4dd089f3652b38263022c8b9f01b4ce0af2b7dfbfcb29"
+    },
+    {
+      "path": "projects/neuralbrain/SETUP_VERIFICATION.json",
+      "bytes": 1017,
+      "sha256": "c7265cc655cbbf12c626fbddf86a5ac1440659ebf0899cac58626876e2b99043"
+    },
+    {
+      "path": "projects/neuralbrain/commission-tests.txt",
+      "bytes": 834,
+      "sha256": "8feee452e588f98a74ab5689698dd9193c9b7f7f187510731d71d9148cdf4004"
+    },
+    {
+      "path": "projects/tideengine/PROJECT_SCOPE.json",
+      "bytes": 331,
+      "sha256": "902794a0b525b1ae8a6cefaca89a965259663d96255f9b05527e1ac1e4bfa1c9"
+    },
+    {
+      "path": "projects/tideengine/PROJECT_SCOPE.md",
+      "bytes": 1809,
+      "sha256": "90b0688ea996b0eb37ab2c80b102fef29208c76c29430d388257fdd3bf9848d5"
+    },
+    {
+      "path": "projects/tideengine/README.md",
+      "bytes": 1258,
+      "sha256": "12442ef31be0aba2ae9798c28be7b6d576bb3b44ba3a08f846ca45caa763ec0f"
+    },
+    {
+      "path": "projects/tideengine/SETUP_VERIFICATION.json",
+      "bytes": 833,
+      "sha256": "bea4bcf2637faa1b16659eda08b0e5118292309ab102af0e36cb51f750ca77f1"
+    },
+    {
+      "path": "projects/tideengine/commission-tests.txt",
+      "bytes": 834,
+      "sha256": "2a016e7c9dfadf2b4b84d599b7557313d50b911e2aa81c15871ac1ec9b28724a"
+    },
+    {
+      "path": "projects/zugzwang/PROJECT_SCOPE.json",
+      "bytes": 331,
+      "sha256": "902794a0b525b1ae8a6cefaca89a965259663d96255f9b05527e1ac1e4bfa1c9"
+    },
+    {
+      "path": "projects/zugzwang/README.md",
+      "bytes": 1371,
+      "sha256": "dac472aa8c601379be890cc9a104084f502dad046461e162345b56a9dd222886"
+    },
+    {
+      "path": "projects/zugzwang/SETUP_VERIFICATION.json",
+      "bytes": 829,
+      "sha256": "3014f812b292ff22c48584c3a8ebd7aa6f9a0214aaa5ac1ad315ee90711b3f12"
+    },
+    {
+      "path": "projects/zugzwang/commission-tests.txt",
+      "bytes": 834,
+      "sha256": "7c9683fbb0debbd38441cae222e3ea840d2e7e40fd1182fe0d1fe5a924e54173"
+    },
+    {
+      "path": "public-briefs/BENCHMATE.md",
+      "bytes": 17723,
+      "sha256": "daed61acf266a39fb01a37b9d25a35d124b837f627f3f0ae93d415ac3b64b08e"
+    },
+    {
+      "path": "public-briefs/GRAVITAS.md",
+      "bytes": 19260,
+      "sha256": "bdb230fef5335c3f990a9896123780cd440933025b703a00cfc29cca2d90c605"
+    },
+    {
+      "path": "public-briefs/LOOKOUT.md",
+      "bytes": 16588,
+      "sha256": "669c3bdc1895b02645171dce6fe2921001b2fd0fab9b3e97b87f70167a64944f"
+    },
+    {
+      "path": "public-briefs/NEUROFORGE.md",
+      "bytes": 21197,
+      "sha256": "123e767bc76e8a0fc9fe9fc43f27c883de7624bd955bd01b97700141605ba964"
+    },
+    {
+      "path": "public-briefs/ZUGZWANG.md",
+      "bytes": 17253,
+      "sha256": "a10bdb46ffbeb160350c5748e7e055b1f565d90dd4284411b2d3dba3cf7e3df9"
+    }
+  ]
+}

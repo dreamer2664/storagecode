@@ -1,0 +1,27 @@
+[
+  {
+    "agent": "neuroforge",
+    "id": "t-20261015-7d93",
+    "already_exists": false
+  },
+  {
+    "agent": "benchmate",
+    "id": "t-20261015-afd1",
+    "already_exists": false
+  },
+  {
+    "agent": "gravitas",
+    "id": "t-20261015-4892",
+    "already_exists": false
+  },
+  {
+    "agent": "lookout",
+    "id": "t-20261015-84d3",
+    "already_exists": false
+  },
+  {
+    "agent": "zugzwang",
+    "id": "t-20261015-ed6e",
+    "already_exists": false
+  }
+]

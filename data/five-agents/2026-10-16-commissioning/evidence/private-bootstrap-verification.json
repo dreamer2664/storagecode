@@ -1,0 +1,37 @@
+{
+  "neuroforge": {
+    "isolated_fake_only": true,
+    "env_mode": "0600",
+    "askpass_mode": "0700",
+    "askpass_username_password_passed": true,
+    "live_values_used": false
+  },
+  "benchmate": {
+    "isolated_fake_only": true,
+    "env_mode": "0600",
+    "askpass_mode": "0700",
+    "askpass_username_password_passed": true,
+    "live_values_used": false
+  },
+  "gravitas": {
+    "isolated_fake_only": true,
+    "env_mode": "0600",
+    "askpass_mode": "0700",
+    "askpass_username_password_passed": true,
+    "live_values_used": false
+  },
+  "lookout": {
+    "isolated_fake_only": true,
+    "env_mode": "0600",
+    "askpass_mode": "0700",
+    "askpass_username_password_passed": true,
+    "live_values_used": false
+  },
+  "zugzwang": {
+    "isolated_fake_only": true,
+    "env_mode": "0600",
+    "askpass_mode": "0700",
+    "askpass_username_password_passed": true,
+    "live_values_used": false
+  }
+}

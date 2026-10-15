@@ -1,0 +1,78 @@
+{
+  "verified_at": "2026-10-15T23:01:40+00:00",
+  "task_cards": {
+    "neuroforge": "t-20261015-7d93",
+    "benchmate": "t-20261015-afd1",
+    "gravitas": "t-20261015-4892",
+    "lookout": "t-20261015-84d3",
+    "zugzwang": "t-20261015-ed6e"
+  },
+  "projects": {
+    "neuralbrain": {
+      "helper_tests_passed": 6,
+      "failed": 0,
+      "compile_ops": "passed",
+      "cli_help": {
+        "field.py": true,
+        "release.py": true,
+        "archive.py": true
+      },
+      "log": "evidence/commission-tests.txt"
+    },
+    "tideengine": {
+      "helper_tests_passed": 6,
+      "failed": 0,
+      "compile_ops": "passed",
+      "cli_help": {
+        "field.py": true,
+        "release.py": true,
+        "archive.py": true
+      },
+      "log": "evidence/commission-tests.txt"
+    },
+    "agent-atlas": {
+      "helper_tests_passed": 6,
+      "failed": 0,
+      "compile_ops": "passed",
+      "cli_help": {
+        "field.py": true,
+        "release.py": true,
+        "archive.py": true
+      },
+      "log": "evidence/commission-tests.txt"
+    },
+    "zugzwang": {
+      "helper_tests_passed": 6,
+      "failed": 0,
+      "compile_ops": "passed",
+      "cli_help": {
+        "field.py": true,
+        "release.py": true,
+        "archive.py": true
+      },
+      "log": "evidence/commission-tests.txt"
+    }
+  },
+  "total_offline_helper_tests": 24,
+  "private_bootstrap_tests": {
+    "agents": [
+      "neuroforge",
+      "benchmate",
+      "gravitas",
+      "lookout",
+      "zugzwang"
+    ],
+    "fake_credentials_only": true,
+    "modes_and_askpass_verified": true
+  },
+  "agent_activation": "all five not started; nobody registered/claimed on their behalf",
+  "ntfy": {
+    "topic": "https://ntfy.sh/neuralbrain",
+    "public_untrusted": true,
+    "commissioner_setup_message_id": "yC6rtL3X3SHE",
+    "verified": true,
+    "agents_awake": false
+  },
+  "primary_archive": "dreamer2664/storagecode",
+  "chess_claim": "finite-suite target only; no universal theorem claim"
+}

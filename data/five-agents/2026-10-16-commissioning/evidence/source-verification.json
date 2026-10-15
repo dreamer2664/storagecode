@@ -1,0 +1,98 @@
+{
+  "commissioned_locally": "2026-10-16 Europe/Rome; public Git creation/push times are UTC",
+  "repositories": {
+    "neuralbrain": {
+      "commit": "c72f34145418f06c2e8c2cfd25a28a577cd38aa8",
+      "formalcode_id": "mLdmHftMmFfW",
+      "ci": "success"
+    },
+    "tideengine": {
+      "commit": "072ff85315204f6790084b6f7588948006351c71",
+      "formalcode_id": "Stza0HF0pFZM",
+      "ci": "success"
+    },
+    "agent-atlas": {
+      "commit": "164314567b270cdccafc2dc9428193a16d7f7b3c",
+      "formalcode_id": "HZ3AeINLTYvB",
+      "ci": "success",
+      "pages": "legacy main:/docs; build success; direct GET 200; commissioning landing page, not map"
+    },
+    "zugzwang": {
+      "commit": "91c8bee592fb0a4a24b885b16cc2b1047a24d6f0",
+      "formalcode_id": "zrY4CeCYFTNe",
+      "ci": "success"
+    },
+    "chatcode": {
+      "commission_commit": "4706e54 (cards, four project guides and memory update)",
+      "announcement_commit": "3da2ed1c86652ffcd3a5df45b2ca8d4bb2a07558",
+      "verified_commission_msg": "#8cfbaec5",
+      "verified_riveter_handoff_msg": "#34bb1fcb",
+      "formalcode_id": "8VC6DKEIQasT",
+      "ci": "all commissioning-commit workflows succeeded: ci, record, digest, telegram, vigil-state",
+      "remote_head_at_archive": "37ef98ab, later concurrent main; commission ancestor and five cards open/unclaimed",
+      "current_verified_main": "37ef98ab (subsequent concurrent main commit; our commission commit remains an ancestor)"
+    }
+  },
+  "reserved_cards": {
+    "neuroforge": {
+      "id": "t-20261015-7d93",
+      "status": "open",
+      "owner": null,
+      "registered": false
+    },
+    "benchmate": {
+      "id": "t-20261015-afd1",
+      "status": "open",
+      "owner": null,
+      "registered": false
+    },
+    "gravitas": {
+      "id": "t-20261015-4892",
+      "status": "open",
+      "owner": null,
+      "registered": false
+    },
+    "lookout": {
+      "id": "t-20261015-84d3",
+      "status": "open",
+      "owner": null,
+      "registered": false
+    },
+    "zugzwang": {
+      "id": "t-20261015-ed6e",
+      "status": "open",
+      "owner": null,
+      "registered": false
+    }
+  },
+  "tests": {
+    "commissioning_helper_checks": 24,
+    "failures": 0,
+    "per_repo": 6,
+    "bootstraps_fake_only": 5,
+    "live_keys_tested": false,
+    "product_test_or_model_run": false
+  },
+  "publicity": "Five clean source repositories pushed. Public briefs retain placeholder-only keys. No private stamped kit is copied here.",
+  "activity": "All five real producer status files are not-started. Commissioner setup is not producer activity; no agents were awakened/registered/claimed by vesta.",
+  "ntfy_public_topic": "https://ntfy.sh/neuralbrain",
+  "ntfy_commissioner_welcome_id": "yC6rtL3X3SHE",
+  "primary_archive": "dreamer2664/storagecode",
+  "legacy_storage": "read-only",
+  "mars_pc_bridge": "paused",
+  "chess_boundary": "Only a preregistered finite tournament target; no universal solved-chess guarantee.",
+  "chatcode_validation": "0 errors; 465 pre-existing warnings in legacy entries; no warnings on new open/unclaimed cards",
+  "direct_chat_messages": {
+    "new_roster_broadcast": "#8cfbaec5",
+    "riveter_additive_integration_notice": "#34bb1fcb",
+    "scope": "commissioner messages only, no agent response/activity claimed"
+  },
+  "public_source_secret_scan": "0 matches for authoritative live token strings in the four commissioned source trees; values never written to report",
+  "pages_direct_http": "200",
+  "private_packets": {
+    "stamped": "5/5 using the existing universal KIT-DBF340",
+    "permissions": "private MD 0600, containing folder 0700",
+    "zip": "FIVE_NEW_AGENTS_PRIVATE.zip, mode 0600, entries 0600",
+    "not_in_archive": true
+  }
+}

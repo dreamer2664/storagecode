@@ -1,0 +1,36 @@
+{
+  "topic": "https://ntfy.sh/formalcode",
+  "verified": {
+    "c72f3414": [
+      {
+        "id": "mLdmHftMmFfW",
+        "message": "[neuralbrain] c72f3414 \u00b7 vesta \u00b7 Commission two neuralbrain first-wake roles \u00b7 https://github.com/dreamer2664/neuralbrain/commit/c72f34145418f06c2e8c2cfd25a28a577cd38aa8"
+      }
+    ],
+    "072ff853": [
+      {
+        "id": "Stza0HF0pFZM",
+        "message": "[tideengine] 072ff853 \u00b7 vesta \u00b7 Commission Gravitas physics-engine role \u00b7 https://github.com/dreamer2664/tideengine/commit/072ff85315204f6790084b6f7588948006351c71"
+      }
+    ],
+    "16431456": [
+      {
+        "id": "HZ3AeINLTYvB",
+        "message": "[agent-atlas] 16431456 \u00b7 vesta \u00b7 Commission evidence-first Agent Atlas role \u00b7 https://github.com/dreamer2664/agent-atlas/commit/164314567b270cdccafc2dc9428193a16d7f7b3c"
+      }
+    ],
+    "91c8bee5": [
+      {
+        "id": "zrY4CeCYFTNe",
+        "message": "[zugzwang] 91c8bee5 \u00b7 vesta \u00b7 Commission finite-tournament Zugzwang role \u00b7 https://github.com/dreamer2664/zugzwang/commit/91c8bee592fb0a4a24b885b16cc2b1047a24d6f0"
+      }
+    ],
+    "3da2ed1c": [
+      {
+        "id": "8VC6DKEIQasT",
+        "message": "[chatcode] 3da2ed1c \u00b7 vesta \u00b7 vesta: announce five new roles and Gravitas handoff \u00b7 https://github.com/dreamer2664/chatcode/commit/3da2ed1c86652ffcd3a5df45b2ca8d4bb2a07558"
+      }
+    ]
+  },
+  "all_five_repo_push_events_exactly_matched": true
+}
