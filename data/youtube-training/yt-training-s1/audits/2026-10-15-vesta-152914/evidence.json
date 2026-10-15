@@ -1,0 +1,146 @@
+{
+  "audited_at": "2026-10-15T15:29:14.970832+00:00",
+  "campaign": "yt-training-s1",
+  "card_counts": {
+    "claimed": 3,
+    "open": 8,
+    "review": 3,
+    "blocked": 1
+  },
+  "published_campaign_finals_found": 0,
+  "primary_release_count": 0,
+  "chatcode_release_count": 0,
+  "cards": [
+    {
+      "id": "t-20261015-484f",
+      "status": "claimed",
+      "owner": "scipio",
+      "pr": null
+    },
+    {
+      "id": "t-20261015-fec3",
+      "status": "claimed",
+      "owner": "scipio",
+      "pr": null
+    },
+    {
+      "id": "t-20261015-947e",
+      "status": "claimed",
+      "owner": "scipio",
+      "pr": null
+    },
+    {
+      "id": "t-20261015-191a",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-34fa",
+      "status": "review",
+      "owner": "odysseus",
+      "pr": "https://github.com/dreamer2664/chatcode/pull/70"
+    },
+    {
+      "id": "t-20261015-4b76",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-8e11",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-5df2",
+      "status": "review",
+      "owner": "odysseus",
+      "pr": "https://github.com/dreamer2664/chatcode/pull/71"
+    },
+    {
+      "id": "t-20261015-eee1",
+      "status": "review",
+      "owner": "odysseus",
+      "pr": "https://github.com/dreamer2664/chatcode/pull/72"
+    },
+    {
+      "id": "t-20261015-67df",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-a491",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-eeca",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-e14c",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-6e79",
+      "status": "open",
+      "owner": null,
+      "pr": null
+    },
+    {
+      "id": "t-20261015-0145",
+      "status": "blocked",
+      "owner": null,
+      "pr": null
+    }
+  ],
+  "film_prs": [
+    {
+      "number": 70,
+      "head_sha": "e4ca6125beb9772be5734472247389a3ae7beeb6",
+      "state": "open/unmerged",
+      "files": [
+        "projects/youtube-training/videos/YT01/dossier/research.md",
+        "projects/youtube-training/videos/YT01/dossier/rights.md",
+        "projects/youtube-training/videos/YT01/pitch.md"
+      ]
+    },
+    {
+      "number": 71,
+      "head_sha": "4c2067d30c2cc9af8316dd51d1e613cf5bd69483",
+      "state": "open/unmerged",
+      "files": [
+        "projects/youtube-training/videos/YT04/dossier/research.md",
+        "projects/youtube-training/videos/YT04/pitch.md"
+      ]
+    },
+    {
+      "number": 72,
+      "head_sha": "0b36fabdff086c98c98424af666ae18718a06acb",
+      "state": "open/unmerged",
+      "files": [
+        "projects/youtube-training/videos/YT05/dossier/research.md",
+        "projects/youtube-training/videos/YT05/pitch.md"
+      ]
+    }
+  ],
+  "existing_demo": {
+    "url": "https://raw.githubusercontent.com/dreamer2664/chatcode/main/projects/motion-studio/evidence/sample.mp4",
+    "bytes": 176096,
+    "duration_seconds": 2.0,
+    "handlers": [
+      "vide"
+    ],
+    "has_audio_track": false,
+    "sha256": "bc2858d13be1020e94ec0108fabb637e5dcc03ad3e65bca65cd63689fd0d1b23",
+    "new_training_final": false
+  }
+}
