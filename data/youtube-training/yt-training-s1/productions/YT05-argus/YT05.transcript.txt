@@ -1,0 +1,66 @@
+Every day, millions of people prove they are human by reading a word no one can quite explain.
+The picture is twisted, the letters bleed into each other, and still, you read it in about three seconds.
+This is the story of how a machine learns to do the same thing, and why the hardest part is not seeing the letters.
+It is trusting what you see.
+Behind the scenes, a real team is racing to build exactly this: a reader for thousands of hard, distorted captchas.
+Their scoreboard is honest to the decimal.
+On the easy suite, the reader gets seventy-five out of a hundred words exactly right.
+On the hard suite, twenty-five.
+The target written on the wall is ninety-eight, and ninety-five.
+That gap is our story.
+Here is a captcha from their test set.
+Six characters, in families the team named themselves.
+The snow family, letters buried under speckle.
+The split family, with seams that slice through a glyph.
+And the strippy family, striped shadows dragging across the text.
+The machine sees pixels.
+Step one: find the ink.
+The image turns gray, contrast is stretched, and a threshold decides which pixels count as foreground.
+This is binarization, and every later decision is chained to it.
+Get it wrong, and the machine is reading a different picture than you are.
+On the dark-on-dark wall, the team's own reader shattered the word VIOLET into fragments.
+Step two: cut the ink into pieces, ideally one letter each.
+The simplest approach is connected components: every blob of ink is a candidate.
+But distortion breaks that rule.
+A capital M can over-split into three separate stems, and the team recorded exactly that: an M arriving as L, V, L.
+Seventy-seven hard words fail; sixty-three right here.
+Step three: name each piece.
+A classic method keeps a library of rendered prototypes, and slides every candidate over each template, scoring pixel agreement.
+The highest score wins.
+It scored a lowercase L at zero point nine nine four six.
+Then come the rules layered on top: a lexicon that prefers real words, case heuristics, and a small neural network voting on ambiguous pieces.
+Sensible additions, except the evidence pack the team published shows these rules breaking correct reads.
+A near-perfect lowercase L, at zero point nine nine four six, gets raised to a capital L because the word looks all-caps.
+A correct digit seven loses to a letter G on a margin of zero point zero four four.
+A correct G gets overruled by the neural vote.
+Three rules, three own goals.
+This is not a bug in one system; it is the nature of the problem.
+A nineteen ninety-six survey by Casey and Lecolinet put it plainly: segmentation errors, not shape distortion, dominate reading failure.
+The team's census agrees.
+The word carBon came back as C, A, F, M: a split seam cut the B's spine.
+The scores do not drift randomly; they come in walls.
+Easy, seventy-five exact.
+Hard, twenty-five.
+Dark-on-dark fails at the mask.
+Strippy shreds glyphs into slivers.
+Here is what the team insists on: every failure is itemized.
+When a clever rule turns out to be wishful thinking, it gets deleted.
+Nothing is fudged to reach the wall.
+Progress looks like seventy-three, then seventy-four, then seventy-five: one honest item at a time.
+And speed matters: a captcha rarely waits fifteen seconds.
+End to end, the team's demo medians five hundred ninety-one milliseconds.
+Every probe stayed inside the ten-second bar.
+Even the slowest family: one point three six seconds.
+So what does building a reader teach?
+First: the picture is the argument.
+Every claim is bound to an image you can regenerate from a seed.
+Second: measure the wall, not your hope.
+Families and floors replaced every vague it-looks-better.
+And third: the rules you add to fix one error can quietly break the ones you already had.
+Zero point nine nine four six. Overruled.
+The wall still stands.
+But every failure has a name, a family, and a next experiment.
+When the next improvement lands, it will have to reproduce from a seed, survive three runs, and beat the whole suite without going backwards.
+That is how you read the unreadable: one honest, reproducible item at a time.
+All data and scores come from the team's released, rerunnable evidence.
+Thanks for watching.

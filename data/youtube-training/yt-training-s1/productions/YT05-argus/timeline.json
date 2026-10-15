@@ -1,0 +1,425 @@
+{
+ "file": "YT05_reading-the-unreadable_v1.mp4",
+ "sha256": "4e242a386d2ec950ccfb5a9b181fe06f9d61da6c086f7b104fde05edcb046429",
+ "seconds": 320.9,
+ "shots": 35,
+ "timeline": [
+  {
+   "i": 0,
+   "asset": "shot_hook.png",
+   "kind": "still_soft",
+   "start": 0.6,
+   "end": 6.822,
+   "dur": 6.222,
+   "sids": [
+    "S01.0"
+   ]
+  },
+  {
+   "i": 1,
+   "asset": "shot_title.png",
+   "kind": "still",
+   "start": 6.822,
+   "end": 23.207,
+   "dur": 16.385,
+   "sids": [
+    "S01.1",
+    "S01.2",
+    "S01.3"
+   ]
+  },
+  {
+   "i": 2,
+   "asset": "shot_scoreboard.png",
+   "kind": "still",
+   "start": 23.207,
+   "end": 34.929,
+   "dur": 11.722,
+   "sids": [
+    "S02.0",
+    "S02.1"
+   ]
+  },
+  {
+   "i": 3,
+   "asset": "shot_walls.png",
+   "kind": "still",
+   "start": 34.929,
+   "end": 49.834,
+   "dur": 14.905,
+   "sids": [
+    "S02.2",
+    "S02.3",
+    "S02.4",
+    "S02.5"
+   ]
+  },
+  {
+   "i": 4,
+   "asset": "gallery",
+   "kind": "still",
+   "start": 49.834,
+   "end": 56.381,
+   "dur": 6.547,
+   "sids": [
+    "S03.0",
+    "S03.1"
+   ]
+  },
+  {
+   "i": 5,
+   "asset": "shot_fam_snow-0003.png",
+   "kind": "still_soft",
+   "start": 56.381,
+   "end": 60.48,
+   "dur": 4.099,
+   "sids": [
+    "S03.2"
+   ]
+  },
+  {
+   "i": 6,
+   "asset": "shot_fam_split-0006.png",
+   "kind": "still_soft",
+   "start": 60.48,
+   "end": 64.388,
+   "dur": 3.908,
+   "sids": [
+    "S03.3"
+   ]
+  },
+  {
+   "i": 7,
+   "asset": "shot_fam_strippy-0005.png",
+   "kind": "still_soft",
+   "start": 64.388,
+   "end": 71.704,
+   "dur": 7.316,
+   "sids": [
+    "S03.4",
+    "S03.5"
+   ]
+  },
+  {
+   "i": 8,
+   "asset": "anim_binarize",
+   "kind": "anim",
+   "start": 71.704,
+   "end": 86.986,
+   "dur": 15.282,
+   "sids": [
+    "S04.0",
+    "S04.1",
+    "S04.2"
+   ]
+  },
+  {
+   "i": 9,
+   "asset": "shot_violet.png",
+   "kind": "still",
+   "start": 86.986,
+   "end": 100.079,
+   "dur": 13.093,
+   "sids": [
+    "S04.3",
+    "S04.4"
+   ]
+  },
+  {
+   "i": 10,
+   "asset": "anim_components",
+   "kind": "anim",
+   "start": 100.079,
+   "end": 110.876,
+   "dur": 10.797,
+   "sids": [
+    "S05.0",
+    "S05.1"
+   ]
+  },
+  {
+   "i": 11,
+   "asset": "shot_m.png",
+   "kind": "still_soft",
+   "start": 110.876,
+   "end": 120.71,
+   "dur": 9.834,
+   "sids": [
+    "S05.2",
+    "S05.3"
+   ]
+  },
+  {
+   "i": 12,
+   "asset": "shot_7763.png",
+   "kind": "still",
+   "start": 120.71,
+   "end": 126.42,
+   "dur": 5.71,
+   "sids": [
+    "S05.4"
+   ]
+  },
+  {
+   "i": 13,
+   "asset": "anim_matcher",
+   "kind": "anim",
+   "start": 126.42,
+   "end": 139.499,
+   "dur": 13.079,
+   "sids": [
+    "S06.0",
+    "S06.1",
+    "S06.2"
+   ]
+  },
+  {
+   "i": 14,
+   "asset": "shot_9946.png",
+   "kind": "still",
+   "start": 139.499,
+   "end": 144.74,
+   "dur": 5.241,
+   "sids": [
+    "S06.3"
+   ]
+  },
+  {
+   "i": 15,
+   "asset": "shot_rules.png",
+   "kind": "still",
+   "start": 144.74,
+   "end": 162.146,
+   "dur": 17.406,
+   "sids": [
+    "S07.0",
+    "S07.1"
+   ]
+  },
+  {
+   "i": 16,
+   "asset": "shot_ruleL.png",
+   "kind": "still",
+   "start": 162.146,
+   "end": 170.751,
+   "dur": 8.605,
+   "sids": [
+    "S07.2"
+   ]
+  },
+  {
+   "i": 17,
+   "asset": "shot_rule7.png",
+   "kind": "still",
+   "start": 170.751,
+   "end": 176.438,
+   "dur": 5.687,
+   "sids": [
+    "S07.3"
+   ]
+  },
+  {
+   "i": 18,
+   "asset": "shot_rulecnn.png",
+   "kind": "still",
+   "start": 176.438,
+   "end": 183.17,
+   "dur": 6.732,
+   "sids": [
+    "S07.4",
+    "S07.5"
+   ]
+  },
+  {
+   "i": 19,
+   "asset": "shot_quote.png",
+   "kind": "still",
+   "start": 183.17,
+   "end": 199.128,
+   "dur": 15.958,
+   "sids": [
+    "S08.0",
+    "S08.1"
+   ]
+  },
+  {
+   "i": 20,
+   "asset": "shot_census.png",
+   "kind": "still",
+   "start": 199.128,
+   "end": 201.086,
+   "dur": 1.958,
+   "sids": [
+    "S08.2"
+   ]
+  },
+  {
+   "i": 21,
+   "asset": "shot_carbon.png",
+   "kind": "still_soft",
+   "start": 201.086,
+   "end": 206.388,
+   "dur": 5.302,
+   "sids": [
+    "S08.3"
+   ]
+  },
+  {
+   "i": 22,
+   "asset": "shot_wallphysics.png",
+   "kind": "still",
+   "start": 206.388,
+   "end": 214.138,
+   "dur": 7.75,
+   "sids": [
+    "S09.0",
+    "S09.1",
+    "S09.2"
+   ]
+  },
+  {
+   "i": 23,
+   "asset": "shot_pair.png",
+   "kind": "still",
+   "start": 214.138,
+   "end": 220.352,
+   "dur": 6.214,
+   "sids": [
+    "S09.3",
+    "S09.4"
+   ]
+  },
+  {
+   "i": 24,
+   "asset": "shot_nogo.png",
+   "kind": "still",
+   "start": 220.352,
+   "end": 230.746,
+   "dur": 10.394,
+   "sids": [
+    "S10.0",
+    "S10.1"
+   ]
+  },
+  {
+   "i": 25,
+   "asset": "shot_progress.png",
+   "kind": "still",
+   "start": 230.746,
+   "end": 242.534,
+   "dur": 11.788,
+   "sids": [
+    "S10.2",
+    "S10.3"
+   ]
+  },
+  {
+   "i": 26,
+   "asset": "shot_latency.png",
+   "kind": "still",
+   "start": 242.534,
+   "end": 252.755,
+   "dur": 10.221,
+   "sids": [
+    "S11.0",
+    "S11.1"
+   ]
+  },
+  {
+   "i": 27,
+   "asset": "shot_591.png",
+   "kind": "still",
+   "start": 252.755,
+   "end": 261.565,
+   "dur": 8.81,
+   "sids": [
+    "S11.2",
+    "S11.3"
+   ]
+  },
+  {
+   "i": 28,
+   "asset": "shot_lessons.png",
+   "kind": "still",
+   "start": 261.565,
+   "end": 267.262,
+   "dur": 5.697,
+   "sids": [
+    "S12.0",
+    "S12.1"
+   ]
+  },
+  {
+   "i": 29,
+   "asset": "shot_seed.png",
+   "kind": "still",
+   "start": 267.262,
+   "end": 274.043,
+   "dur": 6.781,
+   "sids": [
+    "S12.2",
+    "S12.3"
+   ]
+  },
+  {
+   "i": 30,
+   "asset": "shot_lessons.png",
+   "kind": "still",
+   "start": 274.043,
+   "end": 285.908,
+   "dur": 11.865,
+   "sids": [
+    "S12.4",
+    "S12.5"
+   ]
+  },
+  {
+   "i": 31,
+   "asset": "shot_overruled.png",
+   "kind": "still",
+   "start": 285.908,
+   "end": 289.771,
+   "dur": 3.863,
+   "sids": [
+    "S12.6"
+   ]
+  },
+  {
+   "i": 32,
+   "asset": "shot_wallstands.png",
+   "kind": "still",
+   "start": 289.771,
+   "end": 307.065,
+   "dur": 17.294,
+   "sids": [
+    "S13.0",
+    "S13.1",
+    "S13.2"
+   ]
+  },
+  {
+   "i": 33,
+   "asset": "shot_close.png",
+   "kind": "still",
+   "start": 307.065,
+   "end": 319.298,
+   "dur": 12.233,
+   "sids": [
+    "S14.0",
+    "S14.1"
+   ]
+  },
+  {
+   "i": 34,
+   "asset": "shot_credits.png",
+   "kind": "still",
+   "start": 319.298,
+   "end": 320.87,
+   "dur": 1.572,
+   "sids": [
+    "S14.2"
+   ]
+  }
+ ],
+ "audio_kbps": 256
+}
