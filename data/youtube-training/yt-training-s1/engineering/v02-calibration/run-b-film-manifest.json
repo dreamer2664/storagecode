@@ -1,0 +1,153 @@
+{
+  "engine": "longform-v1",
+  "specId": "calib-300b",
+  "builtAt": "2026-10-15T16:54:56.806Z",
+  "final": {
+    "file": "/home/user/ytlab/calib/b/calib-300b-final.mp4",
+    "sha256": "6acb039d87a68735c53e61379c76fc89c22eb17d14f8e2968b76e0734de06055",
+    "size": 16542992,
+    "duration": 300,
+    "video": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "pixFmt": "yuv420p",
+      "frames": 9000
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitRate": 144546
+    }
+  },
+  "grading": "measured engineering QC only; artistic approval = two non-owner full-watch reviews bound to final.sha256",
+  "shots": [
+    {
+      "id": "calib-00",
+      "key": "a2013bf57a44d5cf744041b9ad2a1086217bcc4dd6c4611b7db42be8cbd88c4d",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/a2013bf57a44d5cf744041b9ad2a1086217bcc4dd6c4611b7db42be8cbd88c4d/film.mp4",
+      "sha256": "4d9d65b62105d53e31f4fc9bdd25bc6e48d417f9d61794c8d92071eb9043eb2e",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-01",
+      "key": "2ef9c8dcd4a9d8eeb7af77bc71f9ccdc538242a1826d34ccbc4fc8e3e8e24a19",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/2ef9c8dcd4a9d8eeb7af77bc71f9ccdc538242a1826d34ccbc4fc8e3e8e24a19/film.mp4",
+      "sha256": "3067f0aadd5d1fb7245572e6370491dd7477337a0ed57faf798a31eeccaebdd5",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-02",
+      "key": "5695ed64a403ef5c3c2e344bc886b8374a374fd2eeed347e63e633ce6558911b",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/5695ed64a403ef5c3c2e344bc886b8374a374fd2eeed347e63e633ce6558911b/film.mp4",
+      "sha256": "8c8336c3034a7847a2bace746f11c6ae2a201fc439993e0225e904b8f8c72c2f",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-03",
+      "key": "8efede11b4af74a672bf01bc2c53daba11d304eb8670f985c329763fdbc54bfd",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/8efede11b4af74a672bf01bc2c53daba11d304eb8670f985c329763fdbc54bfd/film.mp4",
+      "sha256": "b756e1007d4d76b716bf43f3386771ba46031d988d4cd973c2e693c9642e52d7",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-04",
+      "key": "fb37b1116c71045e9196120368c9271a5b63f3d278b2a1f6f7b51142fb741b61",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/fb37b1116c71045e9196120368c9271a5b63f3d278b2a1f6f7b51142fb741b61/film.mp4",
+      "sha256": "7fafa7a74fc275d3418ea0425a959e9c8b40ce36a02d063c7e7d059a509b65d8",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-05",
+      "key": "1fc3e724f76f5cc81626919de18d8a135d1e80f6bb084a2b181d609ffb817257",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/1fc3e724f76f5cc81626919de18d8a135d1e80f6bb084a2b181d609ffb817257/film.mp4",
+      "sha256": "23bb9a995f5890b4b27def92307c23d4bc720063cca2547db78f061d646f3f72",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-06",
+      "key": "03898e84f41436730bb484406aabf826fd46af86d6a16815d08e09bf8d597b45",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/03898e84f41436730bb484406aabf826fd46af86d6a16815d08e09bf8d597b45/film.mp4",
+      "sha256": "193bf2517b1323d79124dc18e8278f5dd9a70f8c1b3fe09cdeeb1acb81843d1b",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-07",
+      "key": "9ca6018a4c9411dc7e918ec02b843dd6702df0da127942ce3875af9c62dd3d83",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/9ca6018a4c9411dc7e918ec02b843dd6702df0da127942ce3875af9c62dd3d83/film.mp4",
+      "sha256": "12e0dc809c98838643c601343a7a90d60f25fae49d834a6fe25ab2cf5c9babaa",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-08",
+      "key": "774feda64a9e8ca4bd13483a414fb6a405f8a4208342d8dc724eccfe6bf70473",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/774feda64a9e8ca4bd13483a414fb6a405f8a4208342d8dc724eccfe6bf70473/film.mp4",
+      "sha256": "33c6d9a15f9906f174b41bd57bf0374b766ba7927689a517ceaf68b33a7553b3",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-09",
+      "key": "b1692c81fa58cb2d54c6bde940031cce21fc480dcf16ccbe89b9b9c723928f68",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/b1692c81fa58cb2d54c6bde940031cce21fc480dcf16ccbe89b9b9c723928f68/film.mp4",
+      "sha256": "4ff1a2f74b8921b7b65513e05ca5d1e7bb9a986ba892679cae3aeb7039d7cb17",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-10",
+      "key": "5dd0892a91ceacb04b1f3b4ab4f8384f9326aeeef04512687440ee91d4f61a00",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/5dd0892a91ceacb04b1f3b4ab4f8384f9326aeeef04512687440ee91d4f61a00/film.mp4",
+      "sha256": "b5ee4473999d178216cfcf7491356c6d82e729955e0b3781b67d513f65d28a4b",
+      "duration": 25,
+      "expected": 25
+    },
+    {
+      "id": "calib-11",
+      "key": "7c0db49d17d5a8f35c29906260bde8eea4a8ded9190ac91ca56a4bb507071a53",
+      "cache": "rendered",
+      "file": "/home/user/ytlab/calib/cache-b/7c0db49d17d5a8f35c29906260bde8eea4a8ded9190ac91ca56a4bb507071a53/film.mp4",
+      "sha256": "72995a906ea7230373cf554e0267b1ce0e7da47be2706946f02eee73292f9cd8",
+      "duration": 25,
+      "expected": 25
+    }
+  ],
+  "unexplainedSegments": [],
+  "violations": [],
+  "narration": {
+    "file": "/home/user/ytlab/calib/narration-bed-calib.wav",
+    "sha256": "d7814726cb436baa039510ba07ae258055bf29889cff6687a794dba9b5bd2b67",
+    "duration": 300,
+    "drift": 0
+  },
+  "loudness": {
+    "integratedLufs": -15.9,
+    "truePeakDbfs": -11.8
+  },
+  "receipts": {
+    "wallSeconds": 982.747,
+    "node": "v20.20.2",
+    "ffmpeg": "/home/user/bin/ffmpeg"
+  }
+}
