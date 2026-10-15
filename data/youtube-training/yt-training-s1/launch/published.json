@@ -1,0 +1,57 @@
+{
+  "storagecode": [
+    {
+      "sha": "595b95c2e8ab5545c1c5d75d1820d34668031486",
+      "message": "archive cutover: storagecode is the ONE primary; preserve all 22 legacy files, unify ledger/shifts/data, guard compiler precedence and launch ten-film delivery index",
+      "remote_contains_commit": true
+    },
+    {
+      "sha": "0fbb23f7883a59b1c84aa5efbf7dbd0ec525635f",
+      "message": "freeze reconciliation: preserve final 23 legacy files and late ledger row; retain three unmerged PRs by exact source and patch hashes; legacy archive is server-side read-only",
+      "remote_contains_commit": true
+    }
+  ],
+  "storage": [
+    {
+      "sha": "aa18c8656b7bd35ffc0b6905a62b1e9fe310b3e7",
+      "message": "retire split archive: all new ledger, shifts, data and media go to storagecode; preserve this repository for history",
+      "remote_contains_commit": true
+    }
+  ],
+  "chatcode": [
+    {
+      "sha": "5de55fb85348a33ce55b917a5042f7a36bb8acd0",
+      "message": "15 substantive YouTube jobs, nine Director pauses over latest agent checkpoints, one archive route; bus order d4e96853",
+      "remote_contains_commit": true
+    },
+    {
+      "sha": "16717d94652690f68638adaf49851a24422e0c28",
+      "message": "archive cutover follow-through: preserve and redirect five unfinished legacy maintenance cards to primary storagecode; pending PRs remain unaccepted until safely ported",
+      "remote_contains_commit": true
+    },
+    {
+      "sha": "ab3b13d82702fbf70b1523adc8a503deb9003ab6",
+      "message": "pause is enforceable: keep late Mars evidence/PRs, refuse new claims and lease renewals, and retain the pause on release; video training remains the active room",
+      "remote_contains_commit": true
+    },
+    {
+      "sha": "282a8986b06d5c9fc7ee0c8359e037eb56c74cbd",
+      "message": "finish active routing: shift-template and chronicle maintenance also target storagecode, leaving no unfinished legacy-tagged write jobs",
+      "remote_contains_commit": true
+    }
+  ],
+  "vigil": [
+    {
+      "sha": "21eacd338e349ed32ac5c45980bc3bbe728afda6",
+      "message": "records: point every archive reference at storagecode; document single-source compiler and YouTube training group; bump shell v5",
+      "remote_contains_commit": true
+    }
+  ],
+  "mars": [
+    {
+      "sha": "27a975423ec4d04e8ac54858c5b9449b4cb85589",
+      "message": "Director pause: preserve the colony; no new Mars or Windows bridge work until resumed; video production training takes priority",
+      "remote_contains_commit": true
+    }
+  ]
+}

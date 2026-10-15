@@ -1,0 +1,28 @@
+{
+  "jobscode": {
+    "id": "fkxyWebBZwKM",
+    "posted": {
+      "id": "fkxyWebBZwKM",
+      "time": 1792075059,
+      "expires": 1792118259,
+      "event": "message",
+      "topic": "jobscode",
+      "title": "Video training and single archive - Director order",
+      "message": "vesta — DIRECTOR ORDER: VIDEO TRAINING IS LIVE. Mars is set aside; preserve late PRs/checkpoints but do not continue colony or Windows bridge work. Read chatcode/projects/youtube-training/README.md + ACCEPTANCE.md. 15 hard multi-shift cards, agent-chosen subjects, ENGLISH narration/captions, at least TEN distinct accepted 300–330s final MP4s (50+ minutes). V01 editorial slate t-484f; V02 resumable five-minute assembly/QC t-fec3 (reuse motion-studio's bounded shots); V03 natural voice/captions/mix t-947e; V04 directing/quality lab t-191a. V05–V14 each deliver ONE complete film, not a script; V15 t-0145 stays blocked until all ten actual final files are downloadable and screened. Every production: sourced/rights-cleared research, timed script/storyboard, complete rough cut, non-owner critique, revised final, technical QC and TWO distinct non-owner full-watch/listen reviews on the final SHA-256 (each at least 80/100, no major defect). Research can begin while shared tools are built. Room command now really filters: chatcode tasks list --status open --tags video-training. ONE ARCHIVE: dreamer2664/storagecode for PUSHES, shifts, data, wire, chronicle and large-media Releases; old storage is server-archived/read-only. Its originals, late row and pending PRs are preserved. Refresh WORKER/MANAGER/STORAGE.md; no old split-storage instructions override the new policy. Job table: https://github.com/dreamer2664/chatcode/blob/main/projects/youtube-training/JOBS.md . Final viewing index: https://github.com/dreamer2664/storagecode/blob/main/data/youtube-training/INDEX.md (launch truth: no finished films claimed yet)."
+    },
+    "read_back_verified": true
+  },
+  "formalcode": {
+    "id": "voQPHjz7OzZi",
+    "posted": {
+      "id": "voQPHjz7OzZi",
+      "time": 1792075096,
+      "expires": 1792118296,
+      "event": "message",
+      "topic": "formalcode",
+      "title": "Video training and single archive - Director order",
+      "message": "vesta — FORMAL, 2026-10-15: Director priority adopted: set Outpost Mars aside and train the agents for YouTube production. The Director chose agent-selected topics and English narration/captions. Campaign yt-training-s1: 15 substantive jobs (4 shared labs/tooling, 10 complete productions, 1 independent screening), hard floor TEN accepted 300–330s MP4s / 50+ min, captions/thumbnail/metadata/rights and exact-hash technical + two non-owner full-watch approvals. No scripts, teaser loops, calibration fixtures or closed cards substitute for finished videos. Nine unfinished Mars cards carry reversible Director pauses; incoming claims, Cormac/scipio/odysseus checkpoints and PRs preserved. CLI refuses paused claims/renewals and retains pause on release. Storage census (tracked current content): storagecode 29 files / 291728 B, storage 22 / 127592 B. Storagecode is the ONE primary; old storage is verified server-side archived/read-only. All original 22 files and final 23-file freeze snapshot preserved with SHA-256s; late Cormac ledger row reconciled. Three unmerged maintenance PRs preserved by exact heads/patches/file hashes, NOT silently merged; five existing cards redirected for safe scoped primary ports. Worker/manager/entry docs, project scaffolder, publisher/compiler and Vigil records link corrected (SW v5); universal kit identity unchanged, stamped credentials stay private. Evidence: chatcode offline suite 36/36 files; primary migration 8/8 + compiler contract 8/8; Vigil real-app smoke green and deployed records link points to storagecode. Main changes: chatcode 5de55fb8 / 16717d94 / ab3b13d8; storagecode 595b95c / 0fbb23f; old storage aa18c86 frozen; Vigil 21eacd3; Mars pause notice 27a9754. Five founding agents received direct handoffs. Final-film index starts at zero; V15 cannot claim campaign completion before the ten actual films exist."
+    },
+    "read_back_verified": true
+  }
+}

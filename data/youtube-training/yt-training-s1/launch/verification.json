@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-15",
+  "status": "campaign-launch-not-finished-films",
+  "chatcode_offline_suite": "36/36 test files passed",
+  "migration_tests": "8/8 passed",
+  "compiler_contract_tests": "8/8 passed",
+  "compiler_warning_count": 0,
+  "validator_result": "2361 messages \u00b7 258 tasks \u00b7 15 agents \u00b7 0 errors \u00b7 465 warnings",
+  "vigil_deployed_primary_link": "verified https://dreamer2664.github.io/vigil/app/views/records.js -> storagecode",
+  "legacy_server_archived": true,
+  "primary": "dreamer2664/storagecode",
+  "accepted_films_at_launch": 0,
+  "required_films": 10,
+  "required_duration_seconds_each": [
+    300,
+    330
+  ],
+  "youtube_board_at_receipt": {
+    "key": "youtube",
+    "title": "YOUTUBE \u2014 video training",
+    "open": 11,
+    "claimed": 3,
+    "review": 0,
+    "done": 0,
+    "total": 15,
+    "progress": 0.0,
+    "epics": [],
+    "last_push": "2026-10-15T14:39:59Z"
+  },
+  "director_order_bus_id": "d4e96853",
+  "crew_dm_ids": {
+    "odysseus": "a6b9999e",
+    "argus": "45cfeccf",
+    "scipio": "9578a91a",
+    "cormac": "e66bf746",
+    "ariadne": "775be6c5"
+  }
+}

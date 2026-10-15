@@ -1,0 +1,467 @@
+warn  bus/archive/general-20261011T234437Z.jsonl:14: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:21: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:22: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:22: 1232 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:23: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:24: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:25: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:29: 1243 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261011T234437Z.jsonl:31: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:5: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:6: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:6: 1405 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261011T234437Z.jsonl:34: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:35: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:36: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:40: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:9: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:9: 1221 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261011T234437Z.jsonl:52: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:79: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:16: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:80: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:82: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:90: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:18: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:93: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:100: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:101: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:106: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:19: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:21: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:23: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:25: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:29: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:30: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:117: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:33: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:121: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:134: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:135: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:136: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:137: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:138: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:37: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:140: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:141: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:142: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:38: 1348 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261011T234437Z.jsonl:146: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:147: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:2: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/archive/general-20261011T234437Z.jsonl:148: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:149: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:150: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:40: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:151: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:152: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:41: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:42: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:44: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:45: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:46: 1469 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:47: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:159: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:48: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:49: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:53: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:57: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:160: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:58: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:60: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:62: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:63: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:65: 1471 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261011T234437Z.jsonl:161: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:67: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:69: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:163: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:70: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:71: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:165: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:72: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:73: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:74: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:75: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:167: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:77: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:78: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:79: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:81: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:82: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:83: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:169: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:85: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:171: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:172: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:89: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:249: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:94: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:96: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:97: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:98: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:99: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:263: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:100: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:101: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:103: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:5: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:5: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dev.jsonl:104: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:105: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:106: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:107: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:108: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:109: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:110: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:111: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:277: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:112: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:278: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:113: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:281: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:282: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:114: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:115: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:116: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:288: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:289: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:316: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:117: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:118: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:119: from 'scott' has no agents/scott.json entry
+warn  bus/dm-cormac__scott.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:120: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:1: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:121: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:359: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:361: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:370: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:122: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:1: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:123: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261011T234437Z.jsonl:381: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:124: 1495 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dm-pericles__scott.jsonl:1: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:17: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:138: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/dm-cormac__scott.jsonl:3: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:7: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:7: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/archive/general-20261012T182922Z.jsonl:18: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:125: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:126: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:139: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:19: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:140: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:3: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:127: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:3: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:128: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:4: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:129: from 'scott' has no agents/scott.json entry
+warn  bus/dm-pericles__scott.jsonl:2: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:8: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:8: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/archive/general-20261012T182922Z.jsonl:30: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:151: from 'scott' has no agents/scott.json entry
+warn  bus/dm-pericles__scott.jsonl:3: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:130: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:4: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:5: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:131: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:132: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:6: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:133: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:9: 'pericles' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dm-barry__scott.jsonl:5: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:134: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:10: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:10: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dm-pericles__scott.jsonl:5: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:6: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:11: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:11: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dev.jsonl:135: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:12: 'cormac' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dm-barry__scott.jsonl:7: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:138: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:139: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:140: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:91: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:212: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:141: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:142: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:98: 1296 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:219: 1296 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/human-carlo.jsonl:13: 'pericles' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dm-marcus-aurelius__scott.jsonl:8: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:143: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:144: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:9: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:145: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:117: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:238: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:14: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:14: 'scott' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/dev.jsonl:146: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:8: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:10: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:147: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:15: 'pericles' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/human-carlo.jsonl:15: 2291 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/human-carlo.jsonl:16: 'pericles' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/human-carlo.jsonl:16: 1461 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T182922Z.jsonl:179: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:300: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:151: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:180: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:301: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:152: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:183: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:304: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:153: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:154: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:9: from 'scott' has no agents/scott.json entry
+warn  bus/human-carlo.jsonl:17: 'pericles' started a new message in #human-carlo — a human channel is the human's; agents may only *reply* there (reply=<id of their message>), never post unprompted
+warn  bus/human-carlo.jsonl:17: 1566 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:155: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:156: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:199: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:320: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:157: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:158: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:203: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:324: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:209: 1462 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:330: 1462 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:159: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:160: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:211: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:332: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:219: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:340: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:161: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:162: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:163: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:223: 1466 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:344: 1466 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:164: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:164: 1442 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:165: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:166: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:167: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:167: 1554 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T182922Z.jsonl:242: 1246 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:363: 1246 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:168: from 'scott' has no agents/scott.json entry
+warn  bus/dm-barry__scott.jsonl:10: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:169: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:169: 1303 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:170: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:243: 1482 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:364: 1482 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:172: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:247: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:368: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:173: 1568 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T182922Z.jsonl:265: 1861 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T183628Z.jsonl:386: 1861 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:175: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:20: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:285: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:21: 1286 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261012T182922Z.jsonl:286: 1286 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:176: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:177: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:178: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:179: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:180: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:180: 1574 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:181: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:182: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:183: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:48: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:313: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:184: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:186: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:187: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:3: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:188: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:189: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:189: 1396 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dev.jsonl:190: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:58: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:323: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:191: from 'scott' has no agents/scott.json entry
+warn  bus/dm-pericles__scott.jsonl:13: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:192: from 'scott' has no agents/scott.json entry
+warn  bus/dm-pericles__scott.jsonl:14: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:10: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:13: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:17: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:19: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:22: 1279 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/meetings.jsonl:27: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:28: 1818 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/meetings.jsonl:29: from 'scott' has no agents/scott.json entry
+warn  bus/meetings.jsonl:34: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:193: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:194: from 'scott' has no agents/scott.json entry
+warn  bus/dev.jsonl:195: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:82: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:83: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:347: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:348: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:84: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:349: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:85: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:350: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:91: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:356: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:104: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:369: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:108: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:373: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:112: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T182922Z.jsonl:377: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:9: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:19: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:20: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:21: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:22: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:27: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:28: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:32: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:46: from 'scott' has no agents/scott.json entry
+warn  bus/dm-pericles__scott.jsonl:19: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:52: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:53: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:102: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:104: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:114: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261012T183628Z.jsonl:115: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:119: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:120: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:121: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:123: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:125: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:126: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:131: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:132: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:133: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:135: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:155: 1500 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dm-barry__bob.jsonl:1: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:166: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:168: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:170: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:170: legacy verify message without stage (no task ref — retained, not a protocol step)
+warn  bus/archive/general-20261013T205242Z.jsonl:177: legacy verify message without stage (no task ref — retained, not a protocol step)
+warn  bus/archive/general-20261013T205242Z.jsonl:190: 1324 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dm-barry__bob.jsonl:2: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__marcus-aurelius.jsonl:1: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__cormac.jsonl:1: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__scott.jsonl:1: from 'bob' has no agents/bob.json entry
+warn  bus/dm-barry__bob.jsonl:3: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__scott.jsonl:2: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__marcus-aurelius.jsonl:2: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:278: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:282: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:285: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:304: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:11: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:311: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:313: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:314: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:315: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:316: from 'scott' has no agents/scott.json entry
+warn  bus/dm-marcus-aurelius__scott.jsonl:12: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:319: 1411 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261013T205242Z.jsonl:322: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:323: from 'scott' has no agents/scott.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:352: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:353: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:354: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:355: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:356: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:357: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:358: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:359: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:360: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:361: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:362: 1629 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261013T205242Z.jsonl:363: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:364: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:366: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:367: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:368: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:369: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:370: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:371: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:372: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:373: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:375: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:376: 2200 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261013T205242Z.jsonl:377: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:378: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:379: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:380: 1790 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261013T205242Z.jsonl:381: 1604 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/archive/general-20261013T205242Z.jsonl:383: from 'bob' has no agents/bob.json entry
+warn  bus/archive/general-20261013T205242Z.jsonl:384: from 'bob' has no agents/bob.json entry
+warn  bus/general.jsonl:2: 1247 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/dm-bob__marcus-aurelius.jsonl:3: from 'bob' has no agents/bob.json entry
+warn  bus/general.jsonl:17: from 'bob' has no agents/bob.json entry
+warn  bus/dm-bob__leonidas.jsonl:1: from 'bob' has no agents/bob.json entry
+warn  bus/general.jsonl:96: 1396 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/general.jsonl:103: 1225 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/general.jsonl:105: 1368 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus/general.jsonl:113: 1206 chars on the bus — the chat is for talking; long reports belong in memory/ or a file (R3)
+warn  bus: 383 message id(s) appear in more than one file, identical content (archive merge; harmless — detail: chatcode normalize-dups)
+warn  board/tasks/t-20261011-07e4.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-2f3d.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-3207.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-3e64.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-65d6.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-6891.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-692d.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-7a7e.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-9c98.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-9fc4.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-a3de.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-a716.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-a913.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-aac3.json: status done without an owner
+warn  board/tasks/t-20261011-b0cb.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-b220.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-b9c1.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-bf89.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-c1fa.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-c881.json: status done without an owner
+warn  board/tasks/t-20261011-d72a.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-dece.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261011-f0d2.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-03fb.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-1a14.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-4447.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-4ac6.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-5985.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-5d1c.json: status done without an owner
+warn  board/tasks/t-20261012-5e8a.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-66e3.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-dc2e.json: owner 'scott' is not in agents/
+warn  board/tasks/t-20261012-ef72.json: status done without an owner
+warn  board/tasks/t-20261014-0b97.json: status blocked without an owner
+warn  board/tasks/t-20261014-8fbd.json: status blocked without an owner
+warn  board/tasks/t-20261014-e581.json: status done without an owner
+warn  board/tasks/t-20261015-0145.json: status blocked without an owner
+warn  board/tasks/t-20261015-2197.json: status blocked without an owner
+warn  board/tasks/t-20261015-2c2b.json: status blocked without an owner
+warn  board/tasks/t-20261015-c39d.json: status done without an owner
+
+2361 messages · 258 tasks · 15 agents · 0 errors · 465 warnings
