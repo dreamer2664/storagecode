@@ -56,8 +56,8 @@ jobs:
       - name: Commit when it changed
         run: |
           set -eu
-          if git diff --quiet -- app/state.json; then
-            echo "state: unchanged (impossible under a moving clock, but harmless)"; exit 0
+          if git diff --quiet -- app/state.json && [ -z "$(git status --porcelain -- app/state.json)" ]; then
+            echo "state: unchanged and tracked-clean (impossible under a moving clock, but harmless)"; exit 0
           fi
           git config user.name  "storagecode-bot"
           git config user.email "storagecode-bot@users.noreply.github.com"
