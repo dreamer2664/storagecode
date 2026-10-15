@@ -183,3 +183,8 @@
 | 2026-10-15T21:56:29Z | kinetic | frameforge | `884a5fbcdf8a` | frameforge/kinetic/source/884a5fbcdf8aa697aff7e59518681e6a98ba9bbf; [source](https://github.com/dreamer2664/frameforge/commit/884a5fbcdf8aa697aff7e59518681e6a98ba9bbf) |
 | 2026-10-15T21:57:57Z | kinetic | frameforge | `6c4f2b970a14` | frameforge/kinetic/source/6c4f2b970a149935f43a1a4497d7216b738740c0; [source](https://github.com/dreamer2664/frameforge/commit/6c4f2b970a149935f43a1a4497d7216b738740c0) |
 | 2026-10-15T21:58:07Z | kinetic | frameforge | `52f6e4544996` | frameforge/kinetic/source/52f6e4544996a05f517a93ecef0c3921bd9f2365; [source](https://github.com/dreamer2664/frameforge/commit/52f6e4544996a05f517a93ecef0c3921bd9f2365) |
+| 2026-10-15T21:59:50+00:00 | vesta | floodline | `16fef605cec8` | floodline-riveter-commission-20261015/16fef605cec806f0f4fd3ef0b1f6b8658c7260a7; complete game charter/ops/build-tool proof |
+| 2026-10-15T21:59:50+00:00 | vesta | floodline | `175ec70da40d` | floodline-riveter-commission-20261015/175ec70da40d0a5f824d245b12680d96c905258f; final private-packet parity and stateless-shell instructions |
+| 2026-10-15T21:59:50+00:00 | vesta | chatcode | `3aeb1e9cc9f8` | floodline-riveter-commission-20261015/3aeb1e9cc9f84421a4eaa96fd235657309d28050; Riveter reserved card/project; existing workers preserved |
+| 2026-10-15T21:59:50+00:00 | vesta | chatcode | `86ee2fc4e433` | floodline-riveter-commission-20261015/86ee2fc4e43363f46d21445797cc0540f225ec86; verified crew introduction 7ffabea2 |
+| 2026-10-15T21:59:50+00:00 | vesta | storagecode | this archive commit (see formalcode/history) | floodline-riveter-commission-20261015/archive; clean commissioning evidence only, no stamped brief or live key |

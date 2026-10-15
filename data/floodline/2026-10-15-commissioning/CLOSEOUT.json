@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-15T21:59:50+00:00",
+  "game": "FLOODLINE: Last District",
+  "agent": "riveter",
+  "source": "https://github.com/dreamer2664/floodline",
+  "source_sha": "175ec70da40d0a5f824d245b12680d96c905258f",
+  "initial_source_sha": "16fef605cec806f0f4fd3ef0b1f6b8658c7260a7",
+  "room_project_commit": "3aeb1e9cc9f84421a4eaa96fd235657309d28050",
+  "goal": "t-20261015-ffaa",
+  "goal_state_at_verification": "open/unclaimed/deps-empty",
+  "agent_activation": "not registered or claimed on its behalf",
+  "intro_id": "7ffabea2",
+  "intro_verified_chatcode_sha": "86ee2fc4e43363f46d21445797cc0540f225ec86",
+  "progress": "https://dreamer2664.github.io/floodline/",
+  "progress_http": 200,
+  "source_workflows": [
+    {
+      "name": "record",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/dreamer2664/floodline/actions/runs/38813818442",
+      "head_sha": "175ec70da40d0a5f824d245b12680d96c905258f"
+    },
+    {
+      "name": "commissioning safety",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/dreamer2664/floodline/actions/runs/38813817956",
+      "head_sha": "175ec70da40d0a5f824d245b12680d96c905258f"
+    },
+    {
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/dreamer2664/floodline/actions/runs/38813816997",
+      "head_sha": "175ec70da40d0a5f824d245b12680d96c905258f"
+    }
+  ],
+  "private_packet": {
+    "count": 1,
+    "kit": "KIT-DBF340 unchanged",
+    "mode": "0600",
+    "private_zip_delivered_separately": true,
+    "live_key_or_stamped_packet_archived": false
+  },
+  "validation": "12 commissioning-safety checks passed; actual non-game Rojo/Lune export-roundtrip; no Studio/runtime or game produced claim",
+  "primary_path": "data/floodline/2026-10-15-commissioning",
+  "mars": "paused"
+}
