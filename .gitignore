@@ -1,3 +1,5 @@
 # local scratch — never track
 *.log
 .tmp/
+__pycache__/
+*.pyc
