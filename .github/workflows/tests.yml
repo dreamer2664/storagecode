@@ -1,0 +1,58 @@
+name: tests
+
+# The warehouse's merge gate. Every push (plus manual dispatch): run every
+# tests/test_*.py as a subprocess; the job passes iff every file exits 0.
+#
+# Honesty rules, same as superocr's tests/run_all.py:
+#   - no test files found  -> FAIL, never a vacuous green;
+#   - any file failing     -> FAIL with that file's output in the log;
+#   - a test that skips must print its reason (unittest does) — skips are
+#     visible in the log, not silent passes.
+#
+# tests/test_build_state.py needs the empire as siblings (VIGIL_SRC). We
+# clone the public repos anonymously — NO secrets anywhere, same pattern as
+# state.yml. If a clone fails, that test self-skips with a reason; the rest
+# still run and still gate.
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone the empire siblings (public repos, no token)
+        run: |
+          set -u
+          mkdir -p ../src
+          for r in chatcode superocr storage vigil; do
+            git clone --depth 1 --quiet "https://github.com/dreamer2664/$r" "../src/$r" \
+              && echo "cloned $r" \
+              || echo "WARN: clone $r failed — test_build_state.py will skip with reason"
+          done
+
+      - name: Run every tests/test_*.py
+        env:
+          VIGIL_SRC: ${{ github.workspace }}/../src
+        run: |
+          set -u
+          fail=0
+          ran=0
+          for f in tests/test_*.py; do
+            [ -e "$f" ] || continue
+            ran=$((ran+1))
+            echo "=== $f"
+            python3 "$f" || { echo "FAIL: $f"; fail=1; }
+          done
+          if [ "$ran" -eq 0 ]; then
+            echo "no test files found — refusing to pass vacuously"
+            exit 1
+          fi
+          echo "ran $ran test file(s), failures: $fail"
+          exit "$fail"
