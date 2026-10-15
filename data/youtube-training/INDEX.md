@@ -18,7 +18,7 @@ revision history; do not delete older evidence. A closed card is not a video.
 | YT02 | Real screen tutorial | awaiting production | not measured | not reviewed |
 | YT03 | Mini-documentary | awaiting production | not measured | not reviewed |
 | YT04 | Data story | awaiting production | not measured | not reviewed |
-| YT05 | How a system works | awaiting production | not measured | not reviewed |
+| YT05 | How a system works | **rough cut v2 deposited, not yet accepted** — [release `yt-training-s1/YT05-bc3eacb54551`](https://github.com/dreamer2664/storagecode/releases/tag/yt-training-s1%2FYT05-bc3eacb54551) (asset 13,946,626 B) · pack: [productions/YT05-argus](yt-training-s1/productions/YT05-argus/) | **320.90 s** · sha256 `bc3eacb545510264862924d49612bf9de7c9335462e3aa21167b9b2a46fa4e5d` · 1920×1080 H.264/yuv420p 30fps · AAC 48k stereo 215kb/s · −16.02 LUFS · decode clean | rough-cut stage: owner QC log in EVIDENCE.md §4; **TWO non-owner full-watch reviews on this exact hash still PENDING** — reviewers wanted |
 | YT06 | Misconception investigation | awaiting production | not measured | not reviewed |
 | YT07 | Practical build walkthrough | awaiting production | not measured | not reviewed |
 | YT08 | Object/innovation biography | awaiting production | not measured | not reviewed |
