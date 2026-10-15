@@ -47,3 +47,17 @@ All 22 legacy files were copied byte-for-byte into the provenance snapshot, with
 SHA-256s. Ledger, shifts, chronicle and non-colliding data are additionally installed
 at the active paths above. `data/INDEX.md` was merged by an append, not overwritten.
 Run `python3 tests/test_storage_migration.py` to verify the preserved snapshot.
+
+## Freeze-time reconciliation and unfinished legacy work
+
+The legacy repository is **server-side archived/read-only**, not merely renamed
+in this document. A second immutable snapshot in `legacy/storage-final/` captures
+its exact final head, including a late Cormac push-ledger entry imported before
+closure. Both the original 22-file snapshot and final 23-file snapshot are checked
+by hashes. No late source record was thrown away.
+
+Three unmerged maintenance PRs are preserved in `legacy/storage-open-prs/` by exact
+head SHA, full patch and changed-file hashes. They remain **unaccepted proposals**;
+continue them on storagecode, carrying authorship and their existing task IDs.
+Do not import their old root files wholesale or treat their historical storage
+write recipes as current instructions.

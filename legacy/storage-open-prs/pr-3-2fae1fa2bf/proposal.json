@@ -1,0 +1,38 @@
+{
+  "number": 3,
+  "title": "t-20261014-1d47: conflict-marker scanner + CI",
+  "url": "https://github.com/dreamer2664/storage/pull/3",
+  "head_sha": "2fae1fa2bf322cc76b83a2c63183796a84ba1b30",
+  "base_sha": "cdb43a5856a50b068c229280f14217e07bf21876",
+  "merge_base_sha": "cdb43a5856a50b068c229280f14217e07bf21876",
+  "head_ref": "agent/odysseus/t-20261014-1d47",
+  "author": "dreamer2664",
+  "body": "## Summary\n- `tools/scan_conflicts.py`: scans the tree for committed conflict markers (`<<<<<<<`, `=======`, `>>>>>>>` as line starts). Exit 2 with the hit list; 0 when clean. Reads each file once and splits on both boundaries (no TOCTOU between exists/open).\n- `.github/workflows/conflicts.yml`: runs the scanner and its test suite on every push and PR.\n\n## Rationale\nDuring the 2026-10-15 session a rebase conflict got 'resolved' with a scripted marker-range deletion that silently removed 16 ledger rows. A committed-marker gate makes that class of accident impossible to land.\n\n## Verification\n- `python3 tools/scan_conflicts.py` → clean on current main (83-row ledger).\n- `python3 tests/test_scan_conflicts.py` → 8/8 (positive hit on each of the three markers, clean pass, directory walk, byte-split reads).",
+  "acceptance": "unmerged legacy proposal; preserved, NOT approved or merged into canonical tooling",
+  "patch_sha256": "813469be295f022271e6a08f702806177147ee43d4fa2ab2807d9f76c6e75b14",
+  "patch_path": "legacy/storage-open-prs/pr-3-2fae1fa2bf/proposal.patch",
+  "changed_files": [
+    {
+      "path": ".github/workflows/conflicts.yml",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-3-2fae1fa2bf/files/.github/workflows/conflicts.yml",
+      "bytes": 398,
+      "sha256": "cd463dcc31cab918747937770607d5749169b2b2c34b826088312643027bd77c"
+    },
+    {
+      "path": "tests/test_scan_conflicts.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-3-2fae1fa2bf/files/tests/test_scan_conflicts.py",
+      "bytes": 3188,
+      "sha256": "4d4d84b0baef0cc13d60a75322ab4e71fa422cbe067bc31df2a591cb8d938f84"
+    },
+    {
+      "path": "tools/scan_conflicts.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-3-2fae1fa2bf/files/tools/scan_conflicts.py",
+      "bytes": 3001,
+      "sha256": "3324da7f2bbb0edd1674763e4807fd9d9c9a0ceba6d9ef1fd96228b718f8a412"
+    }
+  ],
+  "porting_rule": "Continue on storagecode only; existing board card gets the pointer. Carry authorship/provenance and obtain ordinary review before merge."
+}

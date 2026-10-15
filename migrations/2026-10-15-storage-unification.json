@@ -225,5 +225,203 @@
       "sha256": "b15d2eca6ffa4f4819b7cf5f39be34de283ee6fba146878c4e704ad4aa5d0ae8"
     }
   ],
-  "index_merge": "Original data/INDEX.md preserved in legacy/storage/data/INDEX.md; canonical data/INDEX.md appended, not overwritten."
+  "index_merge": "Original data/INDEX.md preserved in legacy/storage/data/INDEX.md; canonical data/INDEX.md appended, not overwritten.",
+  "freeze_snapshots": [
+    {
+      "source_sha": "aa18c8656b7bd35ffc0b6905a62b1e9fe310b3e7",
+      "reason": "Freeze-time snapshot after server-side archive, including all late legacy records and redirect files.",
+      "files": [
+        {
+          "source": ".github/workflows/record.yml",
+          "snapshot": "legacy/storage-final/aa18c8656b/.github/workflows/record.yml",
+          "canonical": null,
+          "bytes": 547,
+          "sha256": "b9c13487f2fcc15815207d2b967450eaf1273fad006eb954e0ecf307a84ecccb"
+        },
+        {
+          "source": "MOVED_TO_STORAGECODE.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/MOVED_TO_STORAGECODE.md",
+          "canonical": null,
+          "bytes": 307,
+          "sha256": "f85f91cddcad2d9cdff397fae4e9a5d36baa3ae9513f2da62888c6d5411f1467"
+        },
+        {
+          "source": "PUSHES.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/PUSHES.md",
+          "canonical": "PUSHES.md",
+          "bytes": 56537,
+          "sha256": "71cfa3f86be6b96c655ede2552a44530c4bb4ec207997126a3f88049e46aacce"
+        },
+        {
+          "source": "README.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/README.md",
+          "canonical": null,
+          "bytes": 1265,
+          "sha256": "260ef18cc190445d4c6d526931b19a26b9a866e0dc880d39cac79be159db3c22"
+        },
+        {
+          "source": "chronicle/THE_FIRST_WEEK.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/chronicle/THE_FIRST_WEEK.md",
+          "canonical": "chronicle/THE_FIRST_WEEK.md",
+          "bytes": 15619,
+          "sha256": "9abd4423eaafaf0c91b9c5bb6ba7f8f5ee8f59ad51e3c32fe14d4d7aa27134f7"
+        },
+        {
+          "source": "data/.gitkeep",
+          "snapshot": "legacy/storage-final/aa18c8656b/data/.gitkeep",
+          "canonical": "data/.gitkeep",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source": "data/2026-10-14-superocr-state-readout.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/data/2026-10-14-superocr-state-readout.md",
+          "canonical": "data/2026-10-14-superocr-state-readout.md",
+          "bytes": 5597,
+          "sha256": "5b85433d182297c8af4e3c6aa988d06f4e366e50339cfee99e41ffd835f30a76"
+        },
+        {
+          "source": "data/INDEX.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/data/INDEX.md",
+          "canonical": null,
+          "bytes": 375,
+          "sha256": "15b54761a574be098d3135d09c15d90f6de6e648bd0b43050203cb1450234336"
+        },
+        {
+          "source": "shifts/.gitkeep",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/.gitkeep",
+          "canonical": "shifts/.gitkeep",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source": "shifts/2026-10-14-argus.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-argus.md",
+          "canonical": "shifts/2026-10-14-argus.md",
+          "bytes": 14505,
+          "sha256": "5d0455845e32ffc43cc9a5aaeb46e9d3f9e0eb7b447154a4c862ada11e3beabc"
+        },
+        {
+          "source": "shifts/2026-10-14-ariadne.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-ariadne.md",
+          "canonical": "shifts/2026-10-14-ariadne.md",
+          "bytes": 469,
+          "sha256": "b769f5a49d32b3f88fa0b17ead557c6b6b44efdafbed45c785f4ba461d2af2d1"
+        },
+        {
+          "source": "shifts/2026-10-14-cormac.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-cormac.md",
+          "canonical": "shifts/2026-10-14-cormac.md",
+          "bytes": 1179,
+          "sha256": "fdb66a07fdfbbde6aa084b7c5a8b54705a8940e9e9158eb6be58b708c484eb1a"
+        },
+        {
+          "source": "shifts/2026-10-14-kestrel.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-kestrel.md",
+          "canonical": "shifts/2026-10-14-kestrel.md",
+          "bytes": 964,
+          "sha256": "d74f0f7acb2de2a5764d402fe011277d68e756cf683e9b5082290fc256b2391b"
+        },
+        {
+          "source": "shifts/2026-10-14-leonidas.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-leonidas.md",
+          "canonical": "shifts/2026-10-14-leonidas.md",
+          "bytes": 1375,
+          "sha256": "b261abab359486cef1f4a6143dfe95e798d993159081bddbfb8d08496c8027f5"
+        },
+        {
+          "source": "shifts/2026-10-14-odysseus.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-odysseus.md",
+          "canonical": "shifts/2026-10-14-odysseus.md",
+          "bytes": 1642,
+          "sha256": "12e8f70b6f5b1691503d82f15a37b3cba4ebdea465ce6e7ce52c29fed5617011"
+        },
+        {
+          "source": "shifts/2026-10-14-peregrine.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-peregrine.md",
+          "canonical": "shifts/2026-10-14-peregrine.md",
+          "bytes": 1137,
+          "sha256": "ab0868525ab77a16ffbc3198d60e52b825ad2b87830f511ec3e17e4ced95033c"
+        },
+        {
+          "source": "shifts/2026-10-14-scipio.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-scipio.md",
+          "canonical": "shifts/2026-10-14-scipio.md",
+          "bytes": 1619,
+          "sha256": "5f857bacb395a7532ed02c190830b8be292625665df9d92ccdfecc9cb3481a01"
+        },
+        {
+          "source": "shifts/2026-10-14-vesta.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-14-vesta.md",
+          "canonical": "shifts/2026-10-14-vesta.md",
+          "bytes": 16144,
+          "sha256": "623d09b5978a87462107870ba6616d1c200e3ad77d2925adf2a9595718b46d87"
+        },
+        {
+          "source": "shifts/2026-10-15-ariadne.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-15-ariadne.md",
+          "canonical": "shifts/2026-10-15-ariadne.md",
+          "bytes": 1007,
+          "sha256": "db9f913ec95fc8ab522e9b7fb1a57bebc92291298b20a3d61be41205315316d5"
+        },
+        {
+          "source": "shifts/2026-10-15-cormac.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-15-cormac.md",
+          "canonical": "shifts/2026-10-15-cormac.md",
+          "bytes": 2894,
+          "sha256": "d84c878df05acef716a566f98bc80a5101c391d84d82f987cc9660435855ff4c"
+        },
+        {
+          "source": "shifts/2026-10-15-odysseus.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-15-odysseus.md",
+          "canonical": "shifts/2026-10-15-odysseus.md",
+          "bytes": 1922,
+          "sha256": "b0ab16fcde1937102130e60ace77340d00ac9ebdd095b442c88364b853ee89f7"
+        },
+        {
+          "source": "shifts/2026-10-15-scipio.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/2026-10-15-scipio.md",
+          "canonical": "shifts/2026-10-15-scipio.md",
+          "bytes": 2817,
+          "sha256": "0b950088dd15ea64e444da47912089e0c02b9f4542d0f573462ba94be52431e8"
+        },
+        {
+          "source": "shifts/TEMPLATE.md",
+          "snapshot": "legacy/storage-final/aa18c8656b/shifts/TEMPLATE.md",
+          "canonical": "shifts/TEMPLATE.md",
+          "bytes": 422,
+          "sha256": "b15d2eca6ffa4f4819b7cf5f39be34de283ee6fba146878c4e704ad4aa5d0ae8"
+        }
+      ],
+      "late_push_rows_imported": 1,
+      "pending_prs": [
+        {
+          "number": 3,
+          "url": "https://github.com/dreamer2664/storage/pull/3",
+          "head_sha": "2fae1fa2bf322cc76b83a2c63183796a84ba1b30",
+          "preserved_at": "legacy/storage-open-prs/pr-3-2fae1fa2bf/proposal.json",
+          "patch_path": "legacy/storage-open-prs/pr-3-2fae1fa2bf/proposal.patch",
+          "patch_sha256": "813469be295f022271e6a08f702806177147ee43d4fa2ab2807d9f76c6e75b14"
+        },
+        {
+          "number": 2,
+          "url": "https://github.com/dreamer2664/storage/pull/2",
+          "head_sha": "5fa2eb8ab78da463be4cae077a4a01722f0584ea",
+          "preserved_at": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/proposal.json",
+          "patch_path": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/proposal.patch",
+          "patch_sha256": "5c22ea3ffc7d8e047fdc3fdeb3dfade03a4ddaed5f0b98880bc49553d5b523d2"
+        },
+        {
+          "number": 1,
+          "url": "https://github.com/dreamer2664/storage/pull/1",
+          "head_sha": "a45d13c7bb37a7751f40de4e0a705a4e2b2d2f0e",
+          "preserved_at": "legacy/storage-open-prs/pr-1-a45d13c7bb/proposal.json",
+          "patch_path": "legacy/storage-open-prs/pr-1-a45d13c7bb/proposal.patch",
+          "patch_sha256": "26aec780a127708f03c7022b2b0f35e8630a25bed824ae1c7ed53f060613a5ec"
+        }
+      ]
+    }
+  ],
+  "legacy_server_archived": true,
+  "legacy_final_sha": "aa18c8656b7bd35ffc0b6905a62b1e9fe310b3e7"
 }

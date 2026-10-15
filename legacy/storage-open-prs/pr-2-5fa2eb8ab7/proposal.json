@@ -1,0 +1,52 @@
+{
+  "number": 2,
+  "title": "MAINT",
+  "url": "https://github.com/dreamer2664/storage/pull/2",
+  "head_sha": "5fa2eb8ab78da463be4cae077a4a01722f0584ea",
+  "base_sha": "9f8fba3d9d87520b9dfeab217f2bc343a4494c3d",
+  "merge_base_sha": "9f8fba3d9d87520b9dfeab217f2bc343a4494c3d",
+  "head_ref": "agent/odysseus/t-20261014-83b5",
+  "author": "dreamer2664",
+  "body": "## What changed\n\nLedger format enforcement for the storage repo (MAINT t-20261014-83b5).\n\n- `tools/check_pushes.py` — validates every PUSHES.md data row: exactly 6 columns (`\\|` honored as escaped content), date YYYY-MM-DD, agent one lowercase token, repo names chatcode/superocr/storage/storagecode, where-cell self-locating (`@sha` | PR ref | the ledger's own `(this commit)` / `(this row)` / `(initial)` / watch-log / `no pushes` conventions), non-empty what. Every error printed with its row number; exit 1 on any.\n- `tests/test_check_pushes.py` — 9 unittest cases: valid-ledger pass, per-rule fixtures, escaped-pipe handling, the deliverable's 4-column fixture failing **with the row number**, and an integration case lints the repo's real PUSHES.md.\n- `.github/workflows/ledger-lint.yml` — runs the linter + its tests on every push and PR.\n- **Format repair (append-only, no text content changed):** the 2026-10-15 S74 row contained a literal `plain|lex` pipe, breaking the table to 7 columns — escaped to `plain\\|lex`. Caught here first, exactly the defect class this tool exists for.\n\n**Rebuild note (honest):** an earlier revision of this branch used a sed one-liner to resolve a PUSHES.md rebase conflict and silently dropped 16 rows; it was discarded and rebuilt from origin/main (force-with-lease; old tip 3003fa3 abandoned, never merged). The final commit re-applies the linter, the grammar extension, and the escape repair cleanly.\n\n## How verified (commands + expected results)\n\n```bash\npython3 tools/check_pushes.py          # PUSHES.md: 83 row(s) OK, exit 0\npython3 tests/test_check_pushes.py     # Ran 9 tests — OK\npython3 tools/check_pushes.py FIXTURE  # 4-column row: row N: 4 columns, expected 6, exit 1\n```\n",
+  "acceptance": "unmerged legacy proposal; preserved, NOT approved or merged into canonical tooling",
+  "patch_sha256": "5c22ea3ffc7d8e047fdc3fdeb3dfade03a4ddaed5f0b98880bc49553d5b523d2",
+  "patch_path": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/proposal.patch",
+  "changed_files": [
+    {
+      "path": ".github/workflows/ledger-lint.yml",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/files/.github/workflows/ledger-lint.yml",
+      "bytes": 379,
+      "sha256": "f853ef152b4c6063b2e382e01b3e00822ff2adf4bd3ee930fcf1644f18003746"
+    },
+    {
+      "path": "PUSHES.md",
+      "status": "M",
+      "snapshot": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/files/PUSHES.md",
+      "bytes": 37092,
+      "sha256": "4fe8cc911c01adff4a49706be7da21b89f6014137f5bf4900f3696ca79c4ef97"
+    },
+    {
+      "path": "shifts/2026-10-15-odysseus.md",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/files/shifts/2026-10-15-odysseus.md",
+      "bytes": 2132,
+      "sha256": "50545eb4d0c4070e04d19abd4707d51c4612b35e704a883f0fcc7f19c62b3397"
+    },
+    {
+      "path": "tests/test_check_pushes.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/files/tests/test_check_pushes.py",
+      "bytes": 4835,
+      "sha256": "7785f8cf0c1fedeb679a9e2e0934cb5c5266a377352b475c8731c3d2273445c7"
+    },
+    {
+      "path": "tools/check_pushes.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-2-5fa2eb8ab7/files/tools/check_pushes.py",
+      "bytes": 4476,
+      "sha256": "b6b4c306c967777b21578730b3a4360c9a19cf36a5d8f026246eb4b2fc14209c"
+    }
+  ],
+  "porting_rule": "Continue on storagecode only; existing board card gets the pointer. Carry authorship/provenance and obtain ordinary review before merge."
+}

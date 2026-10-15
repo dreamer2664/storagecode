@@ -24,6 +24,33 @@ class StorageCutover(unittest.TestCase):
             if row['canonical']:
                 self.assertTrue((ROOT/row['canonical']).is_file(),row['canonical'])
 
+    def test_final_server_frozen_snapshot_and_all_late_records_are_preserved(self):
+        m=json.loads((ROOT/'migrations/2026-10-15-storage-unification.json').read_text())
+        self.assertTrue(m['legacy_server_archived'])
+        self.assertTrue(m['freeze_snapshots'])
+        for snap in m['freeze_snapshots']:
+            self.assertGreaterEqual(len(snap['files']),len(m['files']))
+            for row in snap['files']:
+                p=ROOT/row['snapshot']
+                self.assertEqual(p.stat().st_size,row['bytes'])
+                self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),row['sha256'],row['source'])
+                if row['source']=='PUSHES.md':
+                    canonical=(ROOT/'PUSHES.md').read_text()
+                    for line in p.read_text().splitlines():
+                        if line.startswith('| '):self.assertIn(line,canonical)
+
+    def test_unmerged_legacy_proposals_survive_without_becoming_accepted_code(self):
+        m=json.loads((ROOT/'migrations/2026-10-15-storage-unification.json').read_text())
+        for snap in m['freeze_snapshots']:
+            for pr in snap['pending_prs']:
+                meta=json.loads((ROOT/pr['preserved_at']).read_text())
+                self.assertEqual(meta['head_sha'],pr['head_sha'])
+                self.assertIn('NOT approved',meta['acceptance'])
+                self.assertEqual(hashlib.sha256((ROOT/pr['patch_path']).read_bytes()).hexdigest(),pr['patch_sha256'])
+                for row in meta['changed_files']:
+                    if row['status']!='D':
+                        self.assertEqual(hashlib.sha256((ROOT/row['snapshot']).read_bytes()).hexdigest(),row['sha256'])
+
     def test_primary_is_the_larger_meaningful_content_snapshot(self):
         m=json.loads((ROOT/'migrations/2026-10-15-storage-unification.json').read_text())
         c=m['census_before_cutover']

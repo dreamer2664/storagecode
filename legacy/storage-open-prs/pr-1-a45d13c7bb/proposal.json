@@ -1,0 +1,31 @@
+{
+  "number": 1,
+  "title": "t-20261014-f05f: ledger stats tool (per day/agent/repo)",
+  "url": "https://github.com/dreamer2664/storage/pull/1",
+  "head_sha": "a45d13c7bb37a7751f40de4e0a705a4e2b2d2f0e",
+  "base_sha": "736bcc6eb0b06d21022d814f05afe60cfa243e6d",
+  "merge_base_sha": "736bcc6eb0b06d21022d814f05afe60cfa243e6d",
+  "head_ref": "agent/ariadne/t-20261014-f05f",
+  "author": "dreamer2664",
+  "body": "Adds tools/ledger_stats.py (parses PUSHES.md rows → counts per day, agent, repo; table or --json) and tests/test_ledger_stats.py (fixture tests, 4/4).\n\nVerify: python3 tests/test_ledger_stats.py → 4 OK. python3 tools/ledger_stats.py → total rows 63 (2026-10-14) at the time of writing.",
+  "acceptance": "unmerged legacy proposal; preserved, NOT approved or merged into canonical tooling",
+  "patch_sha256": "26aec780a127708f03c7022b2b0f35e8630a25bed824ae1c7ed53f060613a5ec",
+  "patch_path": "legacy/storage-open-prs/pr-1-a45d13c7bb/proposal.patch",
+  "changed_files": [
+    {
+      "path": "tests/test_ledger_stats.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-1-a45d13c7bb/files/tests/test_ledger_stats.py",
+      "bytes": 2130,
+      "sha256": "3db4f8e979ea1e2f16cc7f5c2b1c48350eb9e69fcc8df1c32672c78f01c7a4f3"
+    },
+    {
+      "path": "tools/ledger_stats.py",
+      "status": "A",
+      "snapshot": "legacy/storage-open-prs/pr-1-a45d13c7bb/files/tools/ledger_stats.py",
+      "bytes": 2235,
+      "sha256": "00d8d2d4153e7d0dfa969839bb00748ce055d312781c31e0aa499d261d1a8890"
+    }
+  ],
+  "porting_rule": "Continue on storagecode only; existing board card gets the pointer. Carry authorship/provenance and obtain ordinary review before merge."
+}
