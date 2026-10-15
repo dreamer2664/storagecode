@@ -17,7 +17,10 @@ name: state
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    # Off the hour on purpose: GitHub documents that ticks at :00 land in the
+    # start-of-hour load window and can be delayed or skipped outright
+    # (observed live: the 09:00Z tick never fired). :07/:27/:47 spreads us clear.
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
 permissions:
