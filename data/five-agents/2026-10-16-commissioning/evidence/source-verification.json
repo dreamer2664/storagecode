@@ -77,7 +77,14 @@
   "activity": "All five real producer status files are not-started. Commissioner setup is not producer activity; no agents were awakened/registered/claimed by vesta.",
   "ntfy_public_topic": "https://ntfy.sh/neuralbrain",
   "ntfy_commissioner_welcome_id": "yC6rtL3X3SHE",
-  "primary_archive": "dreamer2664/storagecode",
+  "primary_archive": {
+    "repository": "dreamer2664/storagecode",
+    "commission_archive_commit": "130f3a03c5165c4269e144c5bb1c58fe72c87e63",
+    "remote_verified": true,
+    "path": "data/five-agents/2026-10-16-commissioning/",
+    "INDEX": "data/INDEX.md appended once",
+    "PUSHES": "first package row retained; follow-up append-only row states actual branch/SHA"
+  },
   "legacy_storage": "read-only",
   "mars_pc_bridge": "paused",
   "chess_boundary": "Only a preregistered finite tournament target; no universal solved-chess guarantee.",

@@ -115,8 +115,8 @@
     },
     {
       "path": "evidence/source-verification.json",
-      "bytes": 3723,
-      "sha256": "74da849ec043566febee39bff975f710ab878adc6a5b33402aa6f24693e1bf89"
+      "bytes": 4051,
+      "sha256": "11b3dd04157580829650d12f3ed5bd20fd8fd1c628c078aaf974bde33444b873"
     },
     {
       "path": "projects/agent-atlas/NOT_A_MAP_YET.html",
