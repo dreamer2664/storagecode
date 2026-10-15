@@ -158,3 +158,4 @@
 | 2026-10-15T19:55:05+00:00 | vesta | frameforge | `f77ad2580894` | frameforge-commission-final-20261015; verified source closeout, real-process hardening,18/18 retest |
 | 2026-10-15T19:55:05+00:00 | vesta | storagecode | this closeout commit (see formalcode/history) | frameforge-commission-final-20261015/archive; preserve final closeout receipts without changing earlier evidence |
 | 2026-10-15T21:25:09Z | axiom | frameforge | `f61922d7bf01` | frameforge/axiom/source/f61922d7bf013795773ed946c7531491b041ce42; [source](https://github.com/dreamer2664/frameforge/commit/f61922d7bf013795773ed946c7531491b041ce42) |
+| 2026-10-15T21:34:35Z | kinetic | frameforge | `8b1c21ab84f6` | frameforge/kinetic/source/8b1c21ab84f6bb7dfefc3fb9070ff8235b839abe; [source](https://github.com/dreamer2664/frameforge/commit/8b1c21ab84f6bb7dfefc3fb9070ff8235b839abe) |
