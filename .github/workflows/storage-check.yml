@@ -1,0 +1,28 @@
+name: storage-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  primary-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: src/storagecode
+      - name: Verify checksum-preserved migration and primary-source precedence
+        run: python3 src/storagecode/tests/test_storage_migration.py
+      - name: Clone only active compiler inputs
+        run: |
+          set -eu
+          for repo in chatcode superocr; do
+            git clone --depth 1 --quiet "https://github.com/dreamer2664/$repo.git" "src/$repo"
+          done
+      - name: Production compiler contract (no retired storage checkout needed)
+        run: VIGIL_SRC="$GITHUB_WORKSPACE/src" python3 src/storagecode/tests/test_build_state.py

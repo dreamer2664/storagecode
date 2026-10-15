@@ -4,13 +4,13 @@
     python3 tools/build_state.py --out app/state.json
 
 Run from a storagecode checkout with the empire as siblings (the workflow
-arranges that):  ./src/chatcode  ./src/superocr  ./src/storage  [./src/vigil]
+arranges that):  ./src/chatcode  ./src/superocr  ./src/storagecode  [./src/vigil]
 
 What it does, exactly (CONTRACT.md §2, nothing invented):
   * reads LOCAL checkouts only — no network, no GitHub API, no token, ever
   * board/tasks/*.json + agents/*.json + bus/*.jsonl           <- src/chatcode
-  * PUSHES.md + shifts/*.md                                    <- src/storage
-  * PUSHES.md again for last_push fallback                     <- src/storage
+  * PUSHES.md + shifts/*.md                                    <- THIS repo (primary storagecode)
+  * PUSHES.md again for last_push fallback                     <- THIS repo (primary storagecode)
   * wire/*.jsonl                                               <- THIS repo
   * S55 bench receipts (walls)                                 <- src/superocr
   * writes ONE file, deterministic for a pinned --now
@@ -39,13 +39,13 @@ CAPS = {"open": 100, "claimed": 50, "review": 50, "blocked": 50,
         "chat_tail": 40, "pushes": 30, "wire": 30, "shifts": 10, "epics": 12}
 
 STATUSES = ("open", "claimed", "review", "blocked", "done", "dropped")
-GROUP_KEYS = ("superocr", "chatcode", "storage", "storagecode", "vigil", "empire")
+GROUP_KEYS = ("superocr", "chatcode", "storage", "storagecode", "vigil", "youtube", "empire")
 DEFAULT_GROUP = "chatcode"
 
 # last_push sources: group -> repo dir under src/ (exact git HEAD committer date)
 GROUP_REPO = {"superocr": "superocr", "chatcode": "chatcode",
               "storage": "storage", "storagecode": None,  # None = this repo
-              "vigil": "vigil", "empire": None}
+              "vigil": "vigil", "youtube": "chatcode", "empire": None}
 
 OCR_WORDS = ("OCR", "captcha", "reader", "glyph", "corrosion", "snow", "spiderweb",
              "strippy", "collage", "darts", "stitch", "split", "dark-on-dark",
@@ -313,16 +313,26 @@ def build_chat(cc: Path, msgs: list, now: dt.datetime):
 
 
 # ---------------------------------------------------------------- records ---
+def record_root(primary: Path, legacy: Path, warnings):
+    """ONE source: the primary archive wins; never merge two diverging ledgers."""
+    if (primary / "PUSHES.md").is_file():
+        return primary
+    if (legacy / "PUSHES.md").is_file():
+        err(warnings, "legacy storage fallback: update storagecode; new writes belong only there")
+        return legacy
+    return primary  # parse_pushes emits the missing-record warning
+
+
 def parse_pushes(st: Path, warnings):
     f = st / "PUSHES.md"
     if not f.is_file():
-        err(warnings, "storage PUSHES.md missing: records.pushes empty")
+        err(warnings, "primary archive PUSHES.md missing: records.pushes empty")
         return []
     rows = []
     try:
         lines = f.read_text(encoding="utf-8").splitlines()
     except Exception:
-        err(warnings, "storage PUSHES.md unreadable: records.pushes empty")
+        err(warnings, "primary archive PUSHES.md unreadable: records.pushes empty")
         return []
     for ln in lines:
         ln = ln.strip()
@@ -418,8 +428,9 @@ def build_projects(cards: dict, now: dt.datetime, repo_pushed: dict):
         projects.append({"key": key,
                          "title": {"superocr": "SUPEROCR \u2014 the OCR war",
                                    "chatcode": "CHATCODE \u2014 the room",
-                                   "storage": "STORAGE \u2014 the ledger",
-                                   "storagecode": "STORAGECODE \u2014 the vaults",
+                                   "storage": "STORAGE \u2014 legacy (read-only)",
+                                   "storagecode": "STORAGECODE \u2014 primary archive",
+                                   "youtube": "YOUTUBE \u2014 video training",
                                    "vigil": "VIGIL \u2014 the watchtower",
                                    "empire": "EMPIRE \u2014 maintenance & cross-cutting"}[key],
                          "open": cnt["open"], "claimed": cnt["claimed"], "review": cnt["review"],
@@ -462,7 +473,7 @@ def build_walls(sp: Path, warnings):
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Vigil state compiler (CONTRACT.md schema v1)")
     ap.add_argument("--out", required=True, help="output path, e.g. app/state.json")
-    ap.add_argument("--src-root", default="src", help="dir holding chatcode/superocr/storage[/vigil] (default ./src)")
+    ap.add_argument("--src-root", default="src", help="dir holding chatcode/superocr/storagecode[/vigil] (default ./src)")
     ap.add_argument("--self-root", default=None, help="storagecode checkout root (default: two levels above this file)")
     ap.add_argument("--now", default=None, help="pin the clock (ISO) for byte-identical reruns")
     args = ap.parse_args(argv)
@@ -470,15 +481,16 @@ def main(argv=None) -> int:
     now = now_from_args(args)
     src = Path(args.src_root).resolve()
     self_root = Path(args.self_root).resolve() if args.self_root else Path(__file__).resolve().parents[1]
-    cc, sp, st = src / "chatcode", src / "superocr", src / "storage"
+    cc, sp, legacy_st = src / "chatcode", src / "superocr", src / "storage"
 
     warnings = []
-    for name, p in (("chatcode", cc), ("superocr", sp), ("storage", st)):
+    st = record_root(self_root, legacy_st, warnings)
+    for name, p in (("chatcode", cc), ("superocr", sp), ("storagecode", self_root)):
         if not p.is_dir():
             err(warnings, f"{name} checkout missing at {p}: dependent sections degraded")
 
     git = {}
-    for repo, p in (("chatcode", cc), ("superocr", sp), ("storage", st)):
+    for repo, p in (("chatcode", cc), ("superocr", sp), ("storage", legacy_st)):
         git[repo] = git_sha10(p) if p.is_dir() else None
     git["storagecode"] = git_sha10(self_root)
 

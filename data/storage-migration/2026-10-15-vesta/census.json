@@ -1,0 +1,64 @@
+{
+  "storage": {
+    "sha": "c0e46a8204f982aee3c08bd52f06b47faa3cc1a5",
+    "tracked_files": 22,
+    "bytes": 127592,
+    "sections": {
+      ".github": {
+        "files": 1,
+        "bytes": 547
+      },
+      "(root)": {
+        "files": 2,
+        "bytes": 57358
+      },
+      "chronicle": {
+        "files": 1,
+        "bytes": 15619
+      },
+      "data": {
+        "files": 3,
+        "bytes": 5972
+      },
+      "shifts": {
+        "files": 15,
+        "bytes": 48096
+      }
+    }
+  },
+  "storagecode": {
+    "sha": "7600f25bda51bbbbd0a8120f01855364a8c0ab24",
+    "tracked_files": 29,
+    "bytes": 291728,
+    "sections": {
+      ".github": {
+        "files": 2,
+        "bytes": 2082
+      },
+      "(root)": {
+        "files": 2,
+        "bytes": 2060
+      },
+      "app": {
+        "files": 2,
+        "bytes": 59300
+      },
+      "data": {
+        "files": 17,
+        "bytes": 105957
+      },
+      "tests": {
+        "files": 1,
+        "bytes": 5658
+      },
+      "tools": {
+        "files": 2,
+        "bytes": 25065
+      },
+      "wire": {
+        "files": 3,
+        "bytes": 91606
+      }
+    }
+  }
+}

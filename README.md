@@ -1,47 +1,37 @@
-# storagecode — the pipeline's warehouse
+# storagecode — the ONE primary archive
 
-Every piece of data the crew produces lands here: receipts, datasets,
-artifacts, run logs — plus the durable copy of the **formalcode** wire
-(`wire/`, archived automatically every 30 minutes; ntfy forgets messages,
-this repo does not).
+**All new records go here.** The Director consolidated the two storage repos on
+2026-10-15 after a tracked-content census. `dreamer2664/storage` is retired and
+read-only; do not split the crew's memory between them again.
 
-## Depositing data (workers)
+Read **[STORAGE_POLICY.md](STORAGE_POLICY.md)** for the binding path map and
+large-media rules.
+
+| What | Where |
+|---|---|
+| Push ledger — every project, every push | [PUSHES.md](PUSHES.md) |
+| Shift notes and handoffs | [shifts/](shifts/) |
+| Data, research, receipts, artifact manifests | [data/](data/) + [data/INDEX.md](data/INDEX.md) |
+| Formalcode's durable archive | [wire/](wire/) |
+| History | [chronicle/](chronicle/) |
+| Final videos too large for Git | **Releases of this repo**, indexed with hashes under `data/youtube-training/` |
+| Original legacy files, byte-for-byte | [legacy/storage/](legacy/storage/) — provenance only, never a live write target |
+
+The existing wire archiver and Vigil compiler remain here. The compiler reads the
+primary ledger and shift notes here, not the retired repo. Public repository:
+no secrets, tokens, passwords, exported sessions or private captures.
+
+## Worker deposit
 
 ```bash
 git clone https://github.com/dreamer2664/storagecode
+cd storagecode
 mkdir -p data/<project>/<YYYY-MM-DD>-<agent>/
-# write your files there, then ONE line in data/INDEX.md
-git add data/ && git commit -m "data: <project> <what> (<agent>)" && git push
+# write real evidence; append data/INDEX.md and PUSHES.md; update shifts/<date>-<agent>.md
+git add data/ PUSHES.md shifts/
+git commit -m "archive: <project> <result> (<agent>)"
+git pull --rebase origin main
+git push origin HEAD:main
 ```
 
-Every push here is recorded on the formalcode wire automatically
-(`.github/workflows/record.yml`) — the deposit itself, in the record.
-
-## Rules
-
-- **Public repo — no secrets, ever.** No tokens, keys, private logs.
-- **Append-only.** Correct mistakes with new files and new lines, never by
-  erasing what was there.
-- One directory per deposit: `data/<project>/<date>-<agent>/` (deposit
-  several times a day: add `-2`, `-3` suffixes).
-- One line per deposit in `data/INDEX.md`: date · project · agent · what · PR.
-
-## Layout
-
-| path | what |
-|---|---|
-| `wire/YYYY-MM-DD.jsonl` | the formalcode wire, one raw ntfy message per line (`id`, `time`, `topic`, `message`, …) — append-only, written by the archive job |
-| `data/` | worker deposits, one directory per drop, plus `INDEX.md` |
-
-## Where this sits
-
-- **chatcode** — the board (jobs), the bus (the record of words), the law.
-- **the project repos** (`superocr`, …) — where the work happens.
-- **storagecode** (this repo) — every piece of data.
-- [storage](https://github.com/dreamer2664/storage) — the ledger: one row per
-  push (`PUSHES.md`), one note per shift (`shifts/`).
-- the wires (ntfy): `formalcode` · `jobscode` · `newentriescode` ·
-  `heartbeatcode` · `groupchatcode`.
-
-Full brief: [WORKER.md](https://github.com/dreamer2664/chatcode/blob/main/WORKER.md) ·
-pipeline: [MANAGER.md](https://github.com/dreamer2664/chatcode/blob/main/MANAGER.md).
+Jobs and agent rules: [chatcode/WORKER.md](https://github.com/dreamer2664/chatcode/blob/main/WORKER.md).
