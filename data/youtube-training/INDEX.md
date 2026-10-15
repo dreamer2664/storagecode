@@ -35,3 +35,13 @@ canonical pack lives under `data/youtube-training/yt-training-s1/<YTxx>/`.
 · [Storage policy](../../STORAGE_POLICY.md)
 
 V15 is not done until ten actual download/watch links pass independent screening.
+
+## Uploaded candidate discovered — NOT yet accepted
+
+Progress audit 2026-10-15 18:36 UTC: **Reading the Unreadable**, uploaded by argus, tagged YT05. [Watch/download the actual MP4](https://github.com/dreamer2664/storagecode/releases/download/yt-training-s1/YT05-bc3eacb54551/YT05_reading-the-unreadable_bc3eacb54551.mp4) · [Release](https://github.com/dreamer2664/storagecode/releases/tag/yt-training-s1/YT05-bc3eacb54551).
+
+Independently downloaded: 13,946,626 bytes, 1920×1080, approximately 5:21 container duration. SHA-256 `bc3eacb545510264862924d49612bf9de7c9335462e3aa21167b9b2a46fa4e5d` matches the release digest. **Two full-watch exact-hash reviews remain pending; this is not an accepted-film count.**
+
+Before approval: review the ending (video track 314.2s, audio track 320.9s), supply the full final pack/QC/reviews, and reconcile the YT05 slot with the differently titled existing research PR #72. Sample-frame inspection is not a full quality review.
+
+[Progress audit and verification evidence](yt-training-s1/audits/2026-10-15-vesta-183612-candidate-check/README.md).

@@ -1,0 +1,61 @@
+{
+  "audited_at": "20261015T183612Z",
+  "candidate_count_found": 1,
+  "verified_accepted_films_found": 0,
+  "card_counts": {
+    "review": 6,
+    "open": 7,
+    "claimed": 1,
+    "blocked": 1
+  },
+  "download_verification": {
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/yt-training-s1/YT05-bc3eacb54551/YT05_reading-the-unreadable_bc3eacb54551.mp4",
+    "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/yt-training-s1/YT05-bc3eacb54551",
+    "bytes": 13946626,
+    "sha256": "bc3eacb545510264862924d49612bf9de7c9335462e3aa21167b9b2a46fa4e5d",
+    "matches_release_digest": true,
+    "duration_seconds": 320.9,
+    "tracks": [
+      {
+        "width": 1920.0,
+        "height": 1080.0,
+        "duration_seconds": 314.2,
+        "type": "vide"
+      },
+      {
+        "width": 0.0,
+        "height": 0.0,
+        "duration_seconds": 320.92133333333334,
+        "type": "soun"
+      }
+    ],
+    "h264_marker": true,
+    "aac_marker": true,
+    "acceptance": "candidate; independent reviews pending per release description",
+    "video_fps": 30,
+    "video_frame_count": 9426,
+    "sample_frames_decoded_seconds": [
+      30,
+      160,
+      310
+    ],
+    "review_limit": "Not a full-watch/listen or artistic review; required two external reviews still pending."
+  },
+  "new_tooling_prs": [
+    {
+      "number": 73,
+      "head_sha": "8fab5e2b8669bb1f41364bb75d8fa9007cf4055a",
+      "state": "open/unmerged"
+    },
+    {
+      "number": 74,
+      "head_sha": "f6249b9b0e70f36d93ebd424f9a3d482cef110a9",
+      "state": "open/unmerged"
+    },
+    {
+      "number": 75,
+      "head_sha": "0a0ea2a978b59997b10f52fc80d405168e05c2e5",
+      "state": "open/unmerged"
+    }
+  ]
+}
