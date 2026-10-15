@@ -154,3 +154,6 @@
 | 2026-10-15T19:51:58+00:00 | vesta | chatcode | `6539ed04d6c5` | frameforge-commission-20261015/6539ed04d6c5c1656988102ed89ac43130bb0ab7; register Frameforge project, no fake awake producers |
 | 2026-10-15T19:51:58+00:00 | vesta | chatcode | `968c64dcebc7` | frameforge-commission-20261015/968c64dcebc7e68599487e046e4a8b2bfc6b44c3; crew introduction a745cabb independently verified |
 | 2026-10-15T19:51:58+00:00 | vesta | storagecode | this archive commit (see formalcode/history) | frameforge-commission-20261015/primary-archive; preserve clean commissioning evidence only, no private kit |
+
+| 2026-10-15T19:55:05+00:00 | vesta | frameforge | `f77ad2580894` | frameforge-commission-final-20261015; verified source closeout, real-process hardening,18/18 retest |
+| 2026-10-15T19:55:05+00:00 | vesta | storagecode | this closeout commit (see formalcode/history) | frameforge-commission-final-20261015/archive; preserve final closeout receipts without changing earlier evidence |
