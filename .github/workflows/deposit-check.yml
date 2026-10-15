@@ -1,0 +1,18 @@
+name: deposit-check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-deposits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: every deposit dir is named right and INDEX-covered
+        run: python3 tools/check_deposit.py
+      - name: validator self-tests
+        run: python3 tests/test_check_deposit.py
