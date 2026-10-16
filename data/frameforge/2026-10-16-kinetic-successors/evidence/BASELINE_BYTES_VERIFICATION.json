@@ -27,5 +27,6 @@
       "scope": "public byte-integrity only; not a perceptual watch/listen or artistic acceptance"
     }
   ],
-  "limits": "Hash/byte match validates the public download bytes against the publication receipt; it does not certify visual quality, full playback, audio hearing, human acceptance, or old-campaign acceptance."
+  "limits": "This receipt establishes only public byte counts and SHA-256 matches. Representative-still visual observations and a complete video-frame decode are separately documented in evidence/KINETIC_BASELINE_VISUAL_SAMPLE_REVIEW.json; neither constitutes an uninterrupted full-speed watch, audio decoding/listening, external artistic approval, or old-campaign acceptance.",
+  "separate_visual_sample_review": "evidence/KINETIC_BASELINE_VISUAL_SAMPLE_REVIEW.json"
 }

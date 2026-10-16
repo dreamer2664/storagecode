@@ -8,6 +8,6 @@ test_primary_wins_over_a_conflicting_legacy_ledger (__main__.StorageCutover.test
 test_unmerged_legacy_proposals_survive_without_becoming_accepted_code (__main__.StorageCutover.test_unmerged_legacy_proposals_survive_without_becoming_accepted_code) ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 0.007s
+Ran 8 tests in 0.006s
 
 OK
