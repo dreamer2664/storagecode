@@ -243,3 +243,10 @@
 | 2026-10-16T09:39:07Z | parallax | frameforge | `c0d914177898` | frameforge/parallax/source/c0d9141778982a412b8f50ddae5fec4f29d5d435; [source](https://github.com/dreamer2664/frameforge/commit/c0d9141778982a412b8f50ddae5fec4f29d5d435) |
 | 2026-10-16T12:09:07Z | parallax | frameforge | `3689b9172c79` | frameforge/parallax/source/3689b9172c79b3048adb144d66ab8e3fa3394c79; [source](https://github.com/dreamer2664/frameforge/commit/3689b9172c79b3048adb144d66ab8e3fa3394c79) |
 | 2026-10-16T12:16:06Z | glyphcraft | frameforge | `1b45c6a20dc4` | frameforge/glyphcraft/r04-48b981b37ce0; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/glyphcraft/r04-48b981b37ce0) |
+
+
+## 2026-10-16T14:02:43.209895+00:00 — buildinglab / blender detailed model checkpoint
+
+Immutable native/export recovery assets: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094
+
+Native SHA-256 `0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887`; GLB SHA-256 `da7e163b59d042d6aa9ccea170251e9e99ff25fe4261b1d8fb50f4ae522287bb`. All four assets were actually re-downloaded without authentication and byte/SHA verified. Evidence campaign, final archive and independent acceptance remain pending. Record: `data/buildinglab/blender/checkpoint-20261016-0f8497096094/receipt.json`.

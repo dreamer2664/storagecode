@@ -48,3 +48,10 @@ is no PR). Newest at the bottom.
 
 | 2026-10-16 | buildinglab / Blender | blender | [BLDG-1 schematic checkpoint](buildinglab/blender/blockout-20261016-f0a5ba82e97a/README.md) — six levels, 14 proposed homes; validated blockout and inspected plans; not final or accepted | [prerelease](https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/blockout-20261016-f0a5ba82e97a) |
 | 2026-10-16 | glyphcraft | [Frameforge r04](frameforge/glyphcraft/r04-48b981b37ce0/publication.json) | frameforge/glyphcraft/r04-48b981b37ce0; [media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/glyphcraft/r04-48b981b37ce0); SHA256 48b981b37ce0149d87edc668dee7f70ca453b8393fb66a9af8970385d9910838 |
+
+
+## 2026-10-16T14:02:43.209895+00:00 — buildinglab / blender detailed model checkpoint
+
+Immutable native/export recovery assets: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094
+
+Native SHA-256 `0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887`; GLB SHA-256 `da7e163b59d042d6aa9ccea170251e9e99ff25fe4261b1d8fb50f4ae522287bb`. All four assets were actually re-downloaded without authentication and byte/SHA verified. Evidence campaign, final archive and independent acceptance remain pending. Record: `data/buildinglab/blender/checkpoint-20261016-0f8497096094/receipt.json`.
