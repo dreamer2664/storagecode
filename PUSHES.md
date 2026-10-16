@@ -214,3 +214,4 @@
 | 2026-10-16T06:17:45Z | riveter | floodline | `24a7de13f4cf` | floodline/riveter/source/24a7de13f4cff571874e9eae71805844b743e93e; [source](https://github.com/dreamer2664/floodline/commit/24a7de13f4cff571874e9eae71805844b743e93e) |
 | 2026-10-16T06:46:04Z | scribble | frameforge | `2f18d0d72859` | frameforge/scribble/source/2f18d0d72859d5515bf92efdc41aacf98221e1c1; [source](https://github.com/dreamer2664/frameforge/commit/2f18d0d72859d5515bf92efdc41aacf98221e1c1) |
 | 2026-10-16T06:46:16Z | scribble | frameforge | `2f18d0d72859` | frameforge/scribble/r03-ce92a14ac777; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/scribble/r03-ce92a14ac777) |
+| 2026-10-16T06:47:04Z | kinetic | frameforge | `967d57239983` | frameforge/kinetic/r03-99dc27911b3e; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/kinetic/r03-99dc27911b3e) |
