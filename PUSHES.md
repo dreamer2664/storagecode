@@ -263,3 +263,8 @@ Source card pushes: {"t-20261016-0d4e": "b18f996c95c4d489eb2fcaa8040ae58850cab0a
 Immutable native/export recovery assets: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45
 
 Native SHA-256 `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`; GLB SHA-256 `06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6`. All four assets were actually re-downloaded without authentication and byte/SHA verified. Evidence campaign, final archive and independent acceptance remain pending. Record: `data/buildinglab/blender/checkpoint-20261016-1b7150d6ce45/receipt.json`.
+
+
+## 2026-10-16T16:01:37.943445+00:00 — blender / buildinglab source push
+
+`agent/blender/t-20261016-58d8@5854600130afb24a0860496efe1add36d9a50523` https://github.com/dreamer2664/buildinglab/commit/5854600130afb24a0860496efe1add36d9a50523 — corrected source/native actual geometry guards, public downloaded native reopen/test render and GLB clean-reimport PASS; 3/29 corrected-source originals actually opened at this checkpoint. Final producer packet and independent acceptance remain pending. No self-review/vote.
