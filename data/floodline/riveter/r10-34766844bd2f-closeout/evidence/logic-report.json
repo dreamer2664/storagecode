@@ -1,0 +1,184 @@
+{
+  "checks": [
+    {
+      "check": "services reference only existing geometry",
+      "ok": true,
+      "detail": "23 named hooks present in the place"
+    },
+    {
+      "check": "every socket maps to a configured consumer",
+      "ok": true,
+      "detail": "sockets=['Socket_Bridge', 'Socket_Lift', 'Socket_Pump', 'Socket_Winch'] consumers=['Bridge', 'Lift', 'Pump', 'Relay', 'Winch']"
+    },
+    {
+      "check": "all remote usages are declared",
+      "ok": true,
+      "detail": "33 remotes used, all declared"
+    },
+    {
+      "check": "bootstrap modules exported",
+      "ok": true,
+      "detail": "19 modules required, all present"
+    },
+    {
+      "check": "client modules exported",
+      "ok": true,
+      "detail": "6 modules required, all present"
+    },
+    {
+      "check": "shared modules exported",
+      "ok": true,
+      "detail": "3 shared modules required, all present"
+    },
+    {
+      "check": "survivor rigs and prompts match Config.Survivors.Total",
+      "ok": true,
+      "detail": "models=12 survivorPrompts=12 config=12 (all prompts=51)"
+    },
+    {
+      "check": "lift cabin has four seats",
+      "ok": true,
+      "detail": "seats=4"
+    },
+    {
+      "check": "power cell count matches config",
+      "ok": true,
+      "detail": "geometry=4 config=4"
+    },
+    {
+      "check": "no loadstring / http code / external asset ids",
+      "ok": true,
+      "detail": "{}"
+    },
+    {
+      "check": "numeric client input is constrained",
+      "ok": true,
+      "detail": "client-sent scalars: [('sprinting', 'boolean')]"
+    },
+    {
+      "check": "audio uses only bundled engine sounds",
+      "ok": true,
+      "detail": "only rbxasset:// engine sounds"
+    },
+    {
+      "check": "skybridge span is baked in the place",
+      "ok": true,
+      "detail": "decks=['BridgeDeck_A', 'BridgeDeck_B', 'BridgeDeck_C', 'BridgeDeck_D'] rails=8 cranks=['BridgeCrank_Far', 'BridgeCrank_Near'] nearest deck to NearJoint=4.07 studs"
+    },
+    {
+      "check": "second-route geometry is present",
+      "ok": true,
+      "detail": "missing=[] crates=['SupplyCrate_1', 'SupplyCrate_2', 'SupplyCrate_3', 'SupplyCrate_4']"
+    },
+    {
+      "check": "new landmarks registered as world zones",
+      "ok": true,
+      "detail": "zones=['ApartmentBlock', 'Clinic', 'FerryTerminal', 'Mid', 'North', 'ParkingGarage', 'PumpHouse', 'RelayTower', 'ServiceCut', 'South', 'Terminal', 'Workshop']"
+    },
+    {
+      "check": "upgrade catalog is complete and consumed",
+      "ok": true,
+      "detail": "order=['Impeller', 'Rebreather', 'Capacitor', 'SealKit', 'FieldHospital', 'LiftServo'] unreadEffects=[]"
+    },
+    {
+      "check": "survivor role effects are implemented",
+      "ok": true,
+      "detail": "roles=['Child', 'Engineer', 'Medic'] missing=[]"
+    },
+    {
+      "check": "crew roles and abilities are complete and ordered",
+      "ok": true,
+      "detail": "order=['Diver', 'Engineer', 'Medic', 'Rigger'] roles=['Diver', 'Engineer', 'Medic', 'Rigger'] abilities=['SecondWind', 'SocketJumper', 'Triage', 'RopeLine'] unhandled=[]"
+    },
+    {
+      "check": "outfall sluice is baked and adopted by the server",
+      "ok": true,
+      "detail": "parts=['OutfallHouse', 'OutfallLintel', 'OutfallGate', 'OutfallFrameE', 'OutfallFrameW', 'OutfallGrate', 'OutfallPost', 'OutfallWheel', 'OutfallWheelHub', 'OutfallWalkway', 'OutfallWalkRail', 'OutfallLamp', 'OutfallSign', 'OutfallRung'] missing=[]"
+    },
+    {
+      "check": "outfall drain is subtracted from the district water level",
+      "ok": true,
+      "detail": "FloodService applies the outfall pull each tick: True"
+    },
+    {
+      "check": "tripped breakers can be reset by hand and re-wire their prompt",
+      "ok": true,
+      "detail": "resetBreaker + prompt text + config hold present"
+    },
+    {
+      "check": "client ships a crew board with role rows, an ability button and the outfall gauge",
+      "ok": true,
+      "detail": "crew board widgets + role/ability remotes present in the client"
+    },
+    {
+      "check": "client remotes exist and every server service is registered in the lifecycle",
+      "ok": true,
+      "detail": "undeclared=[] lifecycle=CrewService/OutfallService"
+    },
+    {
+      "check": "a downed teammate can be dragged, and the client shows who has whom",
+      "ok": true,
+      "detail": "prompt + start/stop + payload + HUD readouts present"
+    },
+    {
+      "check": "hauling a casualty moves them and buys them time",
+      "ok": true,
+      "detail": "casualty rides the carrier, bleed stretch x1.5"
+    },
+    {
+      "check": "the hand winch is a real unpowered way up the tower",
+      "ok": true,
+      "detail": "parts=['WinchDrum', 'WinchHandle', 'WinchPost'] net climb per hold=0.085"
+    },
+    {
+      "check": "survivors stand on the district, never on each other",
+      "ok": true,
+      "detail": "the survivor ground ray ignores every body, so a huddle cannot levitate"
+    },
+    {
+      "check": "a hand-wound car cannot be finished by the electric motor",
+      "ok": true,
+      "detail": "Moving/Returning honour the manual flag"
+    }
+  ],
+  "passed": 28,
+  "failed": 0,
+  "sourceFiles": {
+    "server": [
+      "src/server/Bootstrap.server.luau",
+      "src/server/Modules/CommsService.luau",
+      "src/server/Modules/CrewService.luau",
+      "src/server/Modules/DoorService.luau",
+      "src/server/Modules/FloodService.luau",
+      "src/server/Modules/HazardService.luau",
+      "src/server/Modules/InteractService.luau",
+      "src/server/Modules/LiftService.luau",
+      "src/server/Modules/ObjectiveService.luau",
+      "src/server/Modules/OutfallService.luau",
+      "src/server/Modules/PlayerService.luau",
+      "src/server/Modules/PowerService.luau",
+      "src/server/Modules/RescueService.luau",
+      "src/server/Modules/RoundService.luau",
+      "src/server/Modules/RouteService.luau",
+      "src/server/Modules/ScoringService.luau",
+      "src/server/Modules/SessionService.luau",
+      "src/server/Modules/Telemetry.luau",
+      "src/server/Modules/UpgradeService.luau",
+      "src/server/Modules/WorldService.luau"
+    ],
+    "client": [
+      "src/client/Client.client.luau",
+      "src/client/Modules/Effects.luau",
+      "src/client/Modules/Hud.luau",
+      "src/client/Modules/Markers.luau",
+      "src/client/Modules/Minimap.luau",
+      "src/client/Modules/Results.luau",
+      "src/client/Modules/Systems.luau"
+    ],
+    "shared": [
+      "src/shared/Config.luau",
+      "src/shared/Net.luau",
+      "src/shared/Util.luau"
+    ]
+  }
+}
