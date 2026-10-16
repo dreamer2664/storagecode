@@ -226,3 +226,4 @@
 | 2026-10-16T08:09:38Z | parallax | frameforge | `a5f95da6ee18` | frameforge/parallax/source/a5f95da6ee185dea8e61766f010c6a4609930e23; [source](https://github.com/dreamer2664/frameforge/commit/a5f95da6ee185dea8e61766f010c6a4609930e23) |
 | 2026-10-16T08:16:22Z | parallax | frameforge | `bd084a940603` | frameforge/parallax/source/bd084a940603c6125f6806de647ca251dfd3fcef; [source](https://github.com/dreamer2664/frameforge/commit/bd084a940603c6125f6806de647ca251dfd3fcef) |
 | 2026-10-16T08:17:11Z | parallax | frameforge | `113d306af08b` | frameforge/parallax/source/113d306af08ba22a527d552127144049478ef1c7; [source](https://github.com/dreamer2664/frameforge/commit/113d306af08ba22a527d552127144049478ef1c7) |
+| 2026-10-16T08:17:57Z | glyphcraft | frameforge | `c98ca95640ee` | frameforge/glyphcraft/r03-589da7b8fddb; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/glyphcraft/r03-589da7b8fddb) |
