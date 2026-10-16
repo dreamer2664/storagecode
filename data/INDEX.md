@@ -59,3 +59,12 @@ Native SHA-256 `0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887
 | 2026-10-16 | riveter | [Frameforge evidence](https://github.com/dreamer2664/storagecode/tree/main/data/floodline/riveter/r06-6e22c896e034-closeout) | floodline/riveter/evidence/r06-6e22c896e034-closeout |
 | 2026-10-16 | riveter | [Frameforge r07](floodline/riveter/r07-a9d07bfbd5fa/publication.json) | floodline/riveter/r07-a9d07bfbd5fa; [media](https://github.com/dreamer2664/storagecode/releases/tag/floodline/riveter/r07-a9d07bfbd5fa); SHA256 a9d07bfbd5fa7f9ac477b2e07c01cd45b20937fd78f5cf975100b1074c7120fa |
 | 2026-10-16 | riveter | [Frameforge evidence](https://github.com/dreamer2664/storagecode/tree/main/data/floodline/riveter/r07-a9d07bfbd5fa-closeout) | floodline/riveter/evidence/r07-a9d07bfbd5fa-closeout |
+
+
+Source card pushes: {"t-20261016-0d4e": "b18f996c95c4d489eb2fcaa8040ae58850cab0a1", "t-20261016-58d8": "a7430873c487c623a0b4523863e97ab44e6b664f", "t-20261016-61b0": "9f0a16fcba9d0b7864378faa561d5934dfbad78c"}
+
+## 2026-10-16T15:49:00.913845+00:00 — buildinglab / blender detailed model checkpoint
+
+Immutable native/export recovery assets: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45
+
+Native SHA-256 `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`; GLB SHA-256 `06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6`. All four assets were actually re-downloaded without authentication and byte/SHA verified. Evidence campaign, final archive and independent acceptance remain pending. Record: `data/buildinglab/blender/checkpoint-20261016-1b7150d6ce45/receipt.json`.

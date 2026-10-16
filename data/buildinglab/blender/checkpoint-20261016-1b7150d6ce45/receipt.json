@@ -1,0 +1,40 @@
+{
+  "source_card_heads": {
+    "t-20261016-0d4e": "b18f996c95c4d489eb2fcaa8040ae58850cab0a1",
+    "t-20261016-61b0": "9f0a16fcba9d0b7864378faa561d5934dfbad78c",
+    "t-20261016-58d8": "a7430873c487c623a0b4523863e97ab44e6b664f"
+  },
+  "stage": "WIP model checkpoint; final 29-image archive and independent acceptance pending",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+  "release_id": 415124389,
+  "assets": {
+    "scene/building-final.blend": {
+      "asset_id": 647790619,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/building-final.blend",
+      "bytes": 15277236,
+      "sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:31.193703+00:00"
+    },
+    "scene/shell.blend": {
+      "asset_id": 647790760,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/shell.blend",
+      "bytes": 2604661,
+      "sha256": "e5257e87e7829e26af5f988b52a156c4d87fa706fb6604fae4c913331142a509",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:32.874044+00:00"
+    },
+    "scene/interiors.blend": {
+      "asset_id": 647790842,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/interiors.blend",
+      "bytes": 4752881,
+      "sha256": "3b29abf5334e8db3e086106a93f2fc14ad7d357ff5a1e4fffe7c5584ee8abb85",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:34.590914+00:00"
+    },
+    "exports/building-final.glb": {
+      "asset_id": 647790917,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/building-final.glb",
+      "bytes": 56743488,
+      "sha256": "06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:40.666196+00:00"
+    }
+  }
+}
