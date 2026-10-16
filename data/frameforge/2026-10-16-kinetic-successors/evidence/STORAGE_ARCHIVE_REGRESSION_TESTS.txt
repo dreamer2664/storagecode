@@ -1,0 +1,13 @@
+test_every_legacy_file_survives_with_its_sha256 (__main__.StorageCutover.test_every_legacy_file_survives_with_its_sha256) ... ok
+test_existing_primary_index_was_not_replaced (__main__.StorageCutover.test_existing_primary_index_was_not_replaced) ... ok
+test_final_server_frozen_snapshot_and_all_late_records_are_preserved (__main__.StorageCutover.test_final_server_frozen_snapshot_and_all_late_records_are_preserved) ... ok
+test_legacy_fallback_is_visible_and_not_a_second_merge_source (__main__.StorageCutover.test_legacy_fallback_is_visible_and_not_a_second_merge_source) ... ok
+test_primary_is_the_larger_meaningful_content_snapshot (__main__.StorageCutover.test_primary_is_the_larger_meaningful_content_snapshot) ... ok
+test_primary_paths_and_youtube_group_are_live (__main__.StorageCutover.test_primary_paths_and_youtube_group_are_live) ... ok
+test_primary_wins_over_a_conflicting_legacy_ledger (__main__.StorageCutover.test_primary_wins_over_a_conflicting_legacy_ledger) ... ok
+test_unmerged_legacy_proposals_survive_without_becoming_accepted_code (__main__.StorageCutover.test_unmerged_legacy_proposals_survive_without_becoming_accepted_code) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+OK
