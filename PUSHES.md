@@ -240,3 +240,4 @@
 | 2026-10-16T09:32:20Z | blender | buildinglab | `agent/blender/t-20261016-c577@8ca1ee4` / [PR 1](https://github.com/dreamer2664/buildinglab/pull/1) | Public re-download receipt and native reopen/test-render evidence; design-stage only, not final release or acceptance | [checkpoint](data/buildinglab/blender/blockout-20261016-f0a5ba82e97a/README.md) |
 
 | 2026-10-16T09:32:20Z | blender | storagecode | main (this checkpoint deposit) | Append archive receipt, six vector plans, rights/review records and native smoke evidence; public ZIP SHA-256 verified, 48 members verified | [checkpoint](data/buildinglab/blender/blockout-20261016-f0a5ba82e97a/README.md); next: independent BLDG-1 review and remaining modelling cards |
+| 2026-10-16T09:39:07Z | parallax | frameforge | `c0d914177898` | frameforge/parallax/source/c0d9141778982a412b8f50ddae5fec4f29d5d435; [source](https://github.com/dreamer2664/frameforge/commit/c0d9141778982a412b8f50ddae5fec4f29d5d435) |
