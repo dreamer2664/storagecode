@@ -217,3 +217,4 @@
 | 2026-10-16T06:47:04Z | kinetic | frameforge | `967d57239983` | frameforge/kinetic/r03-99dc27911b3e; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/kinetic/r03-99dc27911b3e) |
 | 2026-10-16T06:47:12Z | kinetic | frameforge | `cefc5ff01abe` | frameforge/kinetic/source/cefc5ff01abe3809162a9835da2780e2b6a5fdbf; [source](https://github.com/dreamer2664/frameforge/commit/cefc5ff01abe3809162a9835da2780e2b6a5fdbf) |
 | 2026-10-16T06:47:17Z | kinetic | frameforge | `2cec3afa4fec` | frameforge/kinetic/source/2cec3afa4fecd9d7b9d72877a95ff8f579170c2c; [source](https://github.com/dreamer2664/frameforge/commit/2cec3afa4fecd9d7b9d72877a95ff8f579170c2c) |
+| 2026-10-16T06:47:19Z | scribble | frameforge | `c96ad524d1d2` | frameforge/scribble/source/c96ad524d1d267642f831681887a7a0836078aa4; [source](https://github.com/dreamer2664/frameforge/commit/c96ad524d1d267642f831681887a7a0836078aa4) |
