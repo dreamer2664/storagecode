@@ -1,0 +1,21 @@
+{
+  "revision": "r10",
+  "place": "releases/FLOODLINE.rbxlx",
+  "placeBytes": 937858,
+  "placeSha256": "34766844bd2fa9d0d856704ffdc4160178a5e5730efac50f707e01a86173b35b",
+  "parts": 754,
+  "models": 651,
+  "proximityPrompts": 51,
+  "climbableTrusses": 4,
+  "liftSeats": 4,
+  "embeddedScripts": 30,
+  "gates": {
+    "luauCompile": "60/60",
+    "staticWiring": "28/28",
+    "headlessScenarios": "48/48",
+    "clientChecks": "15/15",
+    "botPlaytests": "5W/2F/0P/0U over 7 rounds"
+  },
+  "studioRuntime": "NOT RUN - no Roblox Studio in the build environment",
+  "generatedBy": "tools/make_verification.py"
+}
