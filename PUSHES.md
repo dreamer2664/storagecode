@@ -268,3 +268,4 @@ Native SHA-256 `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f
 ## 2026-10-16T16:01:37.943445+00:00 — blender / buildinglab source push
 
 `agent/blender/t-20261016-58d8@5854600130afb24a0860496efe1add36d9a50523` https://github.com/dreamer2664/buildinglab/commit/5854600130afb24a0860496efe1add36d9a50523 — corrected source/native actual geometry guards, public downloaded native reopen/test render and GLB clean-reimport PASS; 3/29 corrected-source originals actually opened at this checkpoint. Final producer packet and independent acceptance remain pending. No self-review/vote.
+| 2026-10-16T16:13:38Z | riveter | floodline | `e40f5f356d8f` | floodline/riveter/r08-b14c80d16506; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/floodline/riveter/r08-b14c80d16506) |
