@@ -1,0 +1,48 @@
+{
+  "stage": "Production native sources; visual/export/evidence completion and independent acceptance tracked separately",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/production-20261016-4bf44a021c3d",
+  "tag": "townsquare/blender/production-20261016-4bf44a021c3d",
+  "production_native_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776",
+  "assets": [
+    {
+      "name": "Winterlichtplatz-Master-4bf44a021c3d.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Master-4bf44a021c3d.zip",
+      "bytes": 202816279,
+      "sha256": "8992293af8af9e213ee95925090cc73543cb53ac3ed3047d91cd7eb4a9eda631",
+      "members": 10,
+      "unauthenticated_redownload": true,
+      "crc_every_member_sha256_pass": true,
+      "verified_utc": "2026-10-16T23:04:58.865514+00:00"
+    },
+    {
+      "name": "Winterlichtplatz-Buildings-4bf44a021c3d.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Buildings-4bf44a021c3d.zip",
+      "bytes": 437436591,
+      "sha256": "24f7d81d5db9c7da0ea612af15ab7fa5c5289799bca1c4d30a48092068de3fc4",
+      "members": 19,
+      "unauthenticated_redownload": true,
+      "crc_every_member_sha256_pass": true,
+      "verified_utc": "2026-10-16T23:05:40.347112+00:00"
+    },
+    {
+      "name": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+      "bytes": 502164857,
+      "sha256": "e73f6b6fd83d3d0e772bd6a0b94eddba50f04bd6428460eca5088a0dab34ff96",
+      "members": 20,
+      "unauthenticated_redownload": true,
+      "crc_every_member_sha256_pass": true,
+      "verified_utc": "2026-10-16T23:06:30.199112+00:00"
+    },
+    {
+      "name": "Winterlichtplatz-Public-realm-4bf44a021c3d.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Public-realm-4bf44a021c3d.zip",
+      "bytes": 50443138,
+      "sha256": "3055ba4002a6713e060d6349c0738231a8cd3a0cfecae2c0d2a682a7e7344301",
+      "members": 8,
+      "unauthenticated_redownload": true,
+      "crc_every_member_sha256_pass": true,
+      "verified_utc": "2026-10-16T23:06:37.501546+00:00"
+    }
+  ]
+}
