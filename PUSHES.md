@@ -471,3 +471,8 @@ Source native `8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d`
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Public-realm-8cf939dc13f9.zip — 77670248 bytes, SHA256 `60d3d249c1d78747e8f3b4c9e49f7497f4f5686c55de0989141ddf3a8f03efc7`.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Portable-town-8cf939dc13f9.zip — 294449660 bytes, SHA256 `8af5d7a5f6254144bdcf229ef529fe047c6447172ee29e2efff12ce5bb08679f`.
 | 2026-10-17T22:16:31Z | lithos | frameforge | `7831013ed25e` | frameforge/lithos/r03-4cba7bd25aef; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/lithos/r03-4cba7bd25aef) |
+
+
+## 2026-10-17T22:41:45.386431+00:00 — townsquare/blender unpromoted rebuilt editable study
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-55340889139d-0f7a99f5a06e.zip — 307545949bytes, SHA256`41be657a8facd43bc2eb554733f2cd9e716324ff42a6b4ef9245a4d0e35563e4`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
