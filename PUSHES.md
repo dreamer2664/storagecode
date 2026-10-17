@@ -391,3 +391,13 @@ Native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`; actua
 ## 2026-10-17T15:24:48.911936+00:00 — townsquare/blender partial R10 evidence backup
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-evidence-checkpoint-002-33003e1ca8.zip — 12214907 bytes, SHA256 `0fb84020d0ce4cb07c76d6d1ac9220acebfe3498b86ac986c5a84703a5631479`. Anonymous CRC/every-member SHA/size verified. 2 completed originals; actual manual IDs D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`.
+
+
+## 2026-10-17T15:42:39.502336+00:00 — townsquare/blender R10 models assets
+
+https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-b6230a3e5d35
+Source native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`. Actual anonymous public archive full-byte/CRC/every-member SHA/size verification PASS. Independent acceptance NOT granted.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Buildings-01-06-b6230a3e5d35.zip — 322330805 bytes, SHA256 `226cdb4d098bea6e7f8de24c25ae245ae79ea6f8900de1d7a5da3d04ee9d3c7d`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Buildings-07-12-b6230a3e5d35.zip — 336671552 bytes, SHA256 `a173a5de6766a9a92dbadf3dde4f5d1e56c8ee7c616b6e9fddcee6960da31b5f`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Public-realm-b6230a3e5d35.zip — 77811558 bytes, SHA256 `6c0f90b6a25f91eda88a1fa29ce4da7c416baca5b9f26df8083a1b466b795f33`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Portable-town-b6230a3e5d35.zip — 284599678 bytes, SHA256 `a097a695d38520addca3686567bce56abf8dec12a7f421878d70f457251e7e67`.
