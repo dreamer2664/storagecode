@@ -445,3 +445,8 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 ## 2026-10-17T18:41:48.985741+00:00 — townsquare/blender partial R11 evidence backup
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-evidence-checkpoint-016-c6d31a252c.zip — 110365917 bytes, SHA256 `eac71b055f0b16d67ef6f0697035223af356abbd87f6d64412bd5c8e2685c860`. Anonymous CRC/every-member SHA/size verified. 16 completed originals; actual manual IDs B01_L01_cutaway,B01_L01_interior,B01_L01_plan,B01_L02_cutaway,B01_L02_interior,B01_L02_plan,B01_L03_cutaway,B01_L03_interior,B01_L03_plan,B02_L01_cutaway,B02_L01_interior,B02_L01_plan,B02_L02_cutaway,B02_L02_plan,D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`.
+
+
+## 2026-10-17T21:10:31.706628+00:00 — townsquare/blender unpromoted rebuilt editable study
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-c29eceffeb23-19100dd7ad3b.zip — 242583901bytes, SHA256`4f6a4469754c63b88b946a10bf012b5fdc77b62638f7f245c3419d9b5d98fa0a`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`c29eceffeb2371bf6cbb47e0046a9a4dcbda995cd5665ed048f6dc499ad9c6d8`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
