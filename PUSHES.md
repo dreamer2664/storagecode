@@ -440,3 +440,8 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 ## 2026-10-17T18:25:05.676101+00:00 — townsquare/blender candidate viewer and actual recovery proofs
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Viewer-and-proofs-7fb9ce64d020-0a6011a0135e.zip — 150625640 bytes; SHA256 `8e055e3e6b30239c8f35ee2741f4b734cac22b2bae52242f614391ca1adcecd2`. Anonymous CRC/every-member SHA/size actually verified. Includes actual145MBportable model/localviewer, two unique real-browser originals, native and neutralportable recovery proofs and explicitly unadopted/rejected quality study. Not final92, native-lighting WebGL parity, highrealism or independent acceptance.
+
+
+## 2026-10-17T18:41:48.985741+00:00 — townsquare/blender partial R11 evidence backup
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-evidence-checkpoint-016-c6d31a252c.zip — 110365917 bytes, SHA256 `eac71b055f0b16d67ef6f0697035223af356abbd87f6d64412bd5c8e2685c860`. Anonymous CRC/every-member SHA/size verified. 16 completed originals; actual manual IDs B01_L01_cutaway,B01_L01_interior,B01_L01_plan,B01_L02_cutaway,B01_L02_interior,B01_L02_plan,B01_L03_cutaway,B01_L03_interior,B01_L03_plan,B02_L01_cutaway,B02_L01_interior,B02_L01_plan,B02_L02_cutaway,B02_L02_plan,D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`.
