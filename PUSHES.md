@@ -357,3 +357,12 @@ https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candi
 Native `43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc`; actual anonymous public ZIP byte/CRC/every-manifest-member hashes PASS. Producer checkpoint, NOT final visual/independent acceptance.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-43692020a8b1/Winterlichtplatz-R6-Master-43692020a8b1.zip — 304378962 bytes, SHA256 `053a71125a430e9bc62014638cbcfae05fe34a95aa0d32da85cf13a9d33a473b`.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-43692020a8b1/Winterlichtplatz-R6-Editable-people-43692020a8b1.zip — 500770696 bytes, SHA256 `a5c0447b1e998a4a85c2486a71e213b720df31e234e6274256b7fe9b154493c1`.
+
+
+## 2026-10-17T07:42:30.283466+00:00 — townsquare/blender R7 producer checkpoint
+
+https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-d5ea619e187b
+
+Native `d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b`; actual anonymous public ZIP byte/CRC/every-manifest-member hashes PASS. Producer checkpoint, NOT final visual/independent acceptance.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-d5ea619e187b/Winterlichtplatz-R7-Master-d5ea619e187b.zip — 304347245 bytes, SHA256 `ff53b77b114784dd262d7f3d8e2e482e47180511e2d759622360222976e17e11`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-d5ea619e187b/Winterlichtplatz-R7-Editable-people-d5ea619e187b.zip — 500769816 bytes, SHA256 `3710c823679dfe3fb0005d12bc06006c650f06dfcc4c6524dc7403cd18040976`.
