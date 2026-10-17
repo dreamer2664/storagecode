@@ -330,3 +330,12 @@ Actual full master12 buildings/26 furnished occupied floors/164 rooms/36 static 
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Public-realm-4bf44a021c3d.zip — 50443138 B, SHA-256 `3055ba4002a6713e060d6349c0738231a8cd3a0cfecae2c0d2a682a7e7344301`, 8 verified members.
 
 Current production native SHA-256 `4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776`. DRAFT source PR https://github.com/dreamer2664/buildinglab/pull/6 (production source refresh pending at checkpoint time).
+
+
+## 2026-10-17T06:51:34.607994+00:00 — townsquare/blender R3 producer checkpoint
+
+https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-8c43a77eb790
+
+Native `8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb`; actual anonymous public ZIP byte/CRC/every-manifest-member hashes PASS. Producer checkpoint, NOT final visual/independent acceptance.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-8c43a77eb790/Winterlichtplatz-R3-Master-8c43a77eb790.zip — 303953843 bytes, SHA256 `4edee963f4c18f337f80d275a60a17981cf0f9a91e4ab5f695d572aa6ac6e63b`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-8c43a77eb790/Winterlichtplatz-R3-Editable-people-8c43a77eb790.zip — 500638807 bytes, SHA256 `3bfe789ef20fa019befbae3d1301b8b3badf14060e1421cf50604fe9665ca6df`.
