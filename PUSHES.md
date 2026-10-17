@@ -419,3 +419,4 @@ Native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`; actua
 ## 2026-10-17T16:51:18.872638+00:00 — townsquare/blender partial R11 evidence backup
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-evidence-checkpoint-008-9ff7717705.zip — 76098221 bytes, SHA256 `9c107b9e4e537121ff7c0a10313a17c17f79b25a7e5340d00ae48b6d4bfd5b0e`. Anonymous CRC/every-member SHA/size verified. 8 completed originals; actual manual IDs B01_L01_cutaway,B01_L01_interior,B01_L01_plan,B01_L02_plan,D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`.
+| 2026-10-17T17:01:35Z | lithos | frameforge | `4867a1d4570c` | frameforge/lithos/r02-cf454b17ffb2; [primary media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/lithos/r02-cf454b17ffb2) |
