@@ -227,3 +227,13 @@ Native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`; actua
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-evidence-checkpoint-008-9ff7717705.zip — 76098221 bytes, SHA256 `9c107b9e4e537121ff7c0a10313a17c17f79b25a7e5340d00ae48b6d4bfd5b0e`. Anonymous CRC/every-member SHA/size verified. 8 completed originals; actual manual IDs B01_L01_cutaway,B01_L01_interior,B01_L01_plan,B01_L02_plan,D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`.
 | 2026-10-17 | lithos | [Frameforge r02](frameforge/lithos/r02-cf454b17ffb2/publication.json) | frameforge/lithos/r02-cf454b17ffb2; [media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/lithos/r02-cf454b17ffb2); SHA256 cf454b17ffb275f8220b95d251d86628dfa8a8fda7e212d6b17ba7a0c504a2b3 |
+
+
+## 2026-10-17T17:03:18.391732+00:00 — townsquare/blender R11 models assets
+
+https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020
+Source native `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`. Actual anonymous public archive full-byte/CRC/every-member SHA/size verification PASS. Independent acceptance NOT granted.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Buildings-01-06-7fb9ce64d020.zip — 322685828 bytes, SHA256 `19e68ade8288ba670b6347eb6d959312df8ae8125b29a3ffc3c671ff3ff568ef`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Buildings-07-12-7fb9ce64d020.zip — 337030943 bytes, SHA256 `71933ad5b04c6e4e1f5e86e1497f5623178ce7ae4040c69c99929bf5cb867a6f`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Public-realm-7fb9ce64d020.zip — 78167385 bytes, SHA256 `377feb114a3f041d037cf461f6720d1488e7999c6ab4f56c1e992c001fb87346`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Portable-town-7fb9ce64d020.zip — 284962380 bytes, SHA256 `b36215f129c1a413aa078e775a18d24d4f4056e8cbb591107a845e3f54b29940`.
