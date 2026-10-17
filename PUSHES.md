@@ -460,3 +460,13 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 ## 2026-10-17T21:40:12.434140+00:00 — townsquare/blender unpromoted rebuilt editable study
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-8cf939dc13f9-80be1837147b.zip — 252046841bytes, SHA256`89ebf727e565f444dbe741d6c2d595a8275c230bfd95eb070a07fdb23bbf8d50`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
+
+
+## 2026-10-17T21:52:01.033916+00:00 — townsquare/blender unpromoted interior study models assets
+
+https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020
+Source native `8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d`. Actual anonymous public archive full-byte/CRC/every-member SHA/size verification PASS. Technical integrity only; final92/highrealism/independent acceptance NOT granted.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Buildings-01-06-8cf939dc13f9.zip — 328940066 bytes, SHA256 `2c4ddc4f9589e2cdf3bb12353937c5b80a26c2ec9f321ae1960465f272ef31fb`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Buildings-07-12-8cf939dc13f9.zip — 339582075 bytes, SHA256 `04acc22091aa280cb00e680087caba819ed3d629b05369227a9642d5946817b0`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Public-realm-8cf939dc13f9.zip — 77670248 bytes, SHA256 `60d3d249c1d78747e8f3b4c9e49f7497f4f5686c55de0989141ddf3a8f03efc7`.
+- https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Portable-town-8cf939dc13f9.zip — 294449660 bytes, SHA256 `8af5d7a5f6254144bdcf229ef529fe047c6447172ee29e2efff12ce5bb08679f`.
