@@ -401,3 +401,8 @@ Source native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Buildings-07-12-b6230a3e5d35.zip — 336671552 bytes, SHA256 `a173a5de6766a9a92dbadf3dde4f5d1e56c8ee7c616b6e9fddcee6960da31b5f`.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Public-realm-b6230a3e5d35.zip — 77811558 bytes, SHA256 `6c0f90b6a25f91eda88a1fa29ce4da7c416baca5b9f26df8083a1b466b795f33`.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Portable-town-b6230a3e5d35.zip — 284599678 bytes, SHA256 `a097a695d38520addca3686567bce56abf8dec12a7f421878d70f457251e7e67`.
+
+
+## 2026-10-17T15:51:35.106491+00:00 — townsquare/blender partial R10 evidence backup
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-evidence-checkpoint-003-d5233799bf.zip — 49922114 bytes, SHA256 `9d39c1ecf5a097d95a29818605de99ece42941b7e9f15a89cdec3725298fb720`. Anonymous CRC/every-member SHA/size verified. 3 completed originals; actual manual IDs D02,D08,H02. Partial checkpoint, NOT final/independent acceptance. Source native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`.
