@@ -193,3 +193,8 @@ https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candi
 Native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`; actual anonymous public ZIP byte/CRC/every-manifest-member hashes PASS. Producer checkpoint, NOT final visual/independent acceptance.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Master-b6230a3e5d35.zip — 301590723 bytes, SHA256 `6a7fd581a42fcdf93edc2dc7b714540fdcedad004106c1dcd7301313509fe9be`.
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Editable-people-b6230a3e5d35.zip — 500453565 bytes, SHA256 `db6b3c9c577cadc7635bb56d547963541e9ad5b8a8a061cff1b83632b21cf609`.
+
+
+## 2026-10-17T15:24:48.911936+00:00 — townsquare/blender partial R10 evidence backup
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-evidence-checkpoint-002-33003e1ca8.zip — 12214907 bytes, SHA256 `0fb84020d0ce4cb07c76d6d1ac9220acebfe3498b86ac986c5a84703a5631479`. Anonymous CRC/every-member SHA/size verified. 2 completed originals; actual manual IDs D02,D08. Partial checkpoint, NOT final/independent acceptance. Source native `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`.
