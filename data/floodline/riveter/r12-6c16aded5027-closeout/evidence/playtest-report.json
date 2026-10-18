@@ -1,0 +1,980 @@
+{
+  "downedCrewDrill": {
+    "crew": 3,
+    "distanceToShelter": 14,
+    "dragsHauled": 1,
+    "dragsStarted": 1,
+    "elapsedSeconds": 450.5,
+    "injected": true,
+    "log": [
+      {
+        "t": 891.4,
+        "text": "powered Pump"
+      },
+      {
+        "t": 892.4,
+        "text": "powered Lift"
+      },
+      {
+        "t": 893.1,
+        "text": "powered Winch"
+      },
+      {
+        "t": 893.9,
+        "text": "powered Bridge"
+      },
+      {
+        "t": 897.7,
+        "text": "drill: 6 surges put the district at 8.7m"
+      },
+      {
+        "t": 897.7,
+        "text": "drill: Drill3 is down in 1.5m of water"
+      },
+      {
+        "t": 898.2,
+        "text": "drill: Drill2 has hold of Drill3"
+      },
+      {
+        "t": 902.9,
+        "text": "drill: Drill3 is clear"
+      },
+      {
+        "t": 902.9,
+        "text": "drill: Drill3 back on their feet after 5s"
+      },
+      {
+        "t": 1046.7,
+        "text": "picked up triage kit for Survivor10"
+      },
+      {
+        "t": 1078.2,
+        "text": "triaged Survivor10"
+      }
+    ],
+    "modifier": "Standard",
+    "outcome": "hauled",
+    "reason": "casualty down at 8s, grabbed 8s",
+    "revived": true,
+    "surges": 6
+  },
+  "fails": 1,
+  "limitations": [
+    "No engine physics: bots teleport in straight lines at the server-set walk speed (0.5x past waist depth).",
+    "No client input latency, no camera, no fumbling a hold, no missed prompts.",
+    "Bots never get stuck on props, never stagger on ramps and never collide with each other.",
+    "Rendering, audio and framerate are not exercised at all."
+  ],
+  "note": "Bots play the shipped server modules on a virtual clock. Timings are a lower bound for a competent crew; engine physics, input and rendering are NOT exercised.",
+  "partials": 0,
+  "results": [
+    {
+      "abilitiesUsed": 0,
+      "casualties": [],
+      "cellsDocked": 4,
+      "crew": 1,
+      "dead": 0,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 111.5,
+      "evacuationAt": 56.3,
+      "firstPowerAt": 4.2,
+      "grade": "S",
+      "log": [
+        {
+          "t": 5.9,
+          "text": "powered Pump"
+        },
+        {
+          "t": 13.4,
+          "text": "powered Lift"
+        },
+        {
+          "t": 23.5,
+          "text": "powered Winch"
+        },
+        {
+          "t": 36,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 46.5,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 47.8,
+          "text": "escorting Survivor8 (Worker)"
+        },
+        {
+          "t": 50.3,
+          "text": "whistled 2 survivors in"
+        },
+        {
+          "t": 53.5,
+          "text": "escorting Survivor2 (Injured)"
+        },
+        {
+          "t": 58,
+          "text": "evacuation called"
+        },
+        {
+          "t": 61.8,
+          "text": "carrying Survivor4"
+        },
+        {
+          "t": 90.5,
+          "text": "whistled 1 survivors in"
+        }
+      ],
+      "lost": 1,
+      "modifier": "Calm",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 111.5,
+      "playerDowns": 0,
+      "quotaAt": 52.5,
+      "reason": "team evacuated with the required survivors",
+      "recovered": 0,
+      "required": 3,
+      "rescued": 9,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        }
+      ],
+      "routes": [],
+      "salvage": 265,
+      "score": 2423,
+      "startedAt": 0,
+      "survivorDowns": 1,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.05,
+          "t": 20
+        },
+        {
+          "level": 0.08,
+          "t": 40
+        },
+        {
+          "level": 0.12,
+          "t": 60
+        },
+        {
+          "level": 0.19,
+          "t": 80
+        },
+        {
+          "level": 0.25,
+          "t": 100
+        },
+        {
+          "level": 0.29,
+          "t": 111
+        }
+      ],
+      "waterPeak": 0.293,
+      "whistledSurvivors": 3,
+      "whistles": 2,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 0,
+      "casualties": [
+        {
+          "cause": "their injuries",
+          "depth": 1.54,
+          "level": 0.44,
+          "name": "Survivor12",
+          "t": 107.8
+        }
+      ],
+      "cellsDocked": 4,
+      "crew": 1,
+      "dead": 1,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 148.1,
+      "evacuationAt": 28.3,
+      "firstPowerAt": 1.9,
+      "grade": "S",
+      "log": [
+        {
+          "t": 117.3,
+          "text": "powered Pump"
+        },
+        {
+          "t": 118.3,
+          "text": "powered Lift"
+        },
+        {
+          "t": 119,
+          "text": "powered Winch"
+        },
+        {
+          "t": 119.8,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 130.1,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 131.4,
+          "text": "escorting Survivor8 (Worker)"
+        },
+        {
+          "t": 134.1,
+          "text": "whistled 2 survivors in"
+        },
+        {
+          "t": 136.9,
+          "text": "escorting Survivor2 (Injured)"
+        },
+        {
+          "t": 143.6,
+          "text": "evacuation called"
+        },
+        {
+          "t": 147.4,
+          "text": "carrying Survivor4"
+        },
+        {
+          "t": 174.4,
+          "text": "whistled 1 survivors in"
+        },
+        {
+          "t": 180.9,
+          "text": "picked up triage kit for Survivor12"
+        }
+      ],
+      "lost": 1,
+      "modifier": "Standard",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 148.1,
+      "playerDowns": 0,
+      "quotaAt": 24.3,
+      "reason": "extraction window closed with the quota met",
+      "recovered": 0,
+      "required": 5,
+      "rescued": 8,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        }
+      ],
+      "routes": [],
+      "salvage": 240,
+      "score": 2139,
+      "startedAt": 0,
+      "survivorDowns": 1,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.05,
+          "t": 20
+        },
+        {
+          "level": 0.13,
+          "t": 40
+        },
+        {
+          "level": 0.22,
+          "t": 60
+        },
+        {
+          "level": 0.31,
+          "t": 80
+        },
+        {
+          "level": 0.4,
+          "t": 100
+        },
+        {
+          "level": 0.49,
+          "t": 120
+        },
+        {
+          "level": 0.59,
+          "t": 140
+        },
+        {
+          "level": 0.62,
+          "t": 148
+        }
+      ],
+      "waterPeak": 0.626,
+      "whistledSurvivors": 3,
+      "whistles": 2,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 0,
+      "casualties": [],
+      "cellsDocked": 4,
+      "crew": 1,
+      "dead": 0,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 148.6,
+      "evacuationAt": 28.8,
+      "firstPowerAt": 2,
+      "grade": "S",
+      "log": [
+        {
+          "t": 267.4,
+          "text": "powered Pump"
+        },
+        {
+          "t": 268.4,
+          "text": "powered Lift"
+        },
+        {
+          "t": 269.2,
+          "text": "powered Winch"
+        },
+        {
+          "t": 269.9,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 280.3,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 281.5,
+          "text": "escorting Survivor8 (Worker)"
+        },
+        {
+          "t": 284,
+          "text": "whistled 2 survivors in"
+        },
+        {
+          "t": 288.8,
+          "text": "escorting Survivor2 (Injured)"
+        },
+        {
+          "t": 294.3,
+          "text": "evacuation called"
+        },
+        {
+          "t": 296.8,
+          "text": "escorting Survivor7 (Injured)"
+        },
+        {
+          "t": 306,
+          "text": "escorting Survivor3 (Elderly)"
+        }
+      ],
+      "lost": 0,
+      "modifier": "Storm",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 148.6,
+      "playerDowns": 0,
+      "quotaAt": 25.1,
+      "reason": "extraction window closed with the quota met",
+      "recovered": 0,
+      "required": 6,
+      "rescued": 8,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        }
+      ],
+      "routes": [],
+      "salvage": 240,
+      "score": 2123,
+      "startedAt": 0,
+      "survivorDowns": 0,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.06,
+          "t": 20
+        },
+        {
+          "level": 0.15,
+          "t": 40
+        },
+        {
+          "level": 0.26,
+          "t": 60
+        },
+        {
+          "level": 0.38,
+          "t": 80
+        },
+        {
+          "level": 0.49,
+          "t": 100
+        },
+        {
+          "level": 0.6,
+          "t": 120
+        },
+        {
+          "level": 0.71,
+          "t": 140
+        },
+        {
+          "level": 0.76,
+          "t": 148
+        }
+      ],
+      "waterPeak": 0.765,
+      "whistledSurvivors": 2,
+      "whistles": 1,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 0,
+      "casualties": [],
+      "cellsDocked": 4,
+      "crew": 2,
+      "dead": 0,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 137.3,
+      "evacuationAt": 17.6,
+      "firstPowerAt": 2,
+      "grade": "S",
+      "log": [
+        {
+          "t": 420,
+          "text": "powered Pump"
+        },
+        {
+          "t": 421,
+          "text": "powered Lift"
+        },
+        {
+          "t": 421.8,
+          "text": "powered Winch"
+        },
+        {
+          "t": 422.5,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 432.9,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 435.6,
+          "text": "evacuation called"
+        },
+        {
+          "t": 450.4,
+          "text": "picked up triage kit for Survivor4"
+        },
+        {
+          "t": 450.6,
+          "text": "triaged Survivor4"
+        },
+        {
+          "t": 458.4,
+          "text": "whistled 1 survivors in"
+        },
+        {
+          "t": 469.6,
+          "text": "picked up triage kit for Survivor4"
+        }
+      ],
+      "lost": 0,
+      "modifier": "Standard",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 137.3,
+      "playerDowns": 0,
+      "quotaAt": 6.2,
+      "reason": "extraction window closed with the quota met",
+      "recovered": 0,
+      "required": 6,
+      "rescued": 9,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        },
+        {
+          "name": "Bot2",
+          "role": "Diver"
+        }
+      ],
+      "routes": [],
+      "salvage": 265,
+      "score": 2346,
+      "startedAt": 0,
+      "survivorDowns": 0,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.07,
+          "t": 20
+        },
+        {
+          "level": 0.17,
+          "t": 40
+        },
+        {
+          "level": 0.27,
+          "t": 60
+        },
+        {
+          "level": 0.37,
+          "t": 80
+        },
+        {
+          "level": 0.48,
+          "t": 100
+        },
+        {
+          "level": 0.58,
+          "t": 120
+        },
+        {
+          "level": 0.67,
+          "t": 137
+        }
+      ],
+      "waterPeak": 0.675,
+      "whistledSurvivors": 3,
+      "whistles": 2,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 0,
+      "casualties": [
+        {
+          "cause": "their injuries",
+          "depth": 1.61,
+          "level": 0.51,
+          "name": "Survivor12",
+          "t": 89
+        }
+      ],
+      "cellsDocked": 4,
+      "crew": 2,
+      "dead": 1,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 137.5,
+      "evacuationAt": 17.5,
+      "firstPowerAt": 1.9,
+      "grade": "S",
+      "log": [
+        {
+          "t": 561.4,
+          "text": "powered Pump"
+        },
+        {
+          "t": 562.4,
+          "text": "powered Lift"
+        },
+        {
+          "t": 563.1,
+          "text": "powered Winch"
+        },
+        {
+          "t": 563.9,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 574.2,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 577,
+          "text": "evacuation called"
+        },
+        {
+          "t": 580.7,
+          "text": "carrying Survivor4"
+        },
+        {
+          "t": 599.7,
+          "text": "whistled 1 survivors in"
+        },
+        {
+          "t": 606.2,
+          "text": "picked up triage kit for Survivor12"
+        }
+      ],
+      "lost": 1,
+      "modifier": "Storm",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 137.5,
+      "playerDowns": 0,
+      "quotaAt": 7.2,
+      "reason": "extraction window closed with the quota met",
+      "recovered": 0,
+      "required": 7,
+      "rescued": 8,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        },
+        {
+          "name": "Bot2",
+          "role": "Diver"
+        }
+      ],
+      "routes": [],
+      "salvage": 240,
+      "score": 2202,
+      "startedAt": 0,
+      "survivorDowns": 1,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.08,
+          "t": 20
+        },
+        {
+          "level": 0.21,
+          "t": 40
+        },
+        {
+          "level": 0.34,
+          "t": 60
+        },
+        {
+          "level": 0.46,
+          "t": 80
+        },
+        {
+          "level": 0.59,
+          "t": 101
+        },
+        {
+          "level": 0.72,
+          "t": 121
+        },
+        {
+          "level": 0.82,
+          "t": 137
+        }
+      ],
+      "waterPeak": 0.824,
+      "whistledSurvivors": 3,
+      "whistles": 2,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 2,
+      "casualties": [],
+      "cellsDocked": 4,
+      "crew": 4,
+      "dead": 0,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 71.3,
+      "evacuationAt": 16.3,
+      "firstPowerAt": 1.7,
+      "grade": "S",
+      "log": [
+        {
+          "t": 706.7,
+          "text": "powered Pump"
+        },
+        {
+          "t": 707.7,
+          "text": "powered Lift"
+        },
+        {
+          "t": 708.4,
+          "text": "powered Winch"
+        },
+        {
+          "t": 709.2,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 718.5,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 721.3,
+          "text": "evacuation called"
+        },
+        {
+          "t": 737.3,
+          "text": "picked up triage kit for Survivor4"
+        }
+      ],
+      "lost": 0,
+      "modifier": "Standard",
+      "modifierApplied": true,
+      "outcome": "win",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 71.3,
+      "playerDowns": 0,
+      "quotaAt": 7.2,
+      "reason": "team evacuated with the required survivors",
+      "recovered": 0,
+      "required": 7,
+      "rescued": 8,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        },
+        {
+          "name": "Bot2",
+          "role": "Diver"
+        },
+        {
+          "name": "Bot3",
+          "role": "Medic"
+        },
+        {
+          "name": "Bot4",
+          "role": "Rigger"
+        }
+      ],
+      "routes": [],
+      "salvage": 240,
+      "score": 2488,
+      "startedAt": 0,
+      "survivorDowns": 0,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.08,
+          "t": 20
+        },
+        {
+          "level": 0.2,
+          "t": 40
+        },
+        {
+          "level": 0.32,
+          "t": 60
+        },
+        {
+          "level": 0.38,
+          "t": 71
+        }
+      ],
+      "waterPeak": 0.387,
+      "whistledSurvivors": 2,
+      "whistles": 1,
+      "winchCranks": 0
+    },
+    {
+      "abilitiesUsed": 3,
+      "casualties": [
+        {
+          "cause": "the water",
+          "depth": 3.46,
+          "level": 2.89,
+          "name": "Survivor4",
+          "t": 88.8
+        },
+        {
+          "cause": "the water",
+          "depth": 1.83,
+          "level": 4.15,
+          "name": "Survivor12",
+          "t": 95.3
+        },
+        {
+          "cause": "the water",
+          "depth": 1.75,
+          "level": 4.21,
+          "name": "Survivor3",
+          "t": 96
+        },
+        {
+          "cause": "the water",
+          "depth": 1.8,
+          "level": 4.46,
+          "name": "Survivor10",
+          "t": 99
+        }
+      ],
+      "cellsDocked": 4,
+      "crew": 4,
+      "dead": 4,
+      "dragsHauled": 0,
+      "dragsStarted": 0,
+      "elapsedSeconds": 99,
+      "firstPowerAt": 1.7,
+      "grade": "S",
+      "log": [
+        {
+          "t": 786,
+          "text": "powered Pump"
+        },
+        {
+          "t": 787,
+          "text": "powered Lift"
+        },
+        {
+          "t": 787.8,
+          "text": "powered Winch"
+        },
+        {
+          "t": 788.5,
+          "text": "powered Bridge"
+        },
+        {
+          "t": 797.9,
+          "text": "relay repaired (+1 capacity)"
+        },
+        {
+          "t": 800.6,
+          "text": "escorting Survivor7 (Injured)"
+        },
+        {
+          "t": 866.1,
+          "text": "whistled 2 survivors in"
+        },
+        {
+          "t": 866.6,
+          "text": "ability Engineer"
+        },
+        {
+          "t": 877.9,
+          "text": "escorting Survivor12 (Worker)"
+        },
+        {
+          "t": 878.4,
+          "text": "escorting Survivor12 (Worker)"
+        },
+        {
+          "t": 878.9,
+          "text": "escorting Survivor12 (Worker)"
+        },
+        {
+          "t": 879.1,
+          "text": "escorting Survivor3 (Elderly)"
+        },
+        {
+          "t": 879.4,
+          "text": "escorting Survivor3 (Elderly)"
+        },
+        {
+          "t": 879.6,
+          "text": "escorting Survivor3 (Elderly)"
+        },
+        {
+          "t": 879.9,
+          "text": "escorting Survivor3 (Elderly)"
+        },
+        {
+          "t": 880.4,
+          "text": "escorting Survivor3 (Elderly)"
+        },
+        {
+          "t": 880.9,
+          "text": "escorting Survivor10 (Engineer)"
+        },
+        {
+          "t": 881.1,
+          "text": "escorting Survivor10 (Engineer)"
+        },
+        {
+          "t": 881.6,
+          "text": "escorting Survivor10 (Engineer)"
+        },
+        {
+          "t": 882.1,
+          "text": "escorting Survivor10 (Engineer)"
+        },
+        {
+          "t": 882.6,
+          "text": "escorting Survivor10 (Engineer)"
+        },
+        {
+          "t": 883.4,
+          "text": "escorting Survivor10 (Engineer)"
+        }
+      ],
+      "lost": 5,
+      "modifier": "Catastrophe",
+      "modifierApplied": true,
+      "outcome": "fail",
+      "outfallCranks": 0,
+      "outfallOpens": 0,
+      "padAt": 99,
+      "playerDowns": 0,
+      "reason": "not enough survivors can still be saved",
+      "recovered": 0,
+      "required": 9,
+      "rescued": 6,
+      "roles": [
+        {
+          "name": "Bot1",
+          "role": "Engineer"
+        },
+        {
+          "name": "Bot2",
+          "role": "Diver"
+        },
+        {
+          "name": "Bot3",
+          "role": "Medic"
+        },
+        {
+          "name": "Bot4",
+          "role": "Rigger"
+        }
+      ],
+      "routes": [],
+      "salvage": 210,
+      "score": 1925,
+      "startedAt": 0,
+      "survivorDowns": 1,
+      "upgrades": [],
+      "waterCurve": [
+        {
+          "level": 0.1,
+          "t": 20
+        },
+        {
+          "level": 0.19,
+          "t": 40
+        },
+        {
+          "level": 0.99,
+          "t": 60
+        },
+        {
+          "level": 2.08,
+          "t": 80
+        },
+        {
+          "level": 4.46,
+          "t": 99
+        }
+      ],
+      "waterPeak": 4.467,
+      "whistledSurvivors": 6,
+      "whistles": 3,
+      "winchCranks": 0
+    }
+  ],
+  "runs": 7,
+  "unresolved": 0,
+  "wins": 6
+}
