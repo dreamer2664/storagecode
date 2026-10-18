@@ -301,3 +301,8 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 | 2026-10-18 | riveter | [Frameforge evidence](https://github.com/dreamer2664/storagecode/tree/main/data/floodline/riveter/r12-6c16aded5027-closeout) | floodline/riveter/evidence/r12-6c16aded5027-closeout |
 
 | 2026-10-18 | worldworks | vesta | [data/worldworks/2026-10-18-vesta/deployment-receipt.json](worldworks/2026-10-18-vesta/deployment-receipt.json) | 15-agent deployment kit; Blender40failure audit/Riveter artifact verification; immutable archive and exact source SHA; no agents registered/claimed |
+
+
+## 2026-10-18T17:54:43.488284+00:00 — townsquare/blender unpromoted rebuilt editable study
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-75945c0b9c4f-4fdecb089faf.zip — 692119646bytes, SHA256`01661ce24872c0695487218bd089aea0c6a5afed29726c59d22864ee4883ac0e`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`75945c0b9c4fe38a9372604bcfdd625fb3c8740c1025178ba5e7428e27406cc6`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.

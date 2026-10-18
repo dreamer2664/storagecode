@@ -496,3 +496,8 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 | 2026-10-18 | vesta | agency-worldworks | main@5d0a13976829cd2676fa07ed4063a558ae7da8df | Director commission: 10 Blender worlds + 5 Roblox games; audits/policy/guards; remote verified | no agents awake; prepare owner kit |
 | 2026-10-18 | vesta | agency-worldworks | main@a6ed75a781fe82e9922d5b90051933d89e992239 | Clarified native header gate and verified Riveter manifest; 6/6 local negative tests; no credentials | independently reviewed future deliveries only |
 | 2026-10-18 | vesta | storagecode | atomic commissioning archive/ledger receipt commit | worldworks/commissioner/deployment-20261018-a6ed75a781fe; 3 assets anonymously byte-verified; ZIP CRC and all30 payload SHA verified | owner deploys agents; no model/game acceptance |
+
+
+## 2026-10-18T17:54:43.488284+00:00 — townsquare/blender unpromoted rebuilt editable study
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-75945c0b9c4f-4fdecb089faf.zip — 692119646bytes, SHA256`01661ce24872c0695487218bd089aea0c6a5afed29726c59d22864ee4883ac0e`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`75945c0b9c4fe38a9372604bcfdd625fb3c8740c1025178ba5e7428e27406cc6`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
