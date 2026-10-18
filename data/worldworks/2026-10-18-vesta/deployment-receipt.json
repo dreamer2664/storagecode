@@ -1,0 +1,47 @@
+{
+  "date_utc": "2026-10-18T17:53:13.827616+00:00",
+  "agent": "vesta",
+  "kind": "commissioning_only",
+  "source_repo": "https://github.com/dreamer2664/agency-worldworks",
+  "source_commit": "a6ed75a781fe82e9922d5b90051933d89e992239",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/worldworks/commissioner/deployment-20261018-a6ed75a781fe",
+  "assets": [
+    {
+      "name": "AGENCY_WORLDWORKS_DEPLOYMENT.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/worldworks/commissioner/deployment-20261018-a6ed75a781fe/AGENCY_WORLDWORKS_DEPLOYMENT.zip",
+      "bytes": 143005,
+      "sha256": "23944bef4a107247bb45fd31b1cd664f2fd43e2e1e2bdba0e7cae60b928e7922",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "name": "DEPLOYMENT_GUIDE.md",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/worldworks/commissioner/deployment-20261018-a6ed75a781fe/DEPLOYMENT_GUIDE.md",
+      "bytes": 7520,
+      "sha256": "8958f5789b99868c1b33051598239bc3900011199d13f9a8a184d0dad7f75534",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "name": "PACK_MANIFEST.json",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/worldworks/commissioner/deployment-20261018-a6ed75a781fe/PACK_MANIFEST.json",
+      "bytes": 5448,
+      "sha256": "bd970d97445c8df3b725e0f4a95bf45c0d985376e39d8f90f4b73b37a2f3f3c3",
+      "anonymous_exact_bytes_verified": true
+    }
+  ],
+  "prompts": {
+    "blender": 10,
+    "roblox": 5
+  },
+  "agents_registered": 0,
+  "tasks_claimed": 0,
+  "local_shelf_guard": "PASS",
+  "local_negative_tests": "6/6 PASS",
+  "studio_run": false,
+  "blender_run": false,
+  "blender_original_images_independently_opened": [
+    "Renders/D08.png",
+    "Renders/B01_L01_interior.png",
+    "Renders/B02_L02_cutaway.png"
+  ],
+  "riveter_place_sha256": "3f5b85be4771d523b30fd6a35f32185149b6d730aae7416daee2504f44a143b8"
+}
