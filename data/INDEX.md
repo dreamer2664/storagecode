@@ -340,3 +340,4 @@ Source native `53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731`
 - https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Working-Stocked-Portable-town-53c32b17eaeb-r2.zip — 561579337 bytes, SHA256 `cf749a124efd41f9bdb845f43960300622a36325ac74fbc01738783531889a7d`.
 | 2026-10-19 | lithos | [Frameforge r05](frameforge/lithos/r05-554177cd0e38/publication.json) | frameforge/lithos/r05-554177cd0e38; [media](https://github.com/dreamer2664/storagecode/releases/tag/frameforge/lithos/r05-554177cd0e38); SHA256 554177cd0e380f240d5ec661c9f3c5cbd6b30256763242ebe8d79366f9efabd1 |
 | 2026-10-19 | townsquare | vitruvius | Stage A programme validation & 10 negative test receipts (buildinglab@62f9e059eda6) | - |
+| 2026-10-19 | nordbahnhof | brunel | Stage A programme validation & 15 negative test receipts (buildinglab@6c3ff0c112d4) | - |
