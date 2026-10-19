@@ -1,0 +1,40 @@
+{
+  "study_native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020",
+  "archives": [
+    {
+      "asset": "Winterlichtplatz-Working-Stocked-Buildings-01-06-53c32b17eaeb-r2.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Working-Stocked-Buildings-01-06-53c32b17eaeb-r2.zip",
+      "bytes": 353670430,
+      "sha256": "ba21e94ab2b8479d341e4a497c076b5d9877f2b16fd18e6e9a871514d5f79145",
+      "archive_entries": 115,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-Working-Stocked-Buildings-07-12-53c32b17eaeb-r2.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Working-Stocked-Buildings-07-12-53c32b17eaeb-r2.zip",
+      "bytes": 363305330,
+      "sha256": "86d19e51b935c1255039bd541a84f38c95c4dd24b94083a1cb88c4e56ef1d8e9",
+      "archive_entries": 115,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-Working-Stocked-Public-realm-53c32b17eaeb-r2.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Working-Stocked-Public-realm-53c32b17eaeb-r2.zip",
+      "bytes": 80027107,
+      "sha256": "cf0f42ab1e6c4cb27b4c68ec6c82589cf7d95537c6d47b03a48c8e7e538fce08",
+      "archive_entries": 99,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-Working-Stocked-Portable-town-53c32b17eaeb-r2.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Working-Stocked-Portable-town-53c32b17eaeb-r2.zip",
+      "bytes": 561579337,
+      "sha256": "cf749a124efd41f9bdb845f43960300622a36325ac74fbc01738783531889a7d",
+      "archive_entries": 111,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    }
+  ],
+  "scope": "WORKING STOCKED TOWN / original-UV photographic scans, measured portableLOD; Technical integrity gates passed; native full detail, portable measured~50kpeople/2kphotoLOD; actual final92/highrealism/independent acceptance separate andOPEN",
+  "verified_utc": "2026-10-19T06:55:00.508005+00:00"
+}
