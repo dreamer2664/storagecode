@@ -518,3 +518,8 @@ https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/
 ## 2026-10-19T06:19:16.761280+00:00 — townsquare/blender unpromoted rebuilt editable study
 
 https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-53c32b17eaeb-88b5a01c088b.zip — 614160232bytes, SHA256`2f165f31a2c7a123a29ac610da4b6b1f238b79526a46f64582eefd3f6b53e80e`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
+
+
+## 2026-10-19T06:46:17.293510+00:00 — townsquare/blender unpromoted rebuilt editable study
+
+https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-97e0004aba8c-1823719eb62f.zip — 617875453bytes, SHA256`052c6b39acc590b719aab59df5067d3f0c8a8c62e211bc9417784c2f8ae45a67`; actual anonymous ZIPCRC/everymemberSHA/bytes PASS. New editable native`97e0004aba8c96b8ba512d1a3733d91f112766cad58c3c2856969aa12ccda686`; historical second-study26plans/source/real observations preserved. Older lost study binaries not included; fresh plan reinspection, portable exports, realism/final92/independent acceptance OPEN. Not a promoted R12 or final delivery.
