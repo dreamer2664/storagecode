@@ -354,3 +354,4 @@ Rendered images of all twelve buildings and four whole-village views, the full e
 - `Winterlichtplatz-Portable-3D-r14-d10116969530.zip` 415110630 B, SHA-256 `4d5586273a7f5b85c34f848aafa809951161bc0d741d4238da9621684dc17c2a` (40 entries, anonymous CRC + member SHA verified)
 
 Producer inspection of 16 renders recorded, including one FIX_REQUIRED verdict; independent non-owner acceptance remains pending.| 2026-10-19 | nordbahnhof | brunel | NORDBAHNHOF Stage A–H release package & evidence (buildinglab@246bce64b374) | nordbahnhof/brunel/r01-0f5940b98c40 |
+| 2026-10-20 | nordbahnhof | brunel | Native 2560 demodulated renders: 30 BEST (16.9 MB, no upscale, 3spp demod) + 30 FINAL (2560) + 30 PROOF (1024), 4139 objects, 15/15 validators PASS, release nordbahnhof/brunel/r01-eba0cfd32f1b verified | - |

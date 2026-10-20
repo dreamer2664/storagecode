@@ -1,0 +1,72 @@
+{
+  "tag": "nordbahnhof/brunel/r01-eba0cfd32f1b",
+  "html_url": "https://github.com/dreamer2664/storagecode/releases/tag/nordbahnhof/brunel/r01-eba0cfd32f1b",
+  "all_verified": true,
+  "blender_object_count_verified": 4139,
+  "assets": [
+    {
+      "name": "NORDBAHNHOF.blend.zst",
+      "http_status": 200,
+      "bytes": 501767,
+      "sha256": "6e99057f356acff570e21e776ff01480d5025f531be472a52701a062a7dd1961",
+      "zstd_test": "PASS",
+      "tar_members": 0
+    },
+    {
+      "name": "NORDBAHNHOF_lib.blend.zst",
+      "http_status": 200,
+      "bytes": 501764,
+      "sha256": "8e634d62ba7bf0e0d506a5fc87b000acb9f7ed8bb7b1ed14fbd6863a180b47be",
+      "zstd_test": "PASS",
+      "tar_members": 0
+    },
+    {
+      "name": "NORDBAHNHOF_exports.tar.zst",
+      "http_status": 200,
+      "bytes": 195608,
+      "sha256": "cef5920272b14887d66bf69849a3243cfbe9d2f6fef9d12429cc4e2e4c1ceffa",
+      "zstd_test": "PASS",
+      "tar_members": 2
+    },
+    {
+      "name": "NORDBAHNHOF_renders_final.tar.zst",
+      "http_status": 200,
+      "bytes": 16973234,
+      "sha256": "7bd4186ca924dc57c0ae2eae40d2c72c2dac3b0553d4bff88ab33550b633869a",
+      "zstd_test": "PASS",
+      "tar_members": 34
+    },
+    {
+      "name": "NORDBAHNHOF_renders_proof.tar.zst",
+      "http_status": 200,
+      "bytes": 3526519,
+      "sha256": "eedbbc4cbc4b998a166ef308bef7552730bd19ecb097021db509cb0942c0e64d",
+      "zstd_test": "PASS",
+      "tar_members": 33
+    },
+    {
+      "name": "NORDBAHNHOF_evidence.tar.zst",
+      "http_status": 200,
+      "bytes": 14772,
+      "sha256": "13726103deb3cc7f8bcffcb46d1e9c697ec92e7cf4a0ffb7959cfb533364e698",
+      "zstd_test": "PASS",
+      "tar_members": 54
+    },
+    {
+      "name": "RELEASE_NOTES.md",
+      "http_status": 200,
+      "bytes": 3163,
+      "sha256": "f62b8807a3b25485b9ae304fd683bd3acded76695f2090d1b220bafc89e67381",
+      "zstd_test": "PASS",
+      "tar_members": 0
+    },
+    {
+      "name": "SHA256SUMS",
+      "http_status": 200,
+      "bytes": 11420,
+      "sha256": "6ffa43f99c7db04686097ce5391ce84aac5abc749b0b6bc39ba6d654c7681b4d",
+      "zstd_test": "PASS",
+      "tar_members": 0
+    }
+  ]
+}
