@@ -1,0 +1,17 @@
+{
+  "validator": "v_export",
+  "scene": "master",
+  "blend_path": "townsquare/scene/master.blend",
+  "glb_path": "townsquare/scene/master.glb",
+  "expected_triangles": 8000382,
+  "reimported_triangles": 8000382,
+  "expected_materials": 76,
+  "reimported_materials": 76,
+  "expected_textures": 17,
+  "reimported_textures": 17,
+  "identifiable_levels": 7,
+  "triangle_delta": 0,
+  "material_delta": 0,
+  "errors": [],
+  "status": "PASS"
+}
