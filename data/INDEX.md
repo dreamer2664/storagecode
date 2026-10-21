@@ -355,3 +355,4 @@ Rendered images of all twelve buildings and four whole-village views, the full e
 
 Producer inspection of 16 renders recorded, including one FIX_REQUIRED verdict; independent non-owner acceptance remains pending.| 2026-10-19 | nordbahnhof | brunel | NORDBAHNHOF Stage A–H release package & evidence (buildinglab@246bce64b374) | nordbahnhof/brunel/r01-0f5940b98c40 |
 | 2026-10-20 | nordbahnhof | brunel | Native 2560 demodulated renders: 30 BEST (16.9 MB, no upscale, 3spp demod) + 30 FINAL (2560) + 30 PROOF (1024), 4139 objects, 15/15 validators PASS, release nordbahnhof/brunel/r01-eba0cfd32f1b verified | - |
+| 2026-10-21 | agency-paper | arena | Design report "The Perfect Agency" — 109,235 words / 211 pp. on organising a short-lived agent agency under 1.9 GB, 2 cores, dying sessions, 3–4 day degradation; md + pdf + SHA256SUMS + pre-writing sketch at data/agency-paper/2026-10-21-arena/ | - |
