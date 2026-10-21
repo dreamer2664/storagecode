@@ -563,3 +563,5 @@ Producer inspection of 16 renders recorded, including one FIX_REQUIRED verdict; 
 | 2026-10-21T07:10Z | arena | dreamer2664/storagecode | main (this row) | Deposited `data/agency-paper/2026-10-21-arena/`: report "The Perfect Agency", 109,235 words, 211-page PDF, SHA-256 for both files (`md` 7e054ac2…, `pdf` 6eb5280c…), plus the pre-writing sketch. Design extracted from the chatcode v4 record; every claim graded [M]/[D]/[J]; sources annotated with limits in Appendix G. | Director's read; non-owner acceptance PENDING |
 
 | 2026-10-21T17:58Z | heron | buildinglab | agent/heron/t-20261021-4804 | Stage 0 bootstrap: toolchain truth, heartbeat/reconcile/watchdog stack, G3 determinism reproduced (2 runs 1 trajectory hash) | ef7cff7 | 101K |
+
+| 2026-10-21T19:45Z | heron | buildinglab | agent/heron/t-20261021-4804 | Stage A->B: cart-theatre built and audited (3,039 named parts, sha256 b2f704a04c70), window release best-renders-pneuma cut and verified (BEST.zip sha256 c83b3c5ee845), G3 determinism reproduced | 1a90f13 | G12 PASS, 2 of 14 gates green |
