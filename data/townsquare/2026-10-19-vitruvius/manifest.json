@@ -7924,5 +7924,15 @@
       "geometry_sha256": "719645dbf8687a42be4bc39a8cded5da87834fc8649ddb66300a1f8b4a57a8cc",
       "timestamp_utc": "2026-10-20T01:49:58Z"
     }
+  },
+  "buildinglab_commit": "431cdfcf50f99c6899ecb8f932e02cb4d8a6a0e9",
+  "playable_upgrade": {
+    "rigged_humans": 340,
+    "bones_per_human": 23,
+    "vertex_groups_per_human": 23,
+    "shape_keys_per_human": 5,
+    "hinged_playable_doors": 62,
+    "wind_rigged_trees": 32,
+    "viewer_path": "townsquare/playable/index.html"
   }
 }
