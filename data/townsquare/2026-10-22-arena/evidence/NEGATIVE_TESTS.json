@@ -1,0 +1,109 @@
+{
+  "negative_tests": 17,
+  "caught": 17,
+  "results": [
+    {
+      "id": "N01",
+      "target": "V01",
+      "caught": true,
+      "detail": "9 buildings"
+    },
+    {
+      "id": "N02",
+      "target": "V02",
+      "caught": true,
+      "detail": "floors per building: {'B01': 4, 'B02': 3, 'B03': 3, 'B04': 4, 'B05': 4, 'B06': 3, 'B07': 3, 'B08': 4, 'B09': 4, 'B10': 3}, declared-vs-built mismatch: {'B01': (6, 4)}"
+    },
+    {
+      "id": "N03",
+      "target": "V03",
+      "caught": true,
+      "detail": "interior parts per building: {'B02': 70, 'B03': 70, 'B04': 140, 'B05': 104, 'B06': 70, 'B07': 70, 'B08': 104, 'B09': 104, 'B10': 70}"
+    },
+    {
+      "id": "N04",
+      "target": "V04",
+      "caught": true,
+      "detail": "34 floor programmes, thin={}, missing=['B02L2']"
+    },
+    {
+      "id": "N05",
+      "target": "V05",
+      "caught": true,
+      "detail": "stair flights per building (found vs needed): {'B03': (0, 2)}"
+    },
+    {
+      "id": "N06",
+      "target": "V06",
+      "caught": true,
+      "detail": "10 doors checked, 1 blocked"
+    },
+    {
+      "id": "N07",
+      "target": "V07",
+      "caught": true,
+      "detail": "spawn at [0.0, 0.35, -7.0], blockers=['Crate/on_spawn']"
+    },
+    {
+      "id": "N08",
+      "target": "V08",
+      "caught": true,
+      "detail": "64 residents, 1 without a bed"
+    },
+    {
+      "id": "N09",
+      "target": "V09",
+      "caught": true,
+      "detail": "windows per building: {'B01': 48, 'B02': 32, 'B03': 32, 'B04': 48, 'B06': 32, 'B07': 32, 'B08': 42, 'B09': 48, 'B10': 36}"
+    },
+    {
+      "id": "N10",
+      "target": "V10",
+      "caught": true,
+      "detail": "roof parts per building: {'B01': 3, 'B02': 3, 'B03': 3, 'B04': 3, 'B05': 3, 'B07': 3, 'B08': 3, 'B09': 3, 'B10': 3}"
+    },
+    {
+      "id": "N11",
+      "target": "V11",
+      "caught": true,
+      "detail": "3452 parts compared, 0 problems"
+    },
+    {
+      "id": "N12",
+      "target": "V12",
+      "caught": true,
+      "detail": "3451/3452 colours trace to a scan or a declared accent, off-palette=[('B01/L1/FacadeFront_1', (1, 2, 3))]"
+    },
+    {
+      "id": "N13",
+      "target": "V14",
+      "caught": true,
+      "detail": "tokens from live enum dump; invalid=['Plaster']"
+    },
+    {
+      "id": "N14",
+      "target": "V15",
+      "caught": true,
+      "detail": "64 residents, 64 distinct roles, 1 duplicate names"
+    },
+    {
+      "id": "N15",
+      "target": "V09",
+      "caught": true,
+      "detail": "windows per building: {'B01': 48, 'B02': 32, 'B03': 32, 'B04': 48, 'B05': 48, 'B06': 32, 'B08': 42, 'B09': 48, 'B10': 36}"
+    },
+    {
+      "id": "N16",
+      "target": "V04",
+      "caught": true,
+      "detail": "raised StopIteration: "
+    },
+    {
+      "id": "N17",
+      "target": "V11",
+      "caught": true,
+      "detail": "  size Town/Buildings/B01/Plinth: spec [16.6, 0.4, 12.6] vs place [15.6, 0.4, 12.6]"
+    }
+  ],
+  "note": "Every negative test must be caught by its paired positive check."
+}

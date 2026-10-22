@@ -1,0 +1,102 @@
+{
+  "validators": 16,
+  "passed": 16,
+  "results": [
+    {
+      "id": "V01",
+      "check": "ten buildings",
+      "pass": true,
+      "detail": "10 buildings"
+    },
+    {
+      "id": "V02",
+      "check": "every building is 3 or 4 floors",
+      "pass": true,
+      "detail": "floors per building: {'B01': 4, 'B02': 3, 'B03': 3, 'B04': 4, 'B05': 4, 'B06': 3, 'B07': 3, 'B08': 4, 'B09': 4, 'B10': 3}, declared-vs-built mismatch: {}"
+    },
+    {
+      "id": "V03",
+      "check": "every building has real interiors",
+      "pass": true,
+      "detail": "interior parts per building: {'B01': 104, 'B02': 70, 'B03': 70, 'B04': 140, 'B05': 104, 'B06': 70, 'B07': 70, 'B08': 104, 'B09': 104, 'B10': 70}"
+    },
+    {
+      "id": "V04",
+      "check": "every floor has a room programme",
+      "pass": true,
+      "detail": "35 floor programmes, thin={}, missing=[]"
+    },
+    {
+      "id": "V05",
+      "check": "stairs reach every upper floor",
+      "pass": true,
+      "detail": "stair flights per building (found vs needed): all present"
+    },
+    {
+      "id": "V06",
+      "check": "no furniture blocks a door",
+      "pass": true,
+      "detail": "10 doors checked, 0 blocked"
+    },
+    {
+      "id": "V07",
+      "check": "spawn is clear",
+      "pass": true,
+      "detail": "spawn at [0.0, 0.35, -7.0], blockers=[]"
+    },
+    {
+      "id": "V08",
+      "check": "every resident has a bed",
+      "pass": true,
+      "detail": "64 residents, 0 without a bed"
+    },
+    {
+      "id": "V09",
+      "check": "windows on every facade",
+      "pass": true,
+      "detail": "windows per building: {'B01': 48, 'B02': 32, 'B03': 32, 'B04': 48, 'B05': 48, 'B06': 32, 'B07': 32, 'B08': 42, 'B09': 48, 'B10': 36}"
+    },
+    {
+      "id": "V10",
+      "check": "roofs on every building",
+      "pass": true,
+      "detail": "roof parts per building: {'B01': 3, 'B02': 3, 'B03': 3, 'B04': 3, 'B05': 3, 'B06': 3, 'B07': 3, 'B08': 3, 'B09': 3, 'B10': 3}"
+    },
+    {
+      "id": "V11",
+      "check": "place == spec (export parity)",
+      "pass": true,
+      "detail": "3452 parts compared, 0 problems"
+    },
+    {
+      "id": "V12",
+      "check": "colours trace to CC0 scans",
+      "pass": true,
+      "detail": "3452/3452 colours trace to a scan or a declared accent, off-palette=[]"
+    },
+    {
+      "id": "V13",
+      "check": "generator is deterministic",
+      "pass": true,
+      "detail": "spec sha256 634a4596d2a5d364 -> 634a4596d2a5d364"
+    },
+    {
+      "id": "V14",
+      "check": "material tokens are valid",
+      "pass": true,
+      "detail": "tokens from live enum dump; invalid=[]"
+    },
+    {
+      "id": "V15",
+      "check": "resident roster is sound",
+      "pass": true,
+      "detail": "64 residents, 64 distinct roles, 0 duplicate names"
+    },
+    {
+      "id": "V16",
+      "check": "the place carries the runtime",
+      "pass": true,
+      "detail": "missing from place: []"
+    }
+  ]
+}

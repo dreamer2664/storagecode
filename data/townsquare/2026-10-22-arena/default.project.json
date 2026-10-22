@@ -1,0 +1,69 @@
+{
+  "name": "Winterlichtplatz",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": false,
+        "Gravity": 196.2,
+        "FilteringEnabled": true
+      },
+      "Town": { "$path": "src/Workspace/Town.rbxmx" }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [0.32, 0.33, 0.38],
+        "OutdoorAmbient": [0.42, 0.45, 0.52],
+        "Brightness": 2.4,
+        "ClockTime": 15.6,
+        "GeographicLatitude": 45.46,
+        "ExposureCompensation": 0.18,
+        "EnvironmentDiffuseScale": 0.55,
+        "EnvironmentSpecularScale": 0.4,
+        "GlobalShadows": true,
+        "ShadowSoftness": 0.35,
+        "FogEnd": 620,
+        "FogStart": 180
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.32,
+          "Offset": 0.12,
+          "Color": [0.78, 0.80, 0.85],
+          "Decay": [0.42, 0.46, 0.55],
+          "Glare": 0.28,
+          "Haze": 1.6
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "TownData": { "$path": "src/ReplicatedStorage/TownData.luau" },
+      "TownRemotes": {
+        "$className": "Folder",
+        "QuestEvent": { "$className": "RemoteEvent" }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "TownServer": { "$path": "src/ServerScriptService/TownServer.server.luau" },
+      "NpcRig": { "$path": "src/ServerScriptService/NpcRig.luau" },
+      "QuestService": { "$path": "src/ServerScriptService/QuestService.luau" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "CharacterWalkSpeed": 18.0,
+        "CameraMaxZoomDistance": 90.0,
+        "EnableMouseLockOption": false
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "TownHud": { "$path": "src/StarterPlayerScripts/TownHud.client.luau" }
+      }
+    }
+  }
+}

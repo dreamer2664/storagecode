@@ -1,0 +1,65 @@
+id,name,role,workplace,home_building,home_floor,home_room,bed_x,bed_y,bed_z
+N01,Ada Ash,innkeeper,B01,B01,2,B01L2,26.06,5.12,12.82
+N02,Bram Bell,cook,B01,B01,2,B01L2,27.56,5.12,12.82
+N03,Cato Corvin,chambermaid,B01,B01,2,B01L2,29.06,5.12,12.82
+N04,Dora Dunmore,stablehand,B01,B01,2,B01L2,30.56,5.12,12.82
+N05,Elin Ellery,baker,B02,B02,2,B02L2,13.78,5.12,26.87
+N06,Falk Fen,miller,B02,B02,2,B02L2,15.28,5.12,26.87
+N07,Gesa Garrick,apprentice baker,B02,B02,3,B02L3,16.03,8.72,26.87
+N08,Hugo Hollis,blacksmith,B03,B03,3,B03L3,-6.68,8.72,31.55
+N09,Ida Ivo,farrier,B03,B03,3,B03L3,-5.18,8.72,31.55
+N10,Jonas Jory,bell founder,B03,B03,3,B03L3,-3.68,8.72,31.55
+N11,Kurt Kell,salt merchant,B04,B04,3,B04L3,-26.45,8.72,22.37
+N12,Lena Linden,clerk,B04,B04,3,B04L3,-24.95,8.72,22.37
+N13,Milo Marek,warehouse porter,B04,B04,3,B04L3,-23.45,8.72,22.37
+N14,Nora Nell,scribe,B04,B04,3,B04L3,-21.95,8.72,22.37
+N15,Otto Oswin,weaver,B05,B05,4,B05L4,-33.52,12.32,5.39
+N16,Pim Pike,dyer,B05,B05,4,B05L4,-32.02,12.32,5.39
+N17,Roos Quill,loomwright,B05,B05,4,B05L4,-30.52,12.32,5.39
+N18,Sven Renn,verger,B06,B06,2,B06L2,-28.47,5.12,-13.89
+N19,Tess Sable,curate,B06,B06,3,B06L3,-30.72,8.72,-13.89
+N20,Udo Thorne,bookseller,B07,B07,3,B07L3,-17.12,8.72,-27.97
+N21,Vera Ulric,binder,B07,B07,3,B07L3,-15.62,8.72,-27.97
+N22,Wim Vale,apothecary,B08,B08,2,B08L2,2.88,5.12,-31.27
+N23,Yvo Wren,herbalist,B08,B08,2,B08L2,4.38,5.12,-31.27
+N24,Zeno Yarrow,physician's assistant,B08,B08,2,B08L2,5.88,5.12,-31.27
+N25,Bert Zell,tavern keeper,B09,B09,3,B09L3,21.28,8.72,-21.33
+N26,Cilla Bram,potboy,B09,B09,3,B09L3,22.78,8.72,-21.33
+N27,Dirk Cis,fiddler,B09,B09,3,B09L3,24.28,8.72,-21.33
+N28,Ebba Dov,watch sergeant,B10,B10,2,B10L2,28.93,5.12,-5.72
+N29,Finn Edda,constable,B10,B10,2,B10L2,30.43,5.12,-5.72
+N30,Gijs Foss,gaoler,B10,B10,2,B10L2,31.93,5.12,-5.72
+N31,Hanna Greta,market trader,Square,B01,4,B01L4,29.06,12.32,12.82
+N32,Ines Hask,flower seller,Square,B02,3,B02L3,17.53,8.72,26.87
+N33,Jens Ingrid,fishmonger,Square,B03,3,B03L3,-2.18,8.72,31.55
+N34,Klara Joss,cheesemonger,Square,B04,3,B04L3,-20.45,8.72,22.37
+N35,Lars Kira,tinker,Square,B05,4,B05L4,-29.02,12.32,5.39
+N36,Maja Lars,cooper,Square,B06,3,B06L3,-29.22,8.72,-13.89
+N37,Nele Mira,carter,Square,B07,2,B07L2,-15.62,5.12,-27.97
+N38,Olav Noor,water carrier,Square,B08,2,B08L2,7.38,5.12,-31.27
+N39,Puck Olek,lamp lighter,Square,B09,2,B09L2,23.53,5.12,-21.33
+N40,Rens Petra,night watchman,Square,B10,2,B10L2,33.43,5.12,-5.72
+N41,Sanne Rurik,town crier,Square,B01,2,B01L2,32.06,5.12,12.82
+N42,Timo Sig,pigeon keeper,Square,B02,2,B02L2,16.78,5.12,26.87
+N43,Ulla Tova,schoolteacher,B07,B07,3,B07L3,-14.12,8.72,-27.97
+N44,Vigo Ulla,midwife,B08,B08,3,B08L3,4.38,8.72,-31.27
+N45,Wout Vidar,sexton,B06,B06,3,B06L3,-27.72,8.72,-13.89
+N46,Ines Wilm,rope maker,B05,B05,3,B05L3,-31.27,8.72,5.39
+N47,Yfke Yara,tanner,B03,B03,3,B03L3,-0.68,8.72,31.55
+N48,Zwaan Ansel,pewterer,B03,B03,3,B03L3,0.82,8.72,31.55
+N49,Aagt Berta,glassblower,B08,B08,4,B08L4,5.13,12.32,-31.27
+N50,Bo Cato,cartwright,B04,B04,2,B04L2,-22.7,5.12,22.37
+N51,Cees Dagne,netter,B07,B07,2,B07L2,-14.12,5.12,-27.97
+N52,Dunja Emil,charcoal burner,B02,B02,2,B02L2,18.28,5.12,26.87
+N53,Evert Freya,chandler,B09,B09,4,B09L4,22.78,12.32,-21.33
+N54,Fenna Gunnar,brewer,B09,B09,4,B09L4,24.28,12.32,-21.33
+N55,Gerd Hedda,shearer,B05,B05,2,B05L2,-31.27,5.12,5.39
+N56,Hidde Isak,goose girl,Square,B06,3,B06L3,-26.22,8.72,-13.89
+N57,Ilse Juna,orchardman,Square,B07,3,B07L3,-12.62,8.72,-27.97
+N58,Jort Kasper,rat catcher,B10,B10,3,B10L3,30.43,8.72,-5.72
+N59,Kees Liv,town clerk,B10,B10,3,B10L3,31.93,8.72,-5.72
+N60,Lotte Milo,stone mason,B04,B04,3,B04L3,-18.95,8.72,22.37
+N61,Maarten Nadia,carpenter,B02,B02,2,B02L2,19.78,5.12,26.87
+N62,Nienke Otto,tiler,B08,B08,3,B08L3,5.88,8.72,-31.27
+N63,Ada Pia,huckster,Square,B03,2,B03L2,-2.93,5.12,31.55
+N64,Bram Rolf,gleeman,B09,B09,3,B09L3,25.78,8.72,-21.33
