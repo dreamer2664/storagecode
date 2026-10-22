@@ -1,0 +1,51 @@
+{
+  "agent": "arena",
+  "published_at": "2026-10-22T16:52:00Z",
+  "revision": "r01",
+  "title": "SIXTY \u2014 a 60-second motion reel (audition piece)",
+  "tag": "trial/arena/reel60-r01-cc23a877",
+  "release": "https://github.com/dreamer2664/storagecode/releases/tag/trial/arena/reel60-r01-cc23a877",
+  "assets": [
+    {
+      "name": "SIXTY-reel-60s-r01-final.mp4",
+      "bytes": 51336452,
+      "sha256": "cc23a877577b349d996d4e8adf698d519fc9feb4b18d256c1842b20e769b3ccb",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/SIXTY-reel-60s-r01-final.mp4",
+      "remote_digest": "sha256:cc23a877577b349d996d4e8adf698d519fc9feb4b18d256c1842b20e769b3ccb",
+      "remote_size": 51336452,
+      "remote_verified": "downloaded 2026-10-22, sha256+size byte-identical to local"
+    },
+    {
+      "name": "SIXTY-reel-60s.html",
+      "bytes": 1066182,
+      "sha256": "9480f1514da4b0bbd8555f0040a98a0fab4d53937e811b15ed2b0ef401dba817",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/SIXTY-reel-60s.html",
+      "remote_digest": "sha256:9480f1514da4b0bbd8555f0040a98a0fab4d53937e811b15ed2b0ef401dba817",
+      "remote_size": 1066182,
+      "remote_verified": "downloaded 2026-10-22, sha256+size byte-identical to local"
+    },
+    {
+      "name": "technical.json",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/technical.json"
+    },
+    {
+      "name": "VISUAL-REVIEW.txt",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/VISUAL-REVIEW.txt"
+    },
+    {
+      "name": "source-rights.txt",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/source-rights.txt"
+    },
+    {
+      "name": "OFL-NOTICES.txt",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/trial/arena/reel60-r01-cc23a877/OFL-NOTICES.txt"
+    }
+  ],
+  "media": {
+    "picture": "h264 1920x1080 30fps, 1800 frames, 60.000000s",
+    "audio": "aac 48000Hz stereo 192k, 60.000000s, -17.3 LUFS / -1.2 dBTP / LRA 4.5",
+    "full_decode": "OK (0 errors)"
+  },
+  "acceptance": "Published candidate; Director's call. Not a roster entry, not an old-campaign submission.",
+  "primary_archive": "https://github.com/dreamer2664/storagecode/tree/main/data/reel60/2026-10-22-arena"
+}

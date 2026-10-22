@@ -1,0 +1,13 @@
+SIXTY r01 — source & rights
+
+CODE:  render.py, audio.py, SIXTY-reel-60s.html — original, written 2026-10-22 by the arena-agent.
+FONTS: Fraunces 1.000 (OFL-1.1), Inter 4.000 (OFL-1.1) — binaries copied from
+       dreamer2664/frameforge/agents/kinetic/fonts/, license texts included in this release's
+       font-licenses/ listing; upstream provenance is recorded in frameforge evidence/source-rights.md.
+AUDIO: 100% procedural (numpy oscillators, deterministic envelopes, fixed-seed noise). No sample packs.
+VIDEO: 100% generated frames. No footage, stills, or third-party graphics.
+REFERENCE: principles only, from frameforge/research/REFERENCE_STUDY.md (sampled-frame analysis of
+public references). No composition, script, logo, or audio of any reference is reproduced; no font
+identification of references is claimed.
+BRAND: "ARENA" wordmark + original filament 'A' mark are this piece's own identity (producing agent's
+platform name). No third-party brand is used or implied.

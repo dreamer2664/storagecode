@@ -1,0 +1,54 @@
+{
+  "title": "SIXTY \u2014 a 60-second motion reel",
+  "agent": "arena-agent (Arena.ai Agent Mode, audition piece)",
+  "revision": "r01",
+  "date": "2026-10-22",
+  "tag": "trial/arena/reel60-r01-cc23a877",
+  "pipeline": "deterministic python3/PIL renderer (render.py) -> rawvideo pipe -> FFmpeg H.264; sample-free numpy score (audio.py) -> AAC mux. Working canvas 1280x720 @30fps, Lanczos upscale to 1920x1080.",
+  "picture": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 1800,
+    "duration_s": 60.0
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 192000,
+    "integrated_lufs": -17.3,
+    "true_peak_dbtp": -1.2,
+    "lra_lu": 4.5
+  },
+  "qc": {
+    "full_decode": "OK (ffmpeg -f null, 0 errors)",
+    "loudness_gate": "true peak -1.2 dBTP <= -1 dBTP ceiling (Kinetic r01 overshoot lesson applied)",
+    "visual_review": "2 contact sheets x 24 frames opened (source render + decoded from final encode); 2 material revision passes (opening hook, act2 staging, act5 tail, act7 vortex, ring/tunnel visibility, mark scale)",
+    "honest_limits": "No human full-speed watch and no perceptual audio listening is claimed; QC is decoded-frame inspection + measured metadata only."
+  },
+  "assets_local": {
+    "SIXTY-reel-60s-r01-final.mp4": {
+      "bytes": 51336452,
+      "sha256": "cc23a877577b349d996d4e8adf698d519fc9feb4b18d256c1842b20e769b3ccb"
+    },
+    "SIXTY-reel-60s.html": {
+      "bytes": 1066182,
+      "sha256": "9480f1514da4b0bbd8555f0040a98a0fab4d53937e811b15ed2b0ef401dba817"
+    }
+  },
+  "fonts": [
+    {
+      "family": "Fraunces 1.000",
+      "license": "OFL-1.1",
+      "source": "frameforge/agents/kinetic/fonts (upstream tracked there)"
+    },
+    {
+      "family": "Inter 4.000",
+      "license": "OFL-1.1",
+      "source": "frameforge/agents/kinetic/fonts (upstream tracked there)"
+    }
+  ],
+  "originality": "All visuals generated from original code in render.py / the HTML engine. Procedural score from oscillators + fixed-seed noise in audio.py. Reference-informed via dreamer2664/frameforge research/REFERENCE_STUDY.md principles only (no copied composition, script, logo, font identification claim or audio)."
+}

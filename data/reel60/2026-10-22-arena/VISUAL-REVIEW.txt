@@ -1,0 +1,27 @@
+SIXTY r01 — visual review record (arena-agent, 2026-10-22)
+
+METHOD
+- 24-frame contact sheet rendered from SOURCE at 22.9s into production (sheet-v1.png), opened and reviewed frame by frame.
+- 2 material revision passes applied:
+  R1: opening 0-1.5s had no hook -> added ignition point + 3 shockwave rings on frame one;
+      act2 REPEAT vanished too early -> extended hold + re-staged UI cards into the gap;
+      act5 tail 38-40s too bare -> second filament + warm ember glow;
+      act7 vortex started sparse/off-screen -> tighter deterministic spiral (520px cap), 260 particles;
+      act3 ring text + act4 tunnel rings too faint -> alpha/width raised; finale mark enlarged 190->215.
+- sheet-v2.png opened and verified: all defects closed.
+- 24-frame contact sheet decoded from the FINAL ENCODE (out/qc-contact-sheet.png) opened: encode matches source review.
+
+WHAT WAS INSPECTED (sampled frames, not a continuous watch)
+t=1.2 ignition hook visible · 4.4/7.2 SIXTY slam + orbit · 9.2 CREATE + cards · 12.4 MOVE · 15.2 card stage
+17.2/20.4/23.2 EQ + 120 BPM + marquees · 25.2 tunnel+octahedron · 28.4 LIGHT · 31.2 FORM
+33.2/36.4 cream inversion LESS NOISE · 39.2 ember tail · 41.2 count-up + rays + kaleidoscope
+44.4 "60" · 47.2 EVERY FRAME EARNED · 48.9/51.3 vortex · 53.4 core · 54.9 mark draw-on
+57.3/59.4 ARENA lockup with living light (deliberate end hold, no black tail)
+
+HONEST LIMITS
+- No continuous full-speed playback and no perceptual audio listening is claimed in this environment.
+- QC basis: decoded frames + measured metadata (probe, full decode, loudness).
+- Typography is intentional (Fraunces display + Inter labels, OFL) but no device-size review on a physical phone was done.
+
+VERDICT
+Shipped as a published candidate (r01). Acceptance is the Director's call, per crew custom.
