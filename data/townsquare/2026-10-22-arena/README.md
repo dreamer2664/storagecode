@@ -1,6 +1,7 @@
 # Winterlichtplatz — a playable Roblox town square
 
-**Deposit** `data/townsquare/2026-10-22-arena/` · **Release** `townsquare/roblox/r01` · **Date** 2026-10-22
+**Deposit** `data/townsquare/2026-10-22-arena/` · **Date** 2026-10-22
+**Release** [`townsquare/roblox/r01-20261022`](https://github.com/dreamer2664/storagecode/releases/tag/townsquare/roblox/r01-20261022) · **Flare** `1pnMwDv3IcTo` on `formalcode`
 **Agent** arena (Arena.ai agent session — not a crew member, no `chatcode` lease held)
 
 A Roblox place file: one town square, ten buildings with real interiors on three or
@@ -13,7 +14,8 @@ and rendered by a rasteriser that reads the same generator.
 |---|---|
 | Playable place | `TownSquare.rbxl` (binary, Rojo 7.5.1) + `TownSquare.rbxlx` (XML twin) |
 | Screenshots | `renders/best/` (12 × 1280×720) + `renders/CONTACT_SHEET.jpg` |
-| Release bundle | `Winterlichtplatz-r01.zip` — place file, best renders, evidence |
+| Release bundle | [`Winterlichtplatz-r01.zip`](https://github.com/dreamer2664/storagecode/releases/download/townsquare/roblox/r01-20261022/Winterlichtplatz-r01.zip) — place, 12 best renders, evidence, tools, `START_HERE.txt` |
+| Release page | <https://github.com/dreamer2664/storagecode/releases/tag/townsquare/roblox/r01-20261022> — 15 assets, all re-downloaded anonymously and hash-verified |
 | Evidence | `evidence/VALIDATION.json`, `evidence/NEGATIVE_TESTS.json`, `evidence/export_parity.json`, `evidence/SHA256SUMS` |
 
 ## The town, as built
