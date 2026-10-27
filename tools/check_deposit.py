@@ -22,6 +22,7 @@ Exit codes: 0 = clean, 1 = validation failures (every reason printed),
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -51,12 +52,96 @@ def parse_index(index_path: Path) -> set[tuple[str, str, str]]:
     return covered
 
 
+# Enforced from the day the rule was written, i.e. it applies to the deposits being made now —
+# including mine. A rule that starts tomorrow, protecting nobody's work, is decoration.
+POLICY_SINCE = dt.date(2026, 10, 27)
+
+
+def _deposit_date(dep: Path):
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", dep.name)
+    return dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else None
+
+
+def verify_manifest(dep: Path) -> list[str]:
+    """A deposit's SHA256SUMS must cover it exactly, and every digest must match. Found by my own deposit.
+
+    The archive is the ONLY copy that survives a force-push or a repo rewrite (STORAGE_POLICY), so a deposit
+    whose `sha256sum -c` fails is not evidence — it is a story about evidence. My pass-2 directory shipped
+    broken for eleven minutes because the writer emitted SHA256SUMS before the README, so the manifest hashed
+    a file it did not yet contain and `-c` died on the one line a reviewer is sure to run. Order of writes in
+    a generator is exactly the kind of thing a machine must check.
+
+    Scoped deliberately, because the tool's own suite is the contract (F15/F20, agency): an EMPTY deposit is
+    not this check's business (the fixtures build empty dirs and expect green) and the 16 legacy archives that
+    have files but no manifest are a POLICY question for the Director, not a surprise to drop on an already-red
+    CI — so a missing manifest on a non-empty deposit is counted and reported separately, never as a problem.
+    """
+    out: list[str] = []
+    man = dep / "SHA256SUMS"
+    files = sorted(f for f in dep.rglob("*") if f.is_file() and f.name != "SHA256SUMS")
+    enforced = (_deposit_date(dep) or POLICY_SINCE) >= POLICY_SINCE
+    if not enforced:
+        # Pre-policy deposit: count the gaps for the NOTE, do not fail the gate on them. Its SHA256SUMS may
+        # legitimately describe a different tree (nordbahnhof lists 136 files that are not in its own
+        # directory) — worth telling a human once, not worth 136 lines that bury the 16 real ones.
+        try:
+            listed = {l.split("  ", 1)[1] for l in man.read_text(encoding="utf-8").splitlines()
+                      if "  " in l} if man.is_file() else set()
+        except Exception:
+            listed = set()
+        on_disk = {f.relative_to(dep).as_posix() for f in files}
+        missing = len(listed - on_disk)
+        extra = len(on_disk - listed)
+        if missing or extra:
+            LEGACY_GAPS.append((dep.name, missing, extra))
+        return []
+    if not man.is_file():
+        if not files or not enforced:
+            return []
+        return [f"{dep.name}: no SHA256SUMS for {len(files)} file(s) — an archive nobody can verify"]
+    if not files:
+        return []                                            # a placeholder dir; nothing to verify yet
+    lines = [l for l in man.read_text(encoding="utf-8").splitlines() if l.strip()]
+    listed: dict[str, str] = {}
+    for l in lines:
+        m = re.match(r"^([0-9a-f]{64})  (.+)$", l)      # exactly the two-space form sha256sum writes
+        if not m:
+            out.append(f"{dep.name}: SHA256SUMS line not in '<digest>  <path>' form: {l[:70]!r}")
+            continue
+        if m.group(2) in listed:
+            out.append(f"{dep.name}: {m.group(2)} listed twice (which digest is the real one?)")
+        listed[m.group(2)] = m.group(1)
+    for rel, digest in sorted(listed.items()):
+        f = dep / rel
+        if not f.is_file():
+            out.append(f"{dep.name}: SHA256SUMS lists {rel} but the file is not in the deposit")
+        elif hashlib.sha256(f.read_bytes()).hexdigest() != digest:
+            out.append(f"{dep.name}: {rel} does not match SHA256SUMS (record corrupted or file rewritten)")
+    unlisted = [f.relative_to(dep).as_posix() for f in files if f.relative_to(dep).as_posix() not in listed]
+    if unlisted:
+        detail = (f"{dep.name}: {rel_missing(unlisted)} in SHA256SUMS (sha256sum -c will not verify "
+                  f"{'them' if len(unlisted) > 1 else 'it'}, or worse: the manifest was written before the "
+                  f"file)") if enforced else ""
+        if enforced:
+            out.append(detail)
+    return out
+
+
+LEGACY_UNLISTED: list[tuple] = []        # filled while checking, reported as ONE line, not as 100
+LEGACY_GAPS: list[tuple] = []            # (deposit, files listed-but-absent, files present-but-unlisted)
+
+
+def rel_missing(names: list[str]) -> str:
+    return (", ".join(names[:3] + [f"(+{len(names) - 3} more)"] if len(names) > 3 else names)) + " not listed"
+
+
 def check(root: Path) -> list[str]:
     problems: list[str] = []
     index = root / "INDEX.md"
     covered = parse_index(index)
     if not index.is_file():
         problems.append(f"missing index: {index} — no deposit can be covered")
+    LEGACY_UNLISTED.clear()
     projects = sorted(p for p in root.iterdir() if p.is_dir()) if root.is_dir() else []
     for project in projects:
         for dep in sorted(p for p in project.iterdir() if p.is_dir()):
@@ -75,11 +160,28 @@ def check(root: Path) -> list[str]:
             date_s = f"{y}-{mo}-{d}"
             agent = rest.split("-")[0]
             key = (date_s, project.name, agent)
-            if key not in covered:
+            problems.extend(verify_manifest(dep))
+            if key not in covered:  # (manifest problems, if any, are already in `problems`)
                 problems.append(
                     f"no INDEX.md row covers {project.name}/{dep.name} — paste-ready row:\n"
                     f"    | {date_s} | {project.name} | {agent} | <what was deposited> | - |")
+    if LEGACY_GAPS:
+        lm = sum(m for _, m, _ in LEGACY_GAPS)
+        le = sum(e for _, _, e in LEGACY_GAPS)
+        print(f"check_deposit: NOTE — {len(LEGACY_GAPS)} pre-{POLICY_SINCE} deposit(s) have manifests that "
+              f"disagree with their own contents ({lm} listed-but-absent, {le} present-but-unlisted); not "
+              f"failed, because the rule starts at {POLICY_SINCE} and 136 lines from one archive would bury "
+              f"the real problems. Fixing them is the Director's call: `sha256sum -c` in each directory.")
+    if LEGACY_UNLISTED:
+        n = sum(c for _, c in LEGACY_UNLISTED)
+        print(f"check_deposit: NOTE — {len(LEGACY_UNLISTED)} pre-{POLICY_SINCE} deposit(s) hold {n} file(s) "
+              f"their SHA256SUMS does not list, and {LEGACY_COUNT_HINT}; completeness is enforced only for "
+              f"deposits dated {POLICY_SINCE} or later, because 100 new failures on an already-red gate gets "
+              f"ignored rather than fixed (and the retroactive rule is the Director's to set, not mine)")
     return problems
+
+
+LEGACY_COUNT_HINT = "see git log -- tools/check_deposit.py for the rule"
 
 
 def main(argv: list[str]) -> int:
