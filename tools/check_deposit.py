@@ -184,12 +184,53 @@ def check(root: Path) -> list[str]:
 LEGACY_COUNT_HINT = "see git log -- tools/check_deposit.py for the rule"
 
 
+
+def ledger_problems(pushes: Path, header_rows_only_from: dt.date = POLICY_SINCE) -> list[str]:
+    """Every row added from the policy date on must have the header's column count.
+
+    Why the date gate: PUSHES.md grew across schema changes and ~100 older rows have six pipes where the current
+    header has seven. A check that reports all of them is a check everyone learns to skip — the mistake I made
+    with the first `verify_manifest`, and the reason `LEGACY_GAPS` exists above. New rows have no excuse.
+
+    Why the check exists at all: a literal `|` inside a backticked `| tail` in my own row silently split one
+    cell in two, and my *advisory* grep for the column count printed MISMATCH and then let the commit through.
+    A shape check must be a gate or it is a rumour (same lesson as pc-eye's F55).
+    """
+    out: list[str] = []
+    if not pushes.exists():
+        return out
+    lines = pushes.read_text(encoding="utf-8").splitlines()
+    header = next((l for l in lines if l.startswith("|") and "when" in l.lower()), None)
+    if header is None:
+        return ["ledger: PUSHES.md has no recognisable header row — the column rule cannot be checked"]
+    want = header.count("|")
+    for i, line in enumerate(lines, 1):
+        if not line.startswith("| 20"):
+            continue
+        m = re.match(r"^\|\s*(\d{4}-\d\d-\d\d)", line)
+        if not m:
+            continue
+        try:
+            when = dt.date.fromisoformat(m.group(1))
+        except ValueError:
+            continue
+        if when < header_rows_only_from:
+            continue
+        if line.count("|") != want:
+            out.append(f"ledger line {i}: {line.count('|')} pipes, the header declares {want} — a literal '|' "
+                       f"in a cell (even inside backticks) splits a column and silently corrupts the row")
+    return out
+
+
+
 def main(argv: list[str]) -> int:
     root = Path(argv[1]) if len(argv) > 1 else Path(__file__).resolve().parents[1] / "data"
     if not root.is_dir():
         print(f"check_deposit: no such data root: {root}", file=sys.stderr)
         return 2
     problems = check(root)
+    repo = root.parent if root.name == "data" else root
+    problems = problems + ledger_problems(repo / "PUSHES.md")
     if problems:
         print(f"check_deposit: FAIL ({len(problems)} problem(s)):")
         for p in problems:
