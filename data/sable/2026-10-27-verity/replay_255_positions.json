@@ -1,0 +1,122 @@
+{
+  "mode": "logs",
+  "games": {
+    "g_L1_1.json": {
+      "positions": 15,
+      "exact": 15,
+      "square_ok": 960,
+      "square_total": 960,
+      "square_accuracy": 1.0,
+      "render_ms": 80.9,
+      "read_ms": 17.4,
+      "fails": []
+    },
+    "g_L2_1.json": {
+      "positions": 18,
+      "exact": 18,
+      "square_ok": 1152,
+      "square_total": 1152,
+      "square_accuracy": 1.0,
+      "render_ms": 77.2,
+      "read_ms": 17.4,
+      "fails": []
+    },
+    "g_L3_1.json": {
+      "positions": 16,
+      "exact": 16,
+      "square_ok": 1024,
+      "square_total": 1024,
+      "square_accuracy": 1.0,
+      "render_ms": 74.0,
+      "read_ms": 17.6,
+      "fails": []
+    },
+    "g_L4_1.json": {
+      "positions": 33,
+      "exact": 33,
+      "square_ok": 2112,
+      "square_total": 2112,
+      "square_accuracy": 1.0,
+      "render_ms": 80.6,
+      "read_ms": 17.1,
+      "fails": []
+    },
+    "g_L5_1.json": {
+      "positions": 28,
+      "exact": 28,
+      "square_ok": 1792,
+      "square_total": 1792,
+      "square_accuracy": 1.0,
+      "render_ms": 80.4,
+      "read_ms": 16.9,
+      "fails": []
+    },
+    "g_L6_1.json": {
+      "positions": 28,
+      "exact": 28,
+      "square_ok": 1792,
+      "square_total": 1792,
+      "square_accuracy": 1.0,
+      "render_ms": 79.0,
+      "read_ms": 17.1,
+      "fails": []
+    },
+    "g_L7_1.json": {
+      "positions": 49,
+      "exact": 49,
+      "square_ok": 3136,
+      "square_total": 3136,
+      "square_accuracy": 1.0,
+      "render_ms": 82.1,
+      "read_ms": 17.0,
+      "fails": []
+    },
+    "g_L8_1.json": {
+      "positions": 17,
+      "exact": 17,
+      "square_ok": 1088,
+      "square_total": 1088,
+      "square_accuracy": 1.0,
+      "render_ms": 77.7,
+      "read_ms": 17.7,
+      "fails": []
+    },
+    "game1_1plus0_level8.json": {
+      "positions": 17,
+      "exact": 17,
+      "square_ok": 1088,
+      "square_total": 1088,
+      "square_accuracy": 1.0,
+      "render_ms": 76.4,
+      "read_ms": 17.8,
+      "fails": []
+    },
+    "game2_10plus0_level8.json": {
+      "positions": 31,
+      "exact": 31,
+      "square_ok": 1984,
+      "square_total": 1984,
+      "square_accuracy": 1.0,
+      "render_ms": 79.7,
+      "read_ms": 17.1,
+      "fails": []
+    },
+    "game_1plus0_level8.json": {
+      "positions": 3,
+      "exact": 3,
+      "square_ok": 192,
+      "square_total": 192,
+      "square_accuracy": 1.0,
+      "render_ms": 68.0,
+      "read_ms": 17.8,
+      "fails": []
+    }
+  },
+  "total": {
+    "positions": 255,
+    "exact": 255,
+    "square_ok": 16320,
+    "square_total": 16320
+  },
+  "square_accuracy": 1.0
+}

@@ -1,0 +1,48 @@
+.../home/user/work/sable/tests/test_boardvision.py:187: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/user/work/sable/results/g_L6_1.json' mode='r' encoding='utf-8'>
+  cls.want = [e for e in json.load(open(j)) if e.get("event") == "final"][-1]["local_fen"].split()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......................../home/user/work/sable/tests/test_learn.py:38: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/sablebook-rve7fzh4/book.txt' mode='r' encoding='utf-8'>
+  return [l.strip() for l in open(L.BOOK) if l.strip()]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/user/work/sable/tests/test_learn.py:46: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/sablebook-75gx0ov9/book_votes.json' mode='r' encoding='utf-8'>
+  votes = json.load(open(L.VOTES))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+../home/user/work/sable/tests/test_learn.py:38: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/sablebook-v02s3fj3/book.txt' mode='r' encoding='utf-8'>
+  return [l.strip() for l in open(L.BOOK) if l.strip()]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=6 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=6 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+../home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=6 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=6 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/user/work/sable/tools/lichess_bot.py:518: ResourceWarning: unclosed file <_io.TextIOWrapper name=6 encoding='utf-8'>
+  _quit_engines()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........
+----------------------------------------------------------------------
+Ran 45 tests in 49.473s
+
+OK
+EXIT=0

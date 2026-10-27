@@ -1,0 +1,25 @@
+g_L1_1.json:
+  15/15 positions exact, 960/960 squares, render 80.9 ms + read 17.4 ms
+g_L2_1.json:
+  18/18 positions exact, 1152/1152 squares, render 77.2 ms + read 17.4 ms
+g_L3_1.json:
+  16/16 positions exact, 1024/1024 squares, render 74.0 ms + read 17.6 ms
+g_L4_1.json:
+  33/33 positions exact, 2112/2112 squares, render 80.6 ms + read 17.1 ms
+g_L5_1.json:
+  28/28 positions exact, 1792/1792 squares, render 80.4 ms + read 16.9 ms
+g_L6_1.json:
+  28/28 positions exact, 1792/1792 squares, render 79.0 ms + read 17.1 ms
+g_L7_1.json:
+  49/49 positions exact, 3136/3136 squares, render 82.1 ms + read 17.0 ms
+g_L8_1.json:
+  17/17 positions exact, 1088/1088 squares, render 77.7 ms + read 17.7 ms
+game1_1plus0_level8.json:
+  17/17 positions exact, 1088/1088 squares, render 76.4 ms + read 17.8 ms
+game2_10plus0_level8.json:
+  31/31 positions exact, 1984/1984 squares, render 79.7 ms + read 17.1 ms
+game_1plus0_level8.json:
+  3/3 positions exact, 192/192 squares, render 68.0 ms + read 17.8 ms
+
+TOTAL 255/255 positions exact, 16320/16320 squares = 100.00%
+wrote /home/user/work/storagecode/data/sable/2026-10-27-verity/replay_255_positions.json

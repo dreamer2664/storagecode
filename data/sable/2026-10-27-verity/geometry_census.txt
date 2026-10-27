@@ -1,0 +1,48 @@
+boardvision.find_board over every recorded frame (results/bot_shots, 282 files)
+category         located  ms/frame
+poll            238/238      37.5
+wait              5/15       59.6
+chips_L7          0/6        75.7
+chipsel_L7        0/6        71.5
+setup_L7          0/6        70.0
+dialogcheck       0/5        85.9
+final             4/4        39.4
+promo_ply120      1/2        82.7
+
+located 248/282
+
+Refused frames (all are Game-setup / level-chip screens with no board on screen):
+  1792954468797_chips_L7.jpg           board geometry rejected: 720x936 px (a square would be 90.0x117.0)
+  1792959402693_chips_L7.jpg           board geometry rejected: 1856x984 px (a square would be 232.0x123.0)
+  1792959521509_chips_L7.jpg           board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959674329_chips_L7.jpg           board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959823759_chips_L7.jpg           board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960142670_chips_L7.jpg           board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792954470656_chipsel_L7.jpg         board geometry rejected: 720x936 px (a square would be 90.0x117.0)
+  1792959404606_chipsel_L7.jpg         board geometry rejected: 1856x984 px (a square would be 232.0x123.0)
+  1792959523867_chipsel_L7.jpg         board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959676450_chipsel_L7.jpg         board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959825506_chipsel_L7.jpg         board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960145112_chipsel_L7.jpg         board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959501877_dialogcheck.jpg        board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959519325_dialogcheck.jpg        board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959672207_dialogcheck.jpg        board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959821116_dialogcheck.jpg        board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960140451_dialogcheck.jpg        board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960048632_promo_ply120.jpg       board geometry rejected: 1856x984 px (a square would be 232.0x123.0)
+  1792954473758_setup_L7.jpg           board geometry rejected: 720x936 px (a square would be 90.0x117.0)
+  1792959407824_setup_L7.jpg           board geometry rejected: 1920x56 px (a square would be 240.0x7.0)
+  1792959527543_setup_L7.jpg           board geometry rejected: 1392x936 px (a square would be 174.0x117.0)
+  1792959679556_setup_L7.jpg           board geometry rejected: 1392x936 px (a square would be 174.0x117.0)
+  1792959828508_setup_L7.jpg           board geometry rejected: 1392x936 px (a square would be 174.0x117.0)
+  1792960148054_setup_L7.jpg           board geometry rejected: 1392x936 px (a square would be 174.0x117.0)
+  1792954474627_wait.jpg               board geometry rejected: 720x936 px (a square would be 90.0x117.0)
+  1792959528782_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959529807_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959680531_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959681481_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959682378_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959829809_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792959830662_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960148906_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
+  1792960149744_wait.jpg               board geometry rejected: 1280x936 px (a square would be 160.0x117.0)
