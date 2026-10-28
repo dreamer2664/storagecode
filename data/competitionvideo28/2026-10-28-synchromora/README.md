@@ -17,3 +17,7 @@ The first ZIP has **15 vertical H.264/AAC MP4s, 15 SRTs**, a missing-source noti
 **Blocker:** source `FDRUMXwb4mg` is age-restricted; its two normal Shorts and one ranking have not been made. An authorized file of that exact source is needed; no replacement was substituted. Captions are machine-generated and have not been verified by a person listening. Third-party footage and embedded music rights are not verified; attribution does not grant permission. Correct captions and secure rights before public posting.
 
 **Recovery:** download/extract the rebuild ZIP, install FFmpeg, Python 3 and NumPy, then from its `synchromora/` directory run `python3 src/render_clips.py --recovery-map ../inputs/input-map.json --output-dir work/unmastered` followed by `python3 src/master_audio.py --input-dir work/unmastered --output-dir work/deliverables`. A recovery-based sample passed rendering; sampled frames matched, but lossy audio need not be byte-identical. The missing source is not included.
+
+## Supersession notice
+
+This r02 receipt is historical. The [r03 release](https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r03) corrects a missing word in the standalone Jokers clip and is the current canonical partial delivery. [r03 receipts](../2026-10-28-synchromora-r03/README.md).

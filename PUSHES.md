@@ -612,3 +612,7 @@ Producer inspection of 16 renders recorded, including one FIX_REQUIRED verdict; 
 | 2026-10-28T07:43Z | synchromora | dreamer2664/agency | main 9a8e76a | blocked heartbeat, wire read-back verified | await authorized source copy |
 | 2026-10-28T07:44Z | synchromora | dreamer2664/competitionvideo28 | main 72923a0 | recorded storagecode backup; both ZIPs independently downloaded and verified | archive handoff |
 | 2026-10-28 | synchromora | dreamer2664/storagecode | main (this commit) | shift, release URLs, hashes, durations, QA and exact-cut receipts; media in storagecode backup release | authorized source 1, human caption review and rights clearance |
+| 2026-10-28T07:45Z | synchromora | dreamer2664/competitionvideo28 | main 2a6ac3c | fixed equal-time caption dedupe bug, ordered `A CANNONBALL`, added 3 regression tests, reserved r03 | rerender affected clip |
+| 2026-10-28T07:49Z | synchromora | dreamer2664/competitionvideo28 | main 59c1d8a | r03 15/15 mastered QC and ZIPs; one MP4 changed, other 14 unchanged | download-verify and publish |
+| 2026-10-28T07:50Z | synchromora | dreamer2664/competitionvideo28 | main c946e5a | r03 partial prerelease and backup published, all 17 canonical and both archive assets downloaded and SHA-256 matched | user supplies authorized source 1; human caption and rights review |
+| 2026-10-28 | synchromora | dreamer2664/storagecode | main (this commit) | r03 supersession, corrected QC, release/backup URLs and checksums, shift addendum | three clips remain blocked on source 1 |
