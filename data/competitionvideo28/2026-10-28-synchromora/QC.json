@@ -1,0 +1,645 @@
+{
+  "generated_utc": "2026-10-28T07:39:51.379771+00:00",
+  "expected_count": 15,
+  "requested_count": 18,
+  "blocked_count": 3,
+  "checks": [
+    {
+      "id": "02-kai-01-worst-revive",
+      "folder": "02_KAI_CENAT",
+      "filename": "01_THE_WORST_REVIVE.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 171.6,
+          "out": 189.0
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 17.4,
+      "planned_seconds": 17.4,
+      "bytes": 3073408,
+      "sha256": "6530c3b9a5a81049020283203d7613575f56ad2aee097c1f4927f2c9cae6324a",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 22,
+      "full_decode_ok": true,
+      "mean_volume": "-21.6 dB",
+      "max_volume": "-6.0 dB",
+      "integrated_lufs": -16.06,
+      "true_peak_dbtp": -6.03
+    },
+    {
+      "id": "02-kai-02-christmas-coal",
+      "folder": "02_KAI_CENAT",
+      "filename": "02_CHRISTMAS_COAL.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 241.5,
+          "out": 263.3
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 21.8,
+      "planned_seconds": 21.8,
+      "bytes": 6028866,
+      "sha256": "1bf71849d09cab9a39d42076e5181e1ca7115b96eac038c84c0d17b3713be520",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 24,
+      "full_decode_ok": true,
+      "mean_volume": "-20.6 dB",
+      "max_volume": "-4.6 dB",
+      "integrated_lufs": -16.04,
+      "true_peak_dbtp": -4.53
+    },
+    {
+      "id": "02-kai-03-ranking",
+      "folder": "02_KAI_CENAT",
+      "filename": "03_RANKING_KAI_MOMENTS.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "ranking",
+      "segments": [
+        {
+          "in": 453.1,
+          "out": 467.9,
+          "rank": 3,
+          "label": "THE POOL DARE",
+          "emoji": "eyes"
+        },
+        {
+          "in": 241.5,
+          "out": 253.9,
+          "rank": 2,
+          "label": "CHRISTMAS COAL",
+          "emoji": "laugh"
+        },
+        {
+          "in": 171.6,
+          "out": 188.9,
+          "rank": 1,
+          "label": "WORST REVIVE",
+          "emoji": "skull"
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 44.5,
+      "planned_seconds": 44.5,
+      "bytes": 9017062,
+      "sha256": "4d259d31b0092f9d04eb6974aefa0954c05d1db7d610475b03eb444c980b17b9",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 55,
+      "full_decode_ok": true,
+      "mean_volume": "-18.9 dB",
+      "max_volume": "-2.5 dB",
+      "integrated_lufs": -15.27,
+      "true_peak_dbtp": -2.45
+    },
+    {
+      "id": "03-jynxzi-2026-01-dad",
+      "folder": "03_JYNXZI_2026",
+      "filename": "01_DADS_BIG_MOMENT.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 40.3,
+          "out": 56.5
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 16.2,
+      "planned_seconds": 16.2,
+      "bytes": 2143252,
+      "sha256": "ec8b9e08d75d133bda05247afc1516ce8d539b2cb43870181b5950b149a52a44",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 13,
+      "full_decode_ok": true,
+      "mean_volume": "-21.6 dB",
+      "max_volume": "-4.2 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -4.23
+    },
+    {
+      "id": "03-jynxzi-2026-02-403-days",
+      "folder": "03_JYNXZI_2026",
+      "filename": "02_403_DAYS.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 539.0,
+          "out": 559.8
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 20.8,
+      "planned_seconds": 20.8,
+      "bytes": 2430944,
+      "sha256": "a4141372f0bdf1d7d05b3d24844178fa6fef57125b24ca915d68ccaf5400948a",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 25,
+      "full_decode_ok": true,
+      "mean_volume": "-18.7 dB",
+      "max_volume": "-2.4 dB",
+      "integrated_lufs": -16.23,
+      "true_peak_dbtp": -2.25
+    },
+    {
+      "id": "03-jynxzi-2026-03-ranking",
+      "folder": "03_JYNXZI_2026",
+      "filename": "03_RANKING_JYNXZI_2026.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "ranking",
+      "segments": [
+        {
+          "in": 369.3,
+          "out": 379.9,
+          "rank": 3,
+          "label": "NOT BAD, KID",
+          "emoji": "fire"
+        },
+        {
+          "in": 40.3,
+          "out": 56.5,
+          "rank": 2,
+          "label": "DAD'S REACTION",
+          "emoji": "laugh"
+        },
+        {
+          "in": 539.0,
+          "out": 559.8,
+          "rank": 1,
+          "label": "403 DAYS",
+          "emoji": "skull"
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 47.6,
+      "planned_seconds": 47.6,
+      "bytes": 5803567,
+      "sha256": "e712df5aed22fc98450b80d6573e9c144fda0ec9ad7b9a32d804a86f8eb3e99e",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 43,
+      "full_decode_ok": true,
+      "mean_volume": "-19.7 dB",
+      "max_volume": "-2.1 dB",
+      "integrated_lufs": -16.23,
+      "true_peak_dbtp": -2.04
+    },
+    {
+      "id": "04-jynxzi-01-chat-request",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "01_THE_CHAT_REQUEST.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 215.7,
+          "out": 240.0
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 24.3,
+      "planned_seconds": 24.3,
+      "bytes": 4363646,
+      "sha256": "9bd02fb30e9eec40c0fcd60a7ca2384e45ef1bfbb7592bc0cabb7bdc376f579a",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 22,
+      "full_decode_ok": true,
+      "mean_volume": "-21.3 dB",
+      "max_volume": "-4.3 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -4.32
+    },
+    {
+      "id": "04-jynxzi-02-time-zone",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "02_IS_THIS_LIVE.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 446.1,
+          "out": 470.2
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 24.1,
+      "planned_seconds": 24.1,
+      "bytes": 2377536,
+      "sha256": "812ba6f281926b1028a947640ef1d4d806d4cf96dda6f73197c4cf79105d5d52",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 28,
+      "full_decode_ok": true,
+      "mean_volume": "-20.3 dB",
+      "max_volume": "-2.1 dB",
+      "integrated_lufs": -15.51,
+      "true_peak_dbtp": -2.01
+    },
+    {
+      "id": "04-jynxzi-03-ranking",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "03_RANKING_JYNXZI_LIVE.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "ranking",
+      "segments": [
+        {
+          "in": 123.9,
+          "out": 141.0,
+          "rank": 3,
+          "label": "BANDIT EXPERT",
+          "emoji": "eyes"
+        },
+        {
+          "in": 321.0,
+          "out": 342.0,
+          "rank": 2,
+          "label": "THE DANGER",
+          "emoji": "fire"
+        },
+        {
+          "in": 446.1,
+          "out": 470.2,
+          "rank": 1,
+          "label": "IS THIS LIVE?",
+          "emoji": "skull"
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 62.2,
+      "planned_seconds": 62.2,
+      "bytes": 9172348,
+      "sha256": "2142b689c4caf09b0011726d0edd7daf375eeba91d4cee3fab7e4b93c4376704",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 57,
+      "full_decode_ok": true,
+      "mean_volume": "-20.9 dB",
+      "max_volume": "-1.9 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -1.89
+    },
+    {
+      "id": "05-jokers-01-cannonball",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "01_THE_CANNONBALL.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 27.0,
+          "out": 49.8
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 22.8,
+      "planned_seconds": 22.8,
+      "bytes": 4666162,
+      "sha256": "67b9b2953a056bbc408262cf8c7936d7266ddfba52e63ea22ef4896e98de9eca",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 24,
+      "full_decode_ok": true,
+      "mean_volume": "-20.2 dB",
+      "max_volume": "-3.0 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -3.02
+    },
+    {
+      "id": "05-jokers-02-count-to-five",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "02_COUNT_TO_FIVE.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 232.0,
+          "out": 249.5
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 17.5,
+      "planned_seconds": 17.5,
+      "bytes": 1405351,
+      "sha256": "a8b7cacbe8fd3f36bfddbb481fdee8235ec75aa50489ed947e4da642f942e855",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 18,
+      "full_decode_ok": true,
+      "mean_volume": "-19.3 dB",
+      "max_volume": "-2.2 dB",
+      "integrated_lufs": -15.95,
+      "true_peak_dbtp": -2.22
+    },
+    {
+      "id": "05-jokers-03-ranking",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "03_RANKING_JOKER_MOMENTS.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "ranking",
+      "segments": [
+        {
+          "in": 381.1,
+          "out": 400.0,
+          "rank": 3,
+          "label": "SMELL THIS",
+          "emoji": "eyes"
+        },
+        {
+          "in": 29.0,
+          "out": 49.8,
+          "rank": 2,
+          "label": "CANNONBALL",
+          "emoji": "laugh"
+        },
+        {
+          "in": 233.7,
+          "out": 249.5,
+          "rank": 1,
+          "label": "COUNT TO FIVE",
+          "emoji": "skull"
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 55.5,
+      "planned_seconds": 55.5,
+      "bytes": 9102294,
+      "sha256": "208a19afdc332aad0f7e3b368ebb0912bc55bfb1eff3445f81b8512b2298a223",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 56,
+      "full_decode_ok": true,
+      "mean_volume": "-20.0 dB",
+      "max_volume": "-2.5 dB",
+      "integrated_lufs": -16.01,
+      "true_peak_dbtp": -2.45
+    },
+    {
+      "id": "06-ronaldo-01-streamer-university",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "01_STREAMER_UNIVERSITY.mp4",
+      "source": "EajXaGkDweA",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 5.0,
+          "out": 15.8
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 10.8,
+      "planned_seconds": 10.8,
+      "bytes": 1241060,
+      "sha256": "84be24421bcb3b2c7c35906a2a1dd5508514f996ab97daa58206f0ad8af3c722",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 15,
+      "full_decode_ok": true,
+      "mean_volume": "-19.7 dB",
+      "max_volume": "-3.1 dB",
+      "integrated_lufs": -16.01,
+      "true_peak_dbtp": -2.65
+    },
+    {
+      "id": "06-ronaldo-02-dance-degree",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "02_THE_DANCE_DEGREE.mp4",
+      "source": "EajXaGkDweA",
+      "style": "normal",
+      "segments": [
+        {
+          "in": 94.4,
+          "out": 110.5
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 16.1,
+      "planned_seconds": 16.1,
+      "bytes": 1822709,
+      "sha256": "17ad9e4d377758ecfe0d8ca3d46888fc66048c55d0bc2d3c38297650f54a00a5",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 16,
+      "full_decode_ok": true,
+      "mean_volume": "-19.9 dB",
+      "max_volume": "-3.2 dB",
+      "integrated_lufs": -16.9,
+      "true_peak_dbtp": -3.11
+    },
+    {
+      "id": "06-ronaldo-03-ranking",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "03_RANKING_RONALDO_MOMENTS.mp4",
+      "source": "EajXaGkDweA",
+      "style": "ranking",
+      "segments": [
+        {
+          "in": 299.0,
+          "out": 311.5,
+          "rank": 3,
+          "label": "TIME ZONES",
+          "emoji": "eyes"
+        },
+        {
+          "in": 60.3,
+          "out": 81.5,
+          "rank": 2,
+          "label": "SOMEONE BIGGER",
+          "emoji": "laugh"
+        },
+        {
+          "in": 5.0,
+          "out": 15.8,
+          "rank": 1,
+          "label": "STREAMER SCHOOL",
+          "emoji": "skull"
+        }
+      ],
+      "issues": [],
+      "duration_seconds": 44.5,
+      "planned_seconds": 44.5,
+      "bytes": 4384420,
+      "sha256": "26798a875e5e453b318281a576d6624177e3255339838ec364ce98d5b02e2bef",
+      "video": {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "pix_fmt": "yuv420p"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "srt_cues": 49,
+      "full_decode_ok": true,
+      "mean_volume": "-19.0 dB",
+      "max_volume": "-2.2 dB",
+      "integrated_lufs": -15.5,
+      "true_peak_dbtp": -2.07
+    }
+  ],
+  "blocked": [
+    {
+      "source": "FDRUMXwb4mg",
+      "reason": "YouTube age-restricted; an authorized source file or age-verified access is required",
+      "remaining_clips": 3
+    }
+  ],
+  "limitations": [
+    "Automated captions were compared by two recognizers but not checked by a person listening.",
+    "The editor visually inspected sampled frames; not every frame or creative choice received human review.",
+    "Third-party rights and any embedded music require clearance before posting."
+  ]
+}
