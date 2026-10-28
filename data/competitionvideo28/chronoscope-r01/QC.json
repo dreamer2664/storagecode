@@ -1,0 +1,56 @@
+{
+  "file": "THIRTY-BRONZE-WHEELS_master.mp4",
+  "bytes": 254731281,
+  "sha256": "b39b804bb3c02861d2c7df692c57ae023b50996dcb930db789e1033a4a75da15",
+  "duration_seconds": 327.833,
+  "format": "mov,mp4,m4a,3gp,3g2,mj2",
+  "picture": {
+    "codec": "h264",
+    "profile": "High",
+    "pix_fmt": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frames": "9833",
+    "duration": 327.766667
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bit_rate": 198511,
+    "duration": 327.833
+  },
+  "av_end_drift_seconds": 0.0663,
+  "full_decode": {
+    "ok": true,
+    "stderr_tail": ""
+  },
+  "loudness": {
+    "input_i": "-16.04",
+    "input_tp": "-1.75",
+    "input_lra": "2.40",
+    "input_thresh": "-26.26",
+    "output_i": "-15.90",
+    "output_tp": "-1.54",
+    "output_lra": "2.30",
+    "output_thresh": "-26.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.10"
+  },
+  "black_segments": [],
+  "freeze_starts": [],
+  "contact_sheets": [
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_01.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_02.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_03.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_04.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_05.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_06.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_07.jpg",
+    "/home/user/workspace_repos/competitionvideo28/chronoscope/docs/sheets/sheet_08.jpg"
+  ],
+  "violations": [],
+  "technical_pass": true,
+  "grading": "TECHNICAL ONLY. Not an artistic or full-watch review."
+}
