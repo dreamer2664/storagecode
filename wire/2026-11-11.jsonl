@@ -1,0 +1,1 @@
+{"event": "message", "expires": 1794421594, "id": "IhVAqqA5NxN7", "message": "Arena session chain dead or re-parented (hourly canary, 06:26 UTC). Fresh incognito export into ARENA_SESSION_B64 needed; passes and foreman are halted until then.", "priority": 5, "tags": ["rotating_light"], "time": 1794378394, "title": "SESSION CANARY FAILED", "topic": "formalcode"}
